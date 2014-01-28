@@ -15,7 +15,7 @@ The idea (and ideal) of researchers sharing data with one another for the common
 The shift in language reflects a desire to fold datasets into the scholarly record and afford them the same status as traditional research products like journal articles.
 Although this goal is widely shared, consensus about what "publication" means when applied to data is lacking.
 Two properties are agreed on: published data is **available** now and for the indefinite future, without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement), and it is formally **citable** in the manner of a journal article.   
-The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a DOI is the usual way to accomplish this.
+The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 A third property is less agreed on: published data is **trustworthy** based on some community standard, usually involving peer review.
 Callaghan (2012) draws a useful distinction between data that has been shared, published, or uppercase-P Published; shared data is available, published data is available and citable, and Published data is available, citable, and trustworthy.
 
@@ -23,7 +23,7 @@ Callaghan (2012) draws a useful distinction between data that has been shared, p
 The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.  
 
 #What does a data publication look like?
-Data publication is a relatively novel form of publication, and there are a variety of models being implemented.
+Data publicatio n is a relatively novel form of publication, and there are a variety of models being implemented.
 It seems unlikely that any single model will be best for every dataset.  Models of data publication can be broken down in a variety of ways.
 For instance, Lawrence (2011) identifies five models based on which organization is reposnisble for what.
 For my purposes here, I'll break data publications down into three categories by the accompanying documentation: a traditional article, a "data paper", or nothing.
@@ -56,4 +56,18 @@ On the other hand, Open Context publishes very high quality archeology datasets 
 #How does publication work?
 
 ##Availability
-In general, data publication
+The clearly, the essence of publishing anything is to make it public.  Science publishing has long had baked into it the notion that access must persist into the future for the use of future researchers.  Preserving access to print journals has long been the job of the library, but that's changing like everything else.  
+Likewise, published dataset must be available now and into the future.
+A dataset that can only be accessed with a paid subscription or after accepting a use agreement can be said to have been published, but one that is provided by its creator over email is not.
+The status of a dataset located on a researcher's personal website is not entirely clear.
+
+As a practical matter, publishing a datset means depositing it in a trustworthy repository.  
+It is relatively clear what a repository should do– keep the data, unaltered, 
+
+##Citability
+When a researcher uses a published data set in a paper, they should cite the dataset in the reference list.
+Data publications have to make this possible.
+This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
+As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
+(It is worth pointing out that assinging a DOI does not, in itself, make something citeable– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI)
+

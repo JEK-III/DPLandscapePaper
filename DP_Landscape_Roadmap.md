@@ -58,15 +58,26 @@ Example: Figshare makes data available and citable, but doesn’t validate it in
 # How does a data publication become Available, Citable, and Trustworthy? #
 
 ## Available
-In general, data can't be conisdered to be published unless it is deposited in a trustworthy repository
-What makes a repository "trustworthy" is up to you.
-On one extreme are TRAC/TDR certified repositories.  However, certification is a complex and time-consuming process, so many repositories don't do it.
-One can judge by the organization running the repository: government bodies and large universites might be trustworthy.  (but the effect of last fall's shutdown on PubMed shows that they may not)
-registries such as re3data [#pampel_making_2013] and BioSharing
-
-Available means that you don't have to email the author.
+###Now
+publish = 'make public'
+you don't have to email the author.
+As a practical matter, almost always means available over the internet.
 It is entirely possible to publish data to a limited access repository, analagous to a closed-access journal subscription.
 
+###The Future
+The idea of future access via preservation in Libraries, etc. has been baked into scientific publishing from the start.
+In the digital era, it's more complicated.
+In general, data can't be conisdered to be published unless it is deposited in a trustworthy repository.
+Repositories come in two main flavors: institutional (Merritt, PURR) and disciplinary (GenBank, tDAR)
+
+What makes a repository "trustworthy" is up to you.
+On one extreme are TRAC/TDR certified repositories.  
+However, certification is a complex and time-consuming process, so many repositories don't do it.
+Other, less onerous certification scemes exist: Data Stamp, whatever.
+One can judge by the organization running the repository: government bodies and large universites might be trustworthy.  
+(but the effect of last fall's shutdown on PubMed shows that they may not)
+
+registries such as re3data [#pampel_making_2013] and BioSharing
 Sustainablility becomes a serious concern when you look out further than a decade.
 
 
