@@ -54,7 +54,6 @@ Figshare, for instance, publishes datasets– providing accessiblilty and citabl
 On the other hand, Open Context publishes very high quality archeology datasets with optional peer review.  
 
 #How does publication work?
-
 ##Availability
 The clearly, the essence of publishing anything is to make it public.  Science publishing has long had baked into it the notion that access must persist into the future for the use of future researchers.  Preserving access to print journals has long been the job of the library, but that's changing like everything else.  
 Likewise, published dataset must be available now and into the future.
@@ -69,5 +68,16 @@ When a researcher uses a published data set in a paper, they should cite the dat
 Data publications have to make this possible.
 This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
-(It is worth pointing out that assinging a DOI does not, in itself, make something citeable– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI)
+(It is worth pointing out that assinging a DOI does not, in itself, make something citeable– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
+
+###Simple Case
+In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
+The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
+This format is consistent with the recommendation made by CODATA and with metadata required by DataCite and Thomson Reuters Data Citation Index.
+However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
+
+###Deep Citation
+While it has long been necessary
+
+
 
