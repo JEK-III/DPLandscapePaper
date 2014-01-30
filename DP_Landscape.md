@@ -101,7 +101,16 @@ DataCite recommends but does not requre that the DOIs that they issue point to i
 Dataverse, for example, (check up) does not permit changes, but instead recommends that growing datasets be issued a new DOI periodically that refers to the "time-slice" of records added since the last DOI was issued; revisable datasets are to be periodically frozen as a "snapshot" and issued a new DOI.
 
 ###Just-in-time Identifiers
-One potential solution to both deep citation and dynamic data is to  
+One potential solution to both deep citation and dynamic data is to turn the identifier-issuing process on its head.
+Instead of a dataset publisher minting the identifier, the researcher who wants to cite a datset could mint an identifier that refers to precisely the part of the dataset that they wish to cite.
+The Research Data Alliance (RDA) Data Citation Working Group has put fort a sophisticated proposal suitable for database in which an identifier would wrap together a number of components including specifiying a version of the database and a query over the database that produces the cited dataset.
+This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
+
+##Trustworthiness
+
+
+
+
 
 
 
