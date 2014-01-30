@@ -77,7 +77,33 @@ This format is consistent with the recommendation made by CODATA and with metada
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 ###Deep Citation
-While it has long been necessary
+The first major complication that datasets face is the need for deep citation.
+When supporting an assertion in writing, it is considered sufficiently precise to cite the entirety of the referenced journal article and leave it to the suspicious reader to identify the basis of your assertion.  
+If only part of a dataset is used in a quantitative analysis, you may need to specify exactly the subset in question.
+Because datasets are so variable in structure, there will probably not be a general solution.
+The most common approach is to cite the entire dataset and describe the subset in the text of the paper.
+In some cases, it may be practical to include a date or record number range or a list of variables in the formal citation.  
+
+###Dynamic Data
+A second complication is that datasets are prone to existing in multiple versions or changing over time.
+In the past, the printed article was a single version of record.  
+Web based publishing and preprint servers such as arXv.org have already complicated the matter.
+Data publishers are likely to allow or even encourage updating and correction of datasetes.
+For the results of data analysis to be reproducible, the reader must be able to obtain precisely the version of the data that the researcher used.
+In the case of dynamic data, that means that previous versions have to be preserved and citable.
+
+As a practical matter, there are two kinds of dynamic data that warrant consideration: growing datasets, to which new data may be added but old data will never be changed or deleted, and reviseable datasets in which data may be added, deleted, or changed over time.
+Common solutions to add-on data are to include an access date, or a date or record number range in the citation.
+Revisable datasets are more difficult, but the most common approach is to periodically publish multiple changes as a new version with a version number that can be included in citations.
+
+Controversy persists about dyanmic data and identifiers and different publishers have different policies.
+DataCite recommends but does not requre that the DOIs that they issue point to immuntable objects.
+Dataverse, for example, (check up) does not permit changes, but instead recommends that growing datasets be issued a new DOI periodically that refers to the "time-slice" of records added since the last DOI was issued; revisable datasets are to be periodically frozen as a "snapshot" and issued a new DOI.
+
+###Just-in-time Identifiers
+One potential solution to both deep citation and dynamic data is to  
+
+
 
 
 

@@ -81,7 +81,7 @@ registries such as re3data [#pampel_making_2013] and BioSharing
 Sustainablility becomes a serious concern when you look out further than a decade.
 
 
-## Citatable ##
+## Citable ##
 Total agreement: datasets should be formally cited in the reference list
 
 ### Simple case
@@ -112,8 +112,8 @@ Unresolved questions: to the extent that an ID is a promise, how can you make pr
 
 ## Trustworthy: How does data peer review work?
 Distinction can be drawn between technical and scientific review [#callaghan_making_2012]
-	Data and paper are generally reviewed together as a package.
-	An exception is GigaScience, which assigns a data reviewer.
+Data and paper are generally reviewed together as a package.
+An exception is GigaScience, which assigns a data reviewer.
 About half of data journals consider impact / novelty.
 When guidelines are provided, they are roughly similar.
 The process, however, is variable– ranging from traditional to postpublication experiments of F1000 Research.
