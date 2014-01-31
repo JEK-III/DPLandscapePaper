@@ -23,10 +23,9 @@ Callaghan (2012) draws a useful distinction between data that has been shared, p
 The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.  
 
 #What does a data publication look like?
-Data publicatio n is a relatively novel form of publication, and there are a variety of models being implemented.
-It seems unlikely that any single model will be best for every dataset.  Models of data publication can be broken down in a variety of ways.
-For instance, Lawrence (2011) identifies five models based on which organization is reposnisble for what.
-For my purposes here, I'll break data publications down into three categories by the accompanying documentation: a traditional article, a "data paper", or nothing.
+At present, the still-solidifying term "data publication" covers a variety of research objects published via a variety of processes.
+Given the huge variety of types of data, seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a managable number of blueprints.
+Models of data publication can be classified in a variety of ways– for instance, Lawrence (2011) identifies five models based on which organization is reposnisble for what– but for my purposes here, I'll classify data publications based accompanying documentation into three categories: a traditional article, a "data paper", or nothing.
 
 ##Data publication with a traditional journal article
 This is the most familiar model to researchers.
@@ -107,6 +106,10 @@ The Research Data Alliance (RDA) Data Citation Working Group has put fort a soph
 This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
 
 ##Trustworthiness
+For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
+Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication.
+The same impulse that drives the effort to capture the prestige of the term "publication" and apply it to data drives the effort to apply "peer-review" to data.
+
 
 
 
