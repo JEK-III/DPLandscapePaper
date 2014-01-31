@@ -28,15 +28,15 @@ Given the huge variety of types of data, seems unlikely that any single structur
 Models of data publication can be classified in a variety of ways– for instance, Lawrence (2011) identifies five models based on which organization is reposnisble for what– but for my purposes here, I'll classify data publications based accompanying documentation into three categories: a traditional article, a "data paper", or nothing.
 
 ##Data publication with a traditional journal article
-This is the most familiar model to researchers.
-After collecting a dataset, the researcher analyzes it, draws conclusions, and writes a traditional scholarly journal article, which is published more or less simultaneously with the release of the dataset.
-In the past the datset was usually hosted on the journal's website as supplementary material.
-This practice is becoming less popular, and journal publishers aren't necessarily well suited to the job.  Nature neuroscience stopped acception supplemental material.
-Instead, the data can be housed in a better suited repository.
-For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
+The most familiar model to researchers is data published along with a traditional journal article that uses it as the basis of analysis and conclusions.
+In the past, the article's publisher typically hosted the datset supplementary material, but that practice is being called into question.
 The Dryad repository accepts data underlying publications.
 They started with a focus on ecology, but accept data from any field.
 Dryad makes data avialable and citeable, but any assesment of trustworthiness is done as part of the peer review of the article.
+For instance, the Journal of Neuroscience stopped publishing supplemental material in 2010.
+Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
+Repositories, whether 
+For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
 
 ##Data publication with a data paper
 Data papers are a realatively new type of journal article that describe datasets (collection methods and rationale).
