@@ -141,7 +141,8 @@ Any subsequent changes are analagous to new versions.
 The open source sofware community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
 Open context came to use Mantis bug tracking software and Git with their data out of purely practical concerns.
 
-
+Still issues to address: Current VCSs are designed for code (realtively small text files), not large and variegated datasets.
+Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
 
 
