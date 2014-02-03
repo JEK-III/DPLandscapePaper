@@ -17,7 +17,7 @@ Although this goal is widely shared, consensus about what "publication" means wh
 Two properties are agreed on: published data is **available** now and for the indefinite future, without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement), and it is formally **citable** in the manner of a journal article.   
 The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 A third property is less agreed on: published data is **trustworthy** based on some community standard, usually involving peer review.
-Callaghan (2012) draws a useful distinction between data that has been shared, published, or uppercase-P Published; shared data is available, published data is available and citable, and Published data is available, citable, and trustworthy.
+Callaghan (2012) draws a distinction between data that has been shared, published, or uppercase-P Published; shared data is available, published data is available and citable, and Published data is available, citable, and trustworthy.
 
 #Why publish data?
 The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.  
@@ -30,17 +30,17 @@ Models of data publication can be classified in a variety of ways– for instanc
 ##Data publication with a traditional journal article
 The most familiar model to researchers is data published along with a traditional journal article that uses it as the basis of analysis and conclusions.
 In the past, the article's publisher typically hosted the datset supplementary material, but that practice is being called into question.
-The Dryad repository accepts data underlying publications.
-They started with a focus on ecology, but accept data from any field.
+The Dryad repository publishes data underlying journal articles.
 Dryad makes data avialable and citeable, but any assesment of trustworthiness is done as part of the peer review of the article.
+For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
+
 For instance, the Journal of Neuroscience stopped publishing supplemental material in 2010.
 Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
 Repositories, whether 
-For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
 
 ##Data publication with a data paper
 Data papers are a realatively new type of journal article that describe datasets (collection methods and rationale).
-Data papers are becoming popular in a variety of formats.  What unties them is exclusion of analysis or any attempt to draw any conclusions.
+Data papers are becoming popular in a variety of formats.  What unites them is exclusion of analysis or any attempt to draw conclusions.
 Data papers are being published in journals dedicated to the format, such as Nature Scientific Data and GeoScience Data Journal, as well as in journals that publish other types of papers, such as F1000 Research, Internet Archaeology, or GigaScience.
 Most of these journals require the data to be published in a third-party trustworthy repository, although a few are associated with repositories and hande the data themselves.
 Data papers are peer reviewed (more later); some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid.
@@ -109,6 +109,27 @@ This seems promising, but there are still many technical and policy issues that 
 For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
 Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication.
 The same impulse that drives the effort to capture the prestige of the term "publication" and apply it to data drives the effort to apply "peer-review" to data.
+
+Callaghan (2012) draws another useful distinction here: between technical and scientific review.
+Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise.
+Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value.
+Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
+
+
+Publishers of data papers wrap peer review of the paper and of the datset together.
+An exception is GigaScience, which assignes a separate data reviewer for technical review of the dataset.
+Reviewer guidlines are roughly similar accross journals.
+Nature Scientific Data as a representative example.
+
+While review guidelines are similar, review processes are not.
+Data paper peer review processes range from traditional (anonymous pre-publication review in NSD) to experimental (open post-publication review in F1000 Research).
+
+More interesting yet are peer reivew processes for standalone datasets.
+NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.  
+Open Context goes beyond the simple accept/reject binary of traditional peer review.
+Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed.
+Essetially, a 3 indicates that the datset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
+
 
 
 
