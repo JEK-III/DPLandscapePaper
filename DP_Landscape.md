@@ -131,7 +131,15 @@ Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has
 Essetially, a 3 indicates that the datset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
 
 
+##Beyond data publication
+Parsons () argues that the metaphor of "publication" is limiting, and only suited to some datasets.
+He identifies a number of other possible metaphors to apply to differnt kinds of data.
+One of these seems to be accumulating broad support: data as software.
+Under this metaphor, publishing a dataset is analagous to a software release.
+Any subsequent changes are analagous to new versions.
 
+The open source sofware community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
+Open context came to use Mantis bug tracking software and Git with their data out of purely practical concerns.
 
 
 
