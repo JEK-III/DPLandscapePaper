@@ -15,7 +15,10 @@ The idea (and ideal) of researchers sharing data with one another for the common
 The shift in language reflects a desire to fold datasets into the scholarly record and afford them the same status as traditional research products like journal articles.
 Although many of us are now using the term "data publication", we are still coming to consensus about what that means.
 Two properties are almost universally agreed on: published data is **available** now and for the indefinite future, and it is formally **citable** in the manner of a journal article.   
-Less agreed on: published data is **valid** based on some community standard.
+Less agreed on is the extent to which published data must be shown to be **valid**.
+To break validity down further, [Callaghan (2012)][sarah_callaghan_making_2012] draws a useful distinction between technical and scientific validity.
+Technical validity, that a dataset has no inappropriately missing or out of range values, that the metadata is complete, etc., is guaranteed by most data publishers.
+Scientific validity, that a dataset was collected using appropriate methods and holds scientific interests, is not always part of a data publication.
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (such as a DOI), and validity by peer-review.  
 
 #Why publish data?
@@ -33,11 +36,12 @@ Models of data publication can be classified in a variety of ways, but for my pu
 ##Data publication with a traditional journal article
 The most familiar model to researchers is data published along with a traditional journal article.
 In the past, the article's publisher typically hosted the datset supplementary material, but that practice has been called into question.
+Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
 For instance, the [Journal of Neuroscience stopped publishing supplemental material in 2010][maunsell_announcement_2010].
 An alternate approach is to deposit the data in a repository such as [Dryad][dryad].
 
 Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise "reputable" publication.
-Dryad makes data avialable and citeable, but any assesment of validity is done as part of the peer-review of the article.
+Dryad makes data avialable and citeable, but any assesment of validity must be managed by the publisher of the article.
 For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
 
 Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
