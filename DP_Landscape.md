@@ -17,7 +17,6 @@ Although this goal is widely shared, consensus about what "publication" means wh
 Two properties are agreed on: published data is **available** now and for the indefinite future, without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement), and it is formally **citable** in the manner of a journal article.   
 The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 A third property is less agreed on: published data is **trustworthy** based on some community standard, usually involving peer review.
-Callaghan (2012) draws a distinction between data that has been shared, published, or uppercase-P Published; shared data is available, published data is available and citable, and Published data is available, citable, and trustworthy.
 
 #Why publish data?
 The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.  
