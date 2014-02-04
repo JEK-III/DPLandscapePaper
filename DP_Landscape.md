@@ -110,7 +110,7 @@ For journal articles, peer-review is the gatekeeper to the scholarly record, mea
 Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication.
 The same impulse that drives the effort to capture the prestige of the term "publication" and apply it to data drives the effort to apply "peer-review" to data.
 
-Callaghan (2012) draws another useful distinction here: between technical and scientific review.
+[Callaghan (2012)][sarah_callaghan_making_2012] draws another useful distinction here: between technical and scientific review.
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise.
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value.
 Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
@@ -147,5 +147,6 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 
 
 
+[sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
 
 

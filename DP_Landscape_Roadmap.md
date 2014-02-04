@@ -64,6 +64,8 @@ you don't have to email the author.
 As a practical matter, almost always means available over the internet.
 It is entirely possible to publish data to a limited access repository, analagous to a closed-access journal subscription.
 
+Consider talking about versioning in here
+
 ###The Future
 The idea of future access via preservation in Libraries, etc. has been baked into scientific publishing from the start.
 In the digital era, it's more complicated.
@@ -86,22 +88,25 @@ Total agreement: datasets should be formally cited in the reference list
 
 ### Simple case
 Very good consensus: 5 element citation- creator(s), title, year, publisher, identifier
-Corresponds to DataCite required metadata, TR DCI
+Corresponds to DataCite required metadata, TR DCI, CODATA report.
 Familiar looking
 
 ### Deep citation	
 Problem: if you only used part of a dataset, you may need/want to cite exactly the subset you used.
 Hard to come up with a general solution that works for any kind of dataset
 Solutions: describe in text, include date range or list of variables in citation.
+Include some recommendations
 
 ### Dynamic data
 Problem: unlike journal articles, many datasets change over time.
 Two kinds of dynamic datasets that we have to think about: add-only and fully revisable
 Solutions: add-on can have access date, date range, range of record IDs (whatever those are)
 revisable can have version numbers
-"time-slice" and "snapshot"
+"time-slice" and "snapshot" from DCC
+Include recommendations 
 
-DataCite recommends, but does not require that the object pointed to be immutable
+DataCite recommends, but does not require that the object pointed to be immutable.
+Find a counterexample
 
 ### Just-in-time IDs ###
 Solution to both problems: the researcher citing the dataset mints a new ID to refer to whatever they want
