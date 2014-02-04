@@ -54,6 +54,8 @@ There may be rich metadata, structured or unstructured, but there isn't a paper
 Examples: Open Context and NASA PDS peer review data.
 Example: Figshare makes data available and citable, but doesn’t validate it in any way.
 
+Talk about databases & stuff.  
+
 
 # How does a data publication become Available, Citable, and Trustworthy? #
 
@@ -135,4 +137,6 @@ Attribution– no standards for how much work has to be done on one or more exis
 
 Example: Open Context uses mantis bug tracker and GitHub
 
+#Scrap
+The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 

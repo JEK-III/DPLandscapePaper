@@ -55,7 +55,7 @@ Data papers are peer-reviewed; some take the novelty or potential impact of a da
 
 ##Standalone data publication
 To be useful or reporducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article.
-Datasets can be published with rich structured or freeform metadata colocated with the dataset instead of an associated journal article.
+Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article.
 Repositories are able to provide access and citability, but the degree of validation varies widely.
 Few are equipped to provide peer-review.
 [Figshare][figshare], for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper).
