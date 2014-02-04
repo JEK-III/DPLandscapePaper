@@ -11,7 +11,7 @@ There is substantial agreement on the elements of a dataset citation (which clos
 Finally, some are already looking past data publication to other metaphors, such as ‘data as software’, for solutions to unsolved problems.
 
 #What does "data publication" mean?
-The idea (and ideal) of researchers sharing data with one another for the common good is not a new one, but in recent years the conversation has shifted from sharing to "publishing" data.
+The idea (and ideal) of researchers sharing data with one another for the common good is not new, but what is new is a movement to formally "publish" data.
 The shift in language reflects a desire to fold datasets into the scholarly record and afford them the same status as traditional research products like journal articles.
 Although this goal is widely shared, consensus about what "publication" means when applied to data is lacking.
 Two properties are agreed on: published data is **available** now and for the indefinite future, without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement), and it is formally **citable** in the manner of a journal article.   
@@ -19,7 +19,10 @@ The key aspect of a citation here is that it can be used to identify and locate 
 A third property is less agreed on: published data is **trustworthy** based on some community standard, usually involving peer review.
 
 #Why publish data?
-The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.  
+The drive toward data publication is motivated by at least two goals.
+The first is to improve data access and preservation by moving datasets to stable repositories and enabling stable citation of data.
+The second is to increase the amount of data made public by tieing into exisitng mechanisms for awarding credit to reward dataset publishers.
+There is also a moral sense that preparing and publishing data is hard work and should be recognized.
 
 #What does a data publication look like?
 At present, the still-solidifying term "data publication" covers a variety of research objects published via a variety of processes.
