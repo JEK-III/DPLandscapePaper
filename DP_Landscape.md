@@ -13,16 +13,17 @@ Finally, some are already looking past data publication to other metaphors, such
 #What does "data publication" mean?
 The idea (and ideal) of researchers sharing data with one another for the common good is not new, but what is new is a movement to formally "publish" data.
 The shift in language reflects a desire to fold datasets into the scholarly record and afford them the same status as traditional research products like journal articles.
-Although this goal is widely shared, consensus about what "publication" means when applied to data is lacking.
-Two properties are agreed on: published data is **available** now and for the indefinite future, without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement), and it is formally **citable** in the manner of a journal article.   
-The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
-A third property is less agreed on: published data is **trustworthy** based on some community standard, usually involving peer review.
+Although many of us are now using the term "data publication", we are still coming to consensus about what that means.
+Two properties are almost universally agreed on: published data is **available** now and for the indefinite future, and it is formally **citable** in the manner of a journal article.   
+Less agreed on: published data is **valid** based on some community standard.
+In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (such as a DOI), and validity by peer-review.  
 
 #Why publish data?
-The drive toward data publication is motivated by at least two goals.
-The first is to improve data access and preservation by moving datasets to stable repositories and enabling stable citation of data.
-The second is to increase the amount of data made public by tieing into exisitng mechanisms for awarding credit to reward dataset publishers.
-There is also a moral sense that preparing and publishing data is hard work and should be recognized.
+The movement toward data publication is driven by at several goals.
+The first is to improve data preservation by moving datasets out of researcher's hard drives and into stable repositories.
+Another is to improve access to data by making it discoverable and citable.
+The most significant is to increase the amount of data made public by tieing into exisitng mechanisms for awarding credit to reward dataset publishers.  
+This last one is accompanied by a moral sense that the hard work of preparing and publishing data should be recognized.
 
 #What does a data publication look like?
 At present, the still-solidifying term "data publication" covers a variety of research objects published via a variety of processes.
