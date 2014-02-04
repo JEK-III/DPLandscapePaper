@@ -41,11 +41,9 @@ For instance, the [Journal of Neuroscience stopped publishing supplemental mater
 An alternate approach is to deposit the data in a repository such as [Dryad][dryad].
 
 Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise "reputable" publication.
-Dryad makes data avialable and citeable, but any assesment of validity must be managed by the publisher of the article.
-For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
+Dryad makes data avialable and citeable, and checks for technical validity, but any assesment of scientific validity must be managed by the publisher of the article.
+For some specific data types, deposition in appropriate databases has been the standard for a long time.  For example, in biology, typically nucelotide sequences are deposited in [GenBank][genbank], and protein structures in the [Protein Data Bank][pdb].
 
-Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
-Repositories, whether 
 
 ##Data publication with a data paper
 Data papers are a realatively new type of journal article that describe datasets (collection methods and rationale).
@@ -153,9 +151,10 @@ Open context came to use Mantis bug tracking software and Git with their data ou
 Still issues to address: Current VCSs are designed for code (realtively small text files), not large and variegated datasets.
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
-
 [dryad]: http://datadryad.org/ "Dryad"
+[genbank]: http://www.ncbi.nlm.nih.gov/genbank/ "GenBank"
 [maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
+[pdb]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
 [sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
 
 
