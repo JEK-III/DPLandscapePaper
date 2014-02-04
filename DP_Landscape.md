@@ -45,20 +45,20 @@ Dryad makes data avialable and citeable, and checks for technical validity, but 
 For some specific data types, deposition in appropriate databases has been the standard for a long time.
 For example, in biology, typically nucelotide sequences are deposited in [GenBank][genbank], and protein structures in the [Protein Data Bank][protein_data_bank].
 
-
 ##Data publication with a data paper
-A data papers is a novel type journal article that describes a dataset, detailing the rationale and collection methods, but omitting results and discussion.
+A data papers is a novel type of journal article that describes a dataset, detailing the rationale and collection methods, but omitting results and discussion.
 Data papers are flourishing in new journals dedicated to the format, such as [Nature Scientific Data][nature_scientific_data], [Geoscience Data Journal][geoscience_data_journal], and a trio of "metajournals" from [Ubiquity Press][ubiquity_press_metajournals] as well as in journals that publish other types of papers, such as [F1000 Research][f1000_research], [Internet Archaeology][internet_archaeology], or [GigaScience][gigascience].
 The length and structure of data papers varies significantly between journals, but all are united by the absence of analysis and conclusions.
 
 With a few exceptions, data journals require the data itself to be published in a trusted third-party repository.
-Data papers are peer reviewed (more later); some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid.
+Data papers are peer-reviewed; some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid.
 
 ##Standalone data publication
-To be useful for anything, a dataset must have accompanying description, or 'metadata', but this needn't resemble a journal article.
-Standalone data publications can include rich or relatively thin metadata in structured or freeform flavors.
-These publications may or may not include an element of peer-review.
-Figshare, for instance, publishes datasets– providing accessiblilty and citablility– without any form of validation (although a Figshare dataset associated with a datapaper may have been reviewed).
+To be useful or reporducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article.
+Datasets can be published with rich structured or freeform metadata colocated with the dataset instead of an associated journal article.
+Repositories are able to provide access and citability, but the degree of validation varies widely.
+Few are equipped to provide peer-review.
+[Figshare][figshare], for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper).
 On the other hand, Open Context publishes very high quality archeology datasets with optional peer review.  
 
 #How does publication work?
@@ -115,6 +115,7 @@ The Research Data Alliance (RDA) Data Citation Working Group has put fort a soph
 This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
 
 ##Trustworthiness
+###Peer-review
 For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
 Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication.
 The same impulse that drives the effort to capture the prestige of the term "publication" and apply it to data drives the effort to apply "peer-review" to data.
@@ -139,6 +140,7 @@ Open Context goes beyond the simple accept/reject binary of traditional peer rev
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed.
 Essetially, a 3 indicates that the datset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
 
+###Post-publication review
 
 ##Beyond data publication
 Parsons () argues that the metaphor of "publication" is limiting, and only suited to some datasets.
@@ -158,6 +160,7 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 [geoscience_data_journal]: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2049-6060 "Geoscience Data Journal"
 [gigascience]: http://www.gigasciencejournal.com/ "GigaScience"
 [f1000_research]: http://f1000research.com/ "F1000 Research"
+[figshare]: http://figshare.com/ "Figshare"
 [internet_archaeology]: http://intarch.ac.uk/ "Internet Archaeology"
 [maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
 [nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"
