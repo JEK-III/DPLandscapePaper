@@ -42,14 +42,16 @@ An alternate approach is to deposit the data in a repository such as [Dryad][dry
 
 Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise "reputable" publication.
 Dryad makes data avialable and citeable, and checks for technical validity, but any assesment of scientific validity must be managed by the publisher of the article.
-For some specific data types, deposition in appropriate databases has been the standard for a long time.  For example, in biology, typically nucelotide sequences are deposited in [GenBank][genbank], and protein structures in the [Protein Data Bank][pdb].
+For some specific data types, deposition in appropriate databases has been the standard for a long time.
+For example, in biology, typically nucelotide sequences are deposited in [GenBank][genbank], and protein structures in the [Protein Data Bank][protein_data_bank].
 
 
 ##Data publication with a data paper
-Data papers are a realatively new type of journal article that describe datasets (collection methods and rationale).
-Data papers are becoming popular in a variety of formats.  What unites them is exclusion of analysis or any attempt to draw conclusions.
-Data papers are being published in journals dedicated to the format, such as Nature Scientific Data and GeoScience Data Journal, as well as in journals that publish other types of papers, such as F1000 Research, Internet Archaeology, or GigaScience.
-Most of these journals require the data to be published in a third-party trustworthy repository, although a few are associated with repositories and hande the data themselves.
+A data papers is a novel type journal article that describes a dataset, detailing the rationale and collection methods, but omitting results and discussion.
+Data papers are flourishing in new journals dedicated to the format, such as [Nature Scientific Data][nature_scientific_data], [Geoscience Data Journal][geoscience_data_journal], and a trio of "metajournals" from [Ubiquity Press][ubiquity_press_metajournals] as well as in journals that publish other types of papers, such as [F1000 Research][f1000_research], [Internet Archaeology][internet_archaeology], or [GigaScience][gigascience].
+The length and structure of data papers varies significantly between journals, but all are united by the absence of analysis and conclusions.
+
+With a few exceptions, data journals require the data itself to be published in a trusted third-party repository.
 Data papers are peer reviewed (more later); some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid.
 
 ##Standalone data publication
@@ -153,9 +155,15 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 
 [dryad]: http://datadryad.org/ "Dryad"
 [genbank]: http://www.ncbi.nlm.nih.gov/genbank/ "GenBank"
+[geoscience_data_journal]: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2049-6060 "Geoscience Data Journal"
+[gigascience]: http://www.gigasciencejournal.com/ "GigaScience"
+[f1000_research]: http://f1000research.com/ "F1000 Research"
+[internet_archaeology]: http://intarch.ac.uk/ "Internet Archaeology"
 [maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
-[pdb]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
+[nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"
+[protein_data_bank]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
 [sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
+[ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
 
 
 
