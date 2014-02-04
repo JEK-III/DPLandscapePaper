@@ -27,17 +27,19 @@ This last one is accompanied by a moral sense that the hard work of preparing an
 
 #What does a data publication look like?
 At present, the still-solidifying term "data publication" covers a variety of research objects published via a variety of processes.
-Given the huge variety of types of data, seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a managable number of blueprints.
-Models of data publication can be classified in a variety of ways– for instance, Lawrence (2011) identifies five models based on which organization is reposnisble for what– but for my purposes here, I'll classify data publications based accompanying documentation into three categories: a traditional article, a "data paper", or nothing.
+Given the huge variety of types of data, it seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a managable number of blueprints.
+Models of data publication can be classified in a variety of ways, but for my purposes here, I'll classify data publications into three categories based on the accompanying published article, which can be a traditional article, a "data paper", or nothing.
 
 ##Data publication with a traditional journal article
-The most familiar model to researchers is data published along with a traditional journal article that uses it as the basis of analysis and conclusions.
-In the past, the article's publisher typically hosted the datset supplementary material, but that practice is being called into question.
-The Dryad repository publishes data underlying journal articles.
-Dryad makes data avialable and citeable, but any assesment of trustworthiness is done as part of the peer review of the article.
+The most familiar model to researchers is data published along with a traditional journal article.
+In the past, the article's publisher typically hosted the datset supplementary material, but that practice has been called into question.
+For instance, the [Journal of Neuroscience stopped publishing supplemental material in 2010][maunsell_announcement_2010].
+An alternate approach is to deposit the data in a repository such as [Dryad][dryad].
+
+Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise "reputable" publication.
+Dryad makes data avialable and citeable, but any assesment of validity is done as part of the peer-review of the article.
 For some kinds of data, in some fields, this has been the standard for a long time– microarray data, protein structure, nucelotide sequence.
 
-For instance, the Journal of Neuroscience stopped publishing supplemental material in 2010.
 Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article.
 Repositories, whether 
 
@@ -148,8 +150,9 @@ Still issues to address: Current VCSs are designed for code (realtively small te
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
 
-
-
+[dryad]: http://datadryad.org/ "Dryad"
+[maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
 [sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
+
 
 
