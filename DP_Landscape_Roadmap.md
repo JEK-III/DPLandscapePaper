@@ -140,3 +140,9 @@ Example: Open Context uses mantis bug tracker and GitHub
 #Scrap
 The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 
+Science publishing had baked into it the notion that access must persist into the future for the use of future researchers.
+Preserving access to print journals has long been the job of the library, but that's changing like everything else.  
+
+A dataset that can only be accessed with a paid subscription or after accepting a use agreement can be said to have been published, but one that is provided by its creator over email is not.
+The status of a dataset located on a researcher's personal website is not entirely clear.
+

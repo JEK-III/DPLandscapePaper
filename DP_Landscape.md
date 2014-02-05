@@ -63,20 +63,25 @@ On the other hand, Open Context publishes very high quality archeology datasets 
 
 #How does publication work?
 ##Availability
-The clearly, the essence of publishing anything is to make it public.  Science publishing has long had baked into it the notion that access must persist into the future for the use of future researchers.  Preserving access to print journals has long been the job of the library, but that's changing like everything else.  
-Likewise, published dataset must be available now and into the future.
-A dataset that can only be accessed with a paid subscription or after accepting a use agreement can be said to have been published, but one that is provided by its creator over email is not.
-The status of a dataset located on a researcher's personal website is not entirely clear.
+To publish is to make public, and to make data available is the critical function of data publication.
+Published data must be available not only now, but in the future, which requires preservation as well as access.
+It should be noted that there is no requirement that published data be available to anyone at no cost.
 
 As a practical matter, publishing a datset means depositing it in a trustworthy repository.  
-It is relatively clear what a repository should do– keep the data, unaltered, 
+What constitutes "trustworthy" is up to you.
+A number of repository certification schemes exist.
+The most onerous is TRAC/TDR certification, but that's so onerous that only four repositories have gone thorough the process.
+Probably a more typical way to decide trustworthiness is to judge by the organization running it.
+Repositories run by governments or large universities might be consisdered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
+ 
+
 
 ##Citability
-When a researcher uses a published data set in a paper, they should cite the dataset in the reference list.
+When a researcher uses a published data set in a paper, they should cite the dataset in the reference list.[(FORCE11, 2013)][amsterdam_manifesto]
 Data publications have to make this possible.
 This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
-(It is worth pointing out that assinging a DOI does not, in itself, make something citeable– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
+(It is worth pointing out that a DOI is neither sufficient nor necssary for citability– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
 
 ###Simple Case
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
@@ -155,6 +160,7 @@ Open context came to use Mantis bug tracking software and Git with their data ou
 Still issues to address: Current VCSs are designed for code (realtively small text files), not large and variegated datasets.
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
+[amsterdam_manifesto]: http://www.force11.org/AmsterdamManifesto "Amsterdam Manifesto"
 [dryad]: http://datadryad.org/ "Dryad"
 [genbank]: http://www.ncbi.nlm.nih.gov/genbank/ "GenBank"
 [geoscience_data_journal]: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2049-6060 "Geoscience Data Journal"
