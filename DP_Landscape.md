@@ -70,7 +70,7 @@ It should be noted that there is no requirement that published data be available
 As a practical matter, publishing a datset means depositing it in a trustworthy repository.  
 What constitutes "trustworthy" is up to you.
 A number of repository certification schemes exist.
-The most onerous is TRAC/TDR certification, but that's so onerous that only four repositories have gone thorough the process.
+The most onerous is [Trusted Reposiotry Audit Checklist (TRAC)][trac_2007] certification by the Center for Research Libraries, but that's so onerous that only four repositories have gone thorough the process.
 Probably a more typical way to decide trustworthiness is to judge by the organization running it.
 Repositories run by governments or large universities might be consisdered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
  
@@ -161,6 +161,7 @@ Still issues to address: Current VCSs are designed for code (realtively small te
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
 [amsterdam_manifesto]: http://www.force11.org/AmsterdamManifesto "Amsterdam Manifesto"
+[data_seal]: http://datasealofapproval.org/en/ "Data Seal of Approval"
 [dryad]: http://datadryad.org/ "Dryad"
 [genbank]: http://www.ncbi.nlm.nih.gov/genbank/ "GenBank"
 [geoscience_data_journal]: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2049-6060 "Geoscience Data Journal"
@@ -172,6 +173,7 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 [nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"
 [protein_data_bank]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
 [sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
+[trac_2007]: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4630 "Trusted Repository Audit Checklist"
 [ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
 
 
