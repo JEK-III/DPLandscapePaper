@@ -16,7 +16,7 @@ The shift in language reflects a desire to fold datasets into the scholarly reco
 Although many of us are now using the term "data publication", we are still coming to consensus about what that means.
 Two properties are almost universally agreed on: published data is **available** now and for the indefinite future, and it is formally **citable** in the manner of a journal article.   
 Less agreed on is the extent to which published data must be shown to be **valid**.
-To break validity down further, [Callaghan (2012)][sarah_callaghan_making_2012] draws a useful distinction between technical and scientific validity.
+To break validity down further, [Callaghan (2012)][callaghan_making_2012] draws a useful distinction between technical and scientific validity.
 Technical validity, that a dataset has no inappropriately missing or out of range values, that the metadata is complete, etc., is guaranteed by most data publishers.
 Scientific validity, that a dataset was collected using appropriate methods and holds scientific interests, is not always part of a data publication.
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (such as a DOI), and validity by peer-review.  
@@ -54,7 +54,7 @@ With a few exceptions, data journals require the data itself to be published in 
 Data papers are peer-reviewed; some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid.
 
 ##Standalone data publication
-To be useful or reporducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article.
+To be useful or reproducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article.
 Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article.
 Repositories are able to provide access and citability, but the degree of validation varies widely.
 Few are equipped to provide peer-review.
@@ -125,7 +125,7 @@ For journal articles, peer-review is the gatekeeper to the scholarly record, mea
 Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication.
 The same impulse that drives the effort to capture the prestige of the term "publication" and apply it to data drives the effort to apply "peer-review" to data.
 
-[Callaghan (2012)][sarah_callaghan_making_2012] draws another useful distinction here: between technical and scientific review.
+[Callaghan (2012)][callaghan_making_2012] draws another useful distinction here: between technical and scientific review.
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise.
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value.
 Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
@@ -175,6 +175,8 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 [sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
 [trac_2007]: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4630 "Trusted Repository Audit Checklist"
 [ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
+[vines_2013]: http://dx.doi.org/10.1016/j.cub.2013.11.014 "The Availability of Research Data Declines Rapidly with Article Age"
+
 
 
 

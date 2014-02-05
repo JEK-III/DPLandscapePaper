@@ -24,3 +24,6 @@ What are the characteristics of repositories that matter?
 -discovery
 - -discipline specific are good for this
 - -IRs and other are wildly variable
+
+###consider Open Context vs. tDAR 
+as an illustrative example
