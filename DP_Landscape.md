@@ -86,7 +86,7 @@ As long as the DOI is maintained, it can be used by anyone interested to locate 
 ###Simple Case
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
 The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
-This format is consistent with the [recommendation made by CODATA][n] and with metadata required by DataCite and Thomson Reuters Data Citation Index.
+This format is consistent with the [recommendation made by CODATA][socha_out_2013] and with metadata required by DataCite and Thomson Reuters Data Citation Index.
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 ###Deep Citation
@@ -160,22 +160,7 @@ Open context came to use Mantis bug tracking software and Git with their data ou
 Still issues to address: Current VCSs are designed for code (realtively small text files), not large and variegated datasets.
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
-[amsterdam_manifesto]: http://www.force11.org/AmsterdamManifesto "Amsterdam Manifesto"
-[data_seal]: http://datasealofapproval.org/en/ "Data Seal of Approval"
-[dryad]: http://datadryad.org/ "Dryad"
-[genbank]: http://www.ncbi.nlm.nih.gov/genbank/ "GenBank"
-[geoscience_data_journal]: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2049-6060 "Geoscience Data Journal"
-[gigascience]: http://www.gigasciencejournal.com/ "GigaScience"
-[f1000_research]: http://f1000research.com/ "F1000 Research"
-[figshare]: http://figshare.com/ "Figshare"
-[internet_archaeology]: http://intarch.ac.uk/ "Internet Archaeology"
-[maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
-[nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"
-[protein_data_bank]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
-[callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
-[trac_2007]: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4630 "Trusted Repository Audit Checklist"
-[ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
-[vines_2013]: http://dx.doi.org/10.1016/j.cub.2013.11.014 "The Availability of Research Data Declines Rapidly with Article Age"
+
 
 
 
