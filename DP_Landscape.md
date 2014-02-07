@@ -70,7 +70,7 @@ It should be noted that there is no requirement that published data be available
 As a practical matter, publishing a datset means depositing it in a trustworthy repository.  
 What constitutes "trustworthy" is up to you.
 A number of repository certification schemes exist.
-The most onerous is [Trusted Reposiotry Audit Checklist (TRAC)][trac_2007] certification by the Center for Research Libraries, but that's so onerous that only four repositories have gone thorough the process.
+The most thorough is [Trusted Reposiotry Audit Checklist (TRAC)][trac_2007] certification by the Center for Research Libraries, but that's so onerous that only four repositories have gone thorough the process.
 Probably a more typical way to decide trustworthiness is to judge by the organization running it.
 Repositories run by governments or large universities might be consisdered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
  
@@ -86,7 +86,7 @@ As long as the DOI is maintained, it can be used by anyone interested to locate 
 ###Simple Case
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
 The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
-This format is consistent with the recommendation made by CODATA and with metadata required by DataCite and Thomson Reuters Data Citation Index.
+This format is consistent with the [recommendation made by CODATA][n] and with metadata required by DataCite and Thomson Reuters Data Citation Index.
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 ###Deep Citation
@@ -172,7 +172,7 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 [maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
 [nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"
 [protein_data_bank]: http://www.rcsb.org/pdb/home/home.do "Protein Data Bank"
-[sarah_callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
+[callaghan_making_2012]: http://dx.doi.org/10.2218/ijdc.v7i1.218 "Making Data a First Class Scientific Output: Data Citation and Publication by NERC’s Environmental Data Centres"
 [trac_2007]: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4630 "Trusted Repository Audit Checklist"
 [ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
 [vines_2013]: http://dx.doi.org/10.1016/j.cub.2013.11.014 "The Availability of Research Data Declines Rapidly with Article Age"
