@@ -8,6 +8,7 @@
 [gigascience]: http://www.gigasciencejournal.com/ "GigaScience"
 [f1000_research]: http://f1000research.com/ "F1000 Research"
 [figshare]: http://figshare.com/ "Figshare"
+[force11_data_2013]: http://www.force11.org/datacitation "Data Citation Principles - DRAFT"
 [internet_archaeology]: http://intarch.ac.uk/ "Internet Archaeology"
 [maunsell_announcement_2010]: http://www.jneurosci.org/content/30/32/10599 "Announcement Regarding Supplemental Material"
 [nature_scientific_data]: http://www.nature.com/scientificdata/ "Nature Scientific Data"

@@ -77,8 +77,9 @@ Repositories run by governments or large universities might be consisdered trust
 
 
 ##Citability
-When a researcher uses a published data set in a paper, they should cite the dataset in the reference list.[(FORCE11, 2013)][amsterdam_manifesto]
-Data publications have to make this possible.
+If a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list.
+This has been agreed on by a coaltion of groups, including FORCE11[(2013)][amsterdam_manifesto], 
+Data publications have to facilitate citation, .
 This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
 (It is worth pointing out that a DOI is neither sufficient nor necssary for citability– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
