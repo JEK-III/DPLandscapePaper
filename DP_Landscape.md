@@ -78,7 +78,9 @@ Repositories run by governments or large universities might be consisdered trust
 
 ##Citability
 If a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list.
-This has been agreed on by a coaltion of groups, including FORCE11[(2013)][amsterdam_manifesto], 
+Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.  
+A variety of sets of principles and recomendations from different groups have been synthesized into a consensus set of priciples, still in draft form [force11_data_2013][].
+
 Data publications have to facilitate citation, .
 This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
