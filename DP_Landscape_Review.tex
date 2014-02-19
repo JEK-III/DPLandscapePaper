@@ -32,11 +32,13 @@ Finally, some are already looking past data publication to other metaphors, such
 
 \section*{What does ``data publication'' mean?}\label{what-does-data-publication-mean}
 
-The idea (and ideal) of researchers sharing data with one another for the common good is not new, but what is new is a movement to formally ``publish'' data.
-The shift in language reflects a desire to fold datasets into the scholarly record and afford them the same status as traditional research products like journal articles.
-Although many of us are now using the term ``data publication'', we are still coming to consensus about what that means.
-Two properties are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable} in the manner of a journal article.\\Less agreed on is the extent to which published data must be shown to be \textbf{valid}.
-To break validity down further, {[}Callaghan (2012){]}{[}callaghan\_making\_2012{]} draws a useful distinction between technical and scientific validity.
+The idea (and ideal) that researchers should ``share'' data for the common good is not new; what is new is the movement to formally ``publish'' data.
+The shift in language reflects the desire to fold datasets into the scholarly record and afford them the same ``first class'' status as traditional research products like journal articles.
+Although this goal is widely shared and many are now using the term ``data publication'', they are using the term with an number of related, but distinct, definitions.
+% consider putting a couple of concrete examples here
+Two properties are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable} in the manner of a journal article. 
+Less agreed on is the extent to which published data must be shown to be \textbf{valid}.
+To break validity down further, Callaghan (2012)\cite{callaghan_making_2012} draws a useful distinction between technical and scientific validity.
 Technical validity, that a dataset has no inappropriately missing or out of range values, that the metadata is complete, etc., is guaranteed by most data publishers. Scientific validity, that a dataset was collected using appropriate methods and holds scientific interests, is not always part of a data publication.
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (such as a DOI), and validity by peer-review.
 
@@ -58,15 +60,15 @@ Models of data publication can be classified in a variety of ways, but for my pu
 
 The most familiar model to researchers is data published along with a traditional journal article. 
 In the past, the article's publisher typically hosted the datset supplementary material, but that practice has been called into question. 
-Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article. For instance, the {[}Journal of Neuroscience stopped publishing supplemental material in 2010{]}{[}maunsell\_announcement\_2010{]}. 
-An alternate approach is to deposit the data in a repository such as {[}Dryad{]}{[}dryad{]}.
+Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through the article. For instance, the Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
+An alternate approach is to deposit the data in a repository such as Dryad\cite{dryad}.
 
 Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise ``reputable'' publication. Dryad makes data avialable and citeable, and checks for technical validity, but any assesment of scientific validity must be managed by the publisher of the article. For some specific data types, deposition in appropriate databases has been the standard for a long time. 
-For example, in biology, typically nucelotide sequences are deposited in {[}GenBank{]}{[}genbank{]}, and protein structures in the {[}Protein Data Bank{]}{[}protein\_data\_bank{]}.
+For example, in biology, typically nucelotide sequences are deposited in GenBank\cite{genbank}, and protein structures in the Protein Data Bank\cite{protein_data_bank}.
 
 \subsection*{Data publication with a data paper}\label{data-publication-with-a-data-paper}
 
-A data papers is a novel type of journal article that describes a dataset, detailing the rationale and collection methods, but omitting results and discussion. Data papers are flourishing in new journals dedicated to the format, such as {[}Nature Scientific Data{]}{[}nature\_scientific\_data{]}, {[}Geoscience Data Journal{]}{[}geoscience\_data\_journal{]}, and a trio of ``metajournals'' from {[}Ubiquity Press{]}{[}ubiquity\_press\_metajournals{]} as well as in journals that publish other types of papers, such as {[}F1000 Research{]}{[}f1000\_research{]}, {[}Internet Archaeology{]}{[}internet\_archaeology{]}, or {[}GigaScience{]}{[}gigascience{]}. 
+A data papers is a novel type of journal article that describes a dataset, detailing the rationale and collection methods, but omitting results and discussion. Data papers are flourishing in new journals dedicated to the format, such as Nature Scientific Data\cite{nature_scientific_data}, Geoscience Data Journal\cite{geoscience_data_journal}, and a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals} as well as in journals that publish other types of papers, such as F1000 Research\cite{f1000_research}, Internet Archaeology\cite{internet_archaeology}, or GigaScience\cite{gigascience}. 
 The length and structure of data papers varies significantly between journals, but all are united by the absence of analysis and conclusions.
 
 With a few exceptions, data journals require the data itself to be published in a trusted third-party repository. 
@@ -76,7 +78,7 @@ Data papers are peer-reviewed; some take the novelty or potential impact of a da
 
 To be useful or reproducible, a dataset must have accompanying descriptive information (i.e.~metadata), but this needn't take the form of a journal article. 
 Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article. Repositories are able to provide access and citability, but the degree of validation varies widely. 
-Few are equipped to provide peer-review. {[}Figshare{]}{[}figshare{]}, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
+Few are equipped to provide peer-review. Figshare\cite{figshare}, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
 On the other hand, Open Context publishes very high quality archeology datasets with optional peer review.
 
 \section*{How does publication work?}\label{how-does-publication-work}
@@ -89,7 +91,7 @@ It should be noted that there is no requirement that published data be available
 
 As a practical matter, publishing a datset means depositing it in a trustworthy repository. 
 What constitutes ``trustworthy'' is up to you. 
-A number of repository certification schemes exist. The most thorough is {[}Trusted Reposiotry Audit Checklist (TRAC){]}{[}trac\_2007{]} certification by the Center for Research Libraries, but that's so onerous that only four repositories have gone thorough the process. 
+A number of repository certification schemes exist. The most thorough is Trusted Reposiotry Audit Checklist (TRAC)\cite{trac_2007} certification by the Center for Research Libraries, but that's so onerous that only four repositories have gone thorough the process. 
 Probably a more typical way to decide trustworthiness is to judge by the organization running it. 
 Repositories run by governments or large universities might be consisdered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
 
@@ -97,7 +99,7 @@ Repositories run by governments or large universities might be consisdered trust
 
 If a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
 Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.
-A variety of sets of principles and recomendations from different groups have been synthesized into a consensus set of priciples, still in draft form {[}force11\_data\_2013{]}{[}{]}. 
+A variety of sets of principles and recomendations from different groups have been synthesized into a consensus set of priciples, still in draft form \cite{force11_data_2013}. 
 However, there is still disagreement about how to handle edge cases.
 
 Data publications have to facilitate citation. 
@@ -109,7 +111,7 @@ The identifier will generally be something, such as a DOI, that can be used to l
 \subsubsection{Simple Case}\label{simple-case}
 
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
-This format is consistent with the {[}recommendation made by CODATA{]}{[}socha\_out\_2013{]} and with metadata required by {[}DataCite{]}{[}datacite\_datacite\_2013{]} and Thomson Reuters Data Citation Index. However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
+This format is consistent with the recommendation made by CODATA\cite{socha_out_2013} and with metadata required by DataCite \cite{datacite_datacite_2013} and Thomson Reuters Data Citation Index. However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 \subsubsection{Deep Citation}\label{deep-citation}
 
@@ -152,7 +154,7 @@ For journal articles, peer-review is the gatekeeper to the scholarly record, mea
 Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication. 
 The same impulse that drives the effort to capture the prestige of the term ``publication'' and apply it to data drives the effort to apply ``peer-review'' to data.
 
-{[}Callaghan (2012){]}{[}callaghan\_making\_2012{]} draws another useful distinction here: between technical and scientific review. 
+Callaghan draws another useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise. 
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value. 
 Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
