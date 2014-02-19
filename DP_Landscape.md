@@ -80,16 +80,17 @@ Repositories run by governments or large universities might be consisdered trust
 If a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list.
 Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.  
 A variety of sets of principles and recomendations from different groups have been synthesized into a consensus set of priciples, still in draft form [force11_data_2013][].
+However, there is still disagreement about how to handle edge cases.
 
-Data publications have to facilitate citation, .
+Data publications have to facilitate citation.
 This is generally facilitated by assigning a unique permanent identifier, most commonly a DOI, to the dataset.
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset.
 (It is worth pointing out that a DOI is neither sufficient nor necssary for citability– if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
+The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
 
 ###Simple Case
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
-The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
-This format is consistent with the [recommendation made by CODATA][socha_out_2013] and with metadata required by DataCite and Thomson Reuters Data Citation Index.
+This format is consistent with the [recommendation made by CODATA][socha_out_2013] and with metadata required by [DataCite][datacite_datacite_2013] and Thomson Reuters Data Citation Index.
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 ###Deep Citation
@@ -108,7 +109,7 @@ Data publishers are likely to allow or even encourage updating and correction of
 For the results of data analysis to be reproducible, the reader must be able to obtain precisely the version of the data that the researcher used.
 In the case of dynamic data, that means that previous versions have to be preserved and citable.
 
-As a practical matter, there are two kinds of dynamic data that warrant consideration: growing datasets, to which new data may be added but old data will never be changed or deleted, and reviseable datasets in which data may be added, deleted, or changed over time.
+As a practical matter, there are two kinds of dynamic data that warrant consideration: expanding datasets, to which new data may be added but old data will never be changed or deleted, and reviseable datasets in which data may be added, deleted, or changed over time.
 Common solutions to add-on data are to include an access date, or a date or record number range in the citation.
 Revisable datasets are more difficult, but the most common approach is to periodically publish multiple changes as a new version with a version number that can be included in citations.
 
