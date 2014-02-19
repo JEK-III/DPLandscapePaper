@@ -1,3 +1,5 @@
+% F1000Research template from writeLaTeX
+
 \documentclass[10pt,a4paper,twocolumn]{article}
 \usepackage{f1000_styles}
 
@@ -7,7 +9,7 @@
 \title{The Data Publication Landscape.}
 \author[1]{John Ernest Kratz}
 \author[1]{Carly Strasser}
-\affil[1]{California Digital Library}
+\affil[1]{California Digital Library, University of California Office of the President, Oakland, CA 94612, USA}
 
 \maketitle
 \thispagestyle{fancy}
@@ -74,7 +76,7 @@ For example, DNA sequences are deposited in GenBank\cite{genbank} and protein st
 
 \subsection*{Paper subject data}\label{paper-subject-data}
 
-A \texbf{data paper} describes a dataset by thorougly detailing the rationale and collection methods, but lacks any results or conclusions. 
+A \textbf{data paper} describes a dataset by thorougly detailing the rationale and collection methods, but lacks any results or conclusions. 
 Data papers are flourishing in new journals dedicated to the format, such as Nature Scientific Data\cite{nature_scientific_data}; Geoscience Data Journal\cite{geoscience_data_journal}; and a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals}, and also in journals that publish other types of papers, such as F1000 Research\cite{f1000_research}; Internet Archaeology\cite{internet_archaeology}; and GigaScience\cite{gigascience}. 
 The length and structure of data papers varies significantly between journals, and the format is most clearly defined by what is absent.
 With few exceptions, data journals require datasets to be published by a trusted third-party repository. 
@@ -116,12 +118,12 @@ As long as the DOI is maintained, it can be used by anyone interested to locate 
 (It is worth pointing out that a DOI is neither sufficient nor necssary for citability-- if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI). 
 The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
 
-\subsubsection{Simple Case}\label{simple-case}
+\subsubsection*{Simple Case}\label{simple-case}
 
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
 This format is consistent with the recommendation made by CODATA\cite{socha_out_2013} and with metadata required by DataCite \cite{datacite_datacite_2013} and Thomson Reuters Data Citation Index. However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
-\subsubsection{Deep Citation}\label{deep-citation}
+\subsubsection*{Deep Citation}\label{deep-citation}
 
 The first major complication that datasets face is the need for deep citation. 
 When supporting an assertion in writing, it is considered sufficiently precise to cite the entirety of the referenced journal article and leave it to the suspicious reader to identify the basis of your assertion. 
@@ -130,7 +132,7 @@ Because datasets are so variable in structure, there will probably not be a gene
 The most common approach is to cite the entire dataset and describe the subset in the text of the paper. 
 In some cases, it may be practical to include a date or record number range or a list of variables in the formal citation.
 
-\subsubsection{Dynamic Data}\label{dynamic-data}
+\subsubsection*{Dynamic Data}\label{dynamic-data}
 
 A second complication is that datasets are prone to existing in multiple versions or changing over time. 
 In the past, the printed article was a single version of record.
@@ -147,7 +149,7 @@ Controversy persists about dyanmic data and identifiers and different publishers
 DataCite recommends but does not requre that the DOIs that they issue point to immuntable objects. 
 Dataverse, for example, (check up) does not permit changes, but instead recommends that growing datasets be issued a new DOI periodically that refers to the ``time-slice'' of records added since the last DOI was issued; revisable datasets are to be periodically frozen as a ``snapshot'' and issued a new DOI.
 
-\subsubsection{Just-in-time Identifiers}\label{just-in-time-identifiers}
+\subsubsection*{Just-in-time Identifiers}\label{just-in-time-identifiers}
 
 One potential solution to both deep citation and dynamic data is to turn the identifier-issuing process on its head. 
 Instead of a dataset publisher minting the identifier, the researcher who wants to cite a datset could mint an identifier that refers to precisely the part of the dataset that they wish to cite. 
@@ -156,21 +158,24 @@ This seems promising, but there are still many technical and policy issues that 
 
 \subsection*{Trustworthiness}\label{trustworthiness}
 
-\subsubsection{Peer-review}\label{peer-review}
+\subsubsection*{Peer-review}\label{peer-review}
 
-For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness. 
-Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication. 
-The same impulse that drives the effort to capture the prestige of the term ``publication'' and apply it to data drives the effort to apply ``peer-review'' to data.
+For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
+In many fields formally peer-reviewed literature enjoys a much higher status than even reputable ``grey literature''.
+The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
+Like data publication, data peer-review is being defined now.
 
-Callaghan draws another useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
+%However the real value and correctness of the work emerges later, as it's read and expanded on by the relevant community. 
+
+What does it mean to peer-review data?
+Callaghan draws a useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise. 
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value. 
 Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
 
 Publishers of data papers wrap peer review of the paper and of the datset together. 
-n exception is GigaScience, which assignes a separate data reviewer for technical review of the dataset. 
+An exception is GigaScience\cite{gigascience}, which assignes a separate data reviewer for technical review of the dataset. 
 Reviewer guidlines are roughly similar accross journals. Nature Scientific Data as a representative example.
-
 While review guidelines are similar, review processes are not. 
 Data paper peer review processes range from traditional (anonymous pre-publication review in NSD) to experimental (open post-publication review in F1000 Research).
 
@@ -180,12 +185,13 @@ Open Context goes beyond the simple accept/reject binary of traditional peer rev
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. 
 Essetially, a 3 indicates that the datset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
 
-\subsubsection{Post-publication review}\label{post-publication-review}
+\subsubsection*{Post-publication review}\label{post-publication-review}
 
-\subsection*{Beyond data publication}\label{beyond-data-publication}
+\section*{Beyond data publication}\label{beyond-data-publication}
 
-Parsons () argues that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
-He identifies a number of other possible metaphors to apply to differnt kinds of data. One of these seems to be accumulating broad support: data as software. 
+Parsons\cite{parsons_is_2013} argues that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
+He identifies a number of other possible metaphors to apply to differnt kinds of data.
+One of these seems to be accumulating broad support: data as software. 
 Under this metaphor, publishing a dataset is analagous to a software release. 
 Any subsequent changes are analagous to new versions.
 
