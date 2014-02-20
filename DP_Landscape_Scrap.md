@@ -15,6 +15,9 @@ Preserving access to print journals has long been the job of the library, but th
 A dataset that can only be accessed with a paid subscription or after accepting a use agreement can be said to have been published, but one that is provided by its creator over email is not.
 The status of a dataset located on a researcher's personal website is not entirely clear.
 
+However the real value and correctness of the work emerges later, as it's read and expanded on by the relevant community. 
+
+
 #Scrap thoughts
 
 ###what do I really want to say about availability?
