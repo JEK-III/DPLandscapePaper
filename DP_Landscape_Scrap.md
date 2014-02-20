@@ -1,3 +1,11 @@
+#To Dos
+
+* convert references to URLS to links
+* 
+
+
+
+
 #Scrap sentences
 The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 

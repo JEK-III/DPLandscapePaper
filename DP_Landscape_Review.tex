@@ -2,7 +2,7 @@
 
 \documentclass[10pt,a4paper,twocolumn]{article}
 \usepackage{f1000_styles}
-\usepackage{todonotes}
+\usepackage[inline]{todonotes}
 
 \begin{document}
 
@@ -74,6 +74,8 @@ Dryad originated in the ecology and evolutionary biology community, but has grow
 
 For some specific data types, deposition in appropriate databases has been the standard for a long time. 
 For example, DNA sequences are deposited in GenBank\cite{genbank} and protein structures in the Protein Data Bank\cite{protein_data_bank}.
+
+\todo{reproducibility crisis}
 
 \subsection*{Paper subject data}\label{paper-subject-data}
 
@@ -161,16 +163,15 @@ This seems promising, but there are still many technical and policy issues that 
 
 \section*{Trustworthiness}\label{trustworthiness}
 
-\subsection*{Peer-review}\label{peer-review}
+% \subsection*{Peer-review}\label{peer-review}
 
 For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
 In many fields formally peer-reviewed literature enjoys a much higher status than even reputable ``grey literature''.
 The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
 Like data publication, data peer-review is being defined now.
 
-%However the real value and correctness of the work emerges later, as it's read and expanded on by the relevant community. 
-
 What does it mean to peer-review data?
+
 Callaghan draws a useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise. 
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value. 
@@ -188,7 +189,7 @@ Open Context goes beyond the simple accept/reject binary of traditional peer rev
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. 
 Essetially, a 3 indicates that the datset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
 
-\subsection*{Post-publication review}\label{post-publication-review}
+% \subsection*{Post-publication review}\label{post-publication-review}
 
 \section*{Beyond data publication}\label{beyond-data-publication}
 
@@ -209,7 +210,7 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 {\small\bibliographystyle{unsrt}
 \bibliography{sample}}
 
-
+\listoftodos
 
 % See this guide for more information on BibTeX:
 % http://libguides.mit.edu/content.php?pid=55482&sid=406343

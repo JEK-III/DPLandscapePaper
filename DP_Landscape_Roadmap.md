@@ -121,24 +121,71 @@ Unresolved technical and policy questions: to the extent that an ID is a promise
 
 ## Trustworthy: How does data peer review work?
 ###Peer-review
-Distinction can be drawn between technical and scientific review [][callaghan_making_2012]
-Data and paper are generally reviewed together as a package.
-An exception is GigaScience, which assigns a data reviewer for techncial review.
-About half of data journals consider impact / novelty.
-When guidelines are provided, they are roughly similar.
-Example: NSD or any other
-The process, however, is variable– ranging from traditional to postpublication experiments of F1000 Research.
 
-Standalone
+Can effectively be a mini-version of the whole paper
+
+
+If one of the properties of published data is peer-review, we have to confront the question of what it means to peer review data.
+
+Peer review as gatekeeper; however, further evlaution happens later.
+
+Data peer review serves the same function.
+
+\cite{lawrence_citation_2011}
+
+####what are the parts of data peer review?
+Distinction can be drawn between technical and scientific review [][callaghan_making_2012]
+
+
+####Supplement
+Paper reviewers don't look at the underlying data.
+That's still true.
+But, that won't do for data papers.
+
+####Data paper
+
+Data and paper are generally reviewed together as a package, by the same reviewers.
+
+An exception is GigaScience, which assigns a data reviewer for techncial review.\
+Geoscience data journal divies into paper/metadata/data - 3 separate reviewers would be okay
+
+
+About half of data journals consider impact / novelty.
+
+When guidelines are provided, they are roughly similar.
+
+The process, however, is variable– ranging from traditional to postpublication experiments of F1000 Research.
+experiments in peer review going on with articles could be relevant to data:
+
+
+Example: NSD and Biodiversity 
+
+* technical quality vs. quality of the data data
+* complete description vs. quality of the manuscript
+* integrity (description = data) vs. consistency
+
+but, NSD has a traditional peer review process: 1+ anoynmous reviewers apointed by editor
+BdJ: flexible & open– multiple classes of reviewer (2-3 "nominated" reviewers that must provide feedback, "several" "panel" reviewers that can read and comment if they feel like it. anonymity is up to reviewer.  author can opt for public review, in which case anyone registered can comment)
+
+
+postpub review of data papers by F1000, etc.
+3rd party review (libre, rubriq) not happening, but could be a way to make PR work for repositories
+####Standalone
+Some degree of technical review is common
+scientific review is rare
+
 Open context provides a multi-tiered evaluation system (1-5).
 * 3 technical review
 * 4 editorial review
 * 5 external peer review
 NASA PDS does peer review in an in-person meeting
 
-Experiments in peer review going on with articles could be relevant to data:
-postpub review of data papers by F1000, etc.
-3rd party review (libre, rubriq) not happening, but could be a way to make PR work for repositories
+
+
+
+
+
+
 
 ## Beyond data publication
 Data as software: open source software community has confronted many problems related to sharing and collaborating.
