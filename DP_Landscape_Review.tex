@@ -36,10 +36,11 @@ Finally, some are already looking past data publication to other metaphors, such
 
 \section*{What does ``data publication'' mean?}\label{what-does-data-publication-mean}
 
-The idea (and ideal) that researchers should ``share'' data for the common good is not new; what is new is the movement to formally ``publish'' data.
-The shift in language reflects the desire to fold datasets into the scholarly record and afford them the same ``first class'' status as traditional research products like journal articles.
-Although this goal is widely shared and many are now using the term ``data publication'', they are using the term with an number of related, but distinct, definitions.
-\todo[inline]{consider putting a couple of concrete examples here}
+The idea– and the ideal– that researchers should share data to advance knowledge and promote the common good is not at all new, but there is new enthusiasm for ``publishing'' data.
+This shift in language from the casual ``share'' to the formal ``publish'' reflects a movement to fold datasets into the scholarly record with the same ``first class'' status as traditional research products like journal articles.
+This goal is widely shared within the scholarly communication community,``Data publication'' is something of a buzzword, but different people and organizations mean different things by it.
+A data publication might be an excel spreadsheet posted to a lab website, a set of images deposited in an institutional archive, a stream of readings from a weather station, or a peer-reviewed article describing a dataset hosted elsewhere, depending on who's speaking.
+
 Two properties are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable} in the manner of a journal article. 
 Less agreed on is the extent to which published data must be shown to be \textbf{valid}.
 
@@ -59,7 +60,7 @@ This last one is accompanied by a moral sense that the hard work of preparing an
 \section*{What does a data publication look like?}\label{what-does-a-data-publication-look-like}
 
 At present, a ``data publication'' may be any of a number of research objects published via a variety of processes.
-Given the huge variety of types of data, it seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a managable number of blueprints. 
+Given the huge variety of types of data, it seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a manageable number of blueprints. 
 Models of data publication can be classified in a variety of ways, but for our purposes here, we will classify data publications into three categories based on the accompanying documentation; a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper'', or be \textbf{independent} of any paper.
 
 \subsection*{Paper supplement data}\label{paper-supplement-data}
@@ -76,7 +77,7 @@ For some specific data types, deposition in appropriate databases has been the s
 For example, DNA sequences are deposited in GenBank\cite{genbank} and protein structures in the Protein Data Bank\cite{protein_data_bank}.
 
 \todo[inline]{reproducibility crisis}
-\todo[inline]{#PLOSFail}
+\todo[inline]{PLOSFail}
 
 \subsection*{Paper subject data}\label{paper-subject-data}
 
@@ -115,7 +116,7 @@ Repositories run by governments or large universities might be considered trustw
 
 If a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
 Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.
-A variety of sets of principles and recommendations from different groups have been synthesized into a consensus set of principles, still in draft form \cite{force11_data_2013}. 
+A variety of sets of principles and recommendations from different groups have been synthesized into a recently-released consensus set of Data Citation Principles. \cite{force11_data_2014} 
 However, there is still disagreement about how to handle edge cases.
 
 Data publications have to facilitate citation. 
@@ -213,14 +214,17 @@ Essentially, a 3 indicates that the dataset has passed technical review, a 4 mea
 
 \section*{Beyond data publication}\label{beyond-data-publication}
 
-Parsons\cite{parsons_is_2013} argues that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
-He identifies a number of other possible metaphors to apply to different kinds of data.
-One of these seems to be accumulating broad support: data as software. 
-Under this metaphor, publishing a dataset is analogous to a software release. 
-Any subsequent changes are analogous to new versions.
+Parsons and Fox\cite{parsons_is_2013} argue that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
+They identify a number of analogies other than scholarly communication that might apply to data, including industrial production, cartography, and the World Wide Web.
+They also make reference to an analogy that seems to be gaining momentum: data as software.\cite{schopf_treating_2012} 
 
-The open source software community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them. 
-Open context came to use Mantis bug tracking software and Git with their data out of purely practical concerns.
+
+Under this metaphor, publishing a dataset is analogous to a software release, and subsequent changes are analogous to new versions.
+The open source software community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
+
+\cite{ram_git_2013}
+\cite{chen_close_2014}
+Open context came to use Mantis bug tracking software and Git with their data out of practical concerns.
 
 Still issues to address: Current VCSs are designed for code (relatively small text files), not large and variegated datasets. 
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
