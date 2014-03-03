@@ -62,23 +62,28 @@ Models of data publication can be classified in a variety of ways, but for our p
 \subsection*{Paper supplement data}\label{paper-supplement-data}
 
 The most familiar model to researchers is data published along with a traditional journal article. 
-The article's publisher typically hosts the dataset as supplementary material, but that practice is in decline.
-For example, the Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
+The article's publisher still typically hosts the dataset as supplementary material, but that is no longer the only option.
 Journal publishers have generally not been interested in the work of ensuring data preservation, and many prefer that someone else handle it.
-
-The most prominent repository exclusively for making supplemental data public is Dryad\cite{dryad}.
+The most prominent third-party repository specifically for making supplemental data public is Dryad\cite{dryad}.
 Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise ``reputable'' publication. Dryad makes data available and citable, but any assessment of scientific validity must be managed by the publisher of the article. 
 
-For some specific data types, deposition in appropriate databases has been the standard for a long time. 
+For some specific data types, deposition in appropriate discipline-specific databases has been the standard for a long time. 
 For example, DNA sequences are deposited in GenBank\cite{genbank} and protein structures in the Protein Data Bank\cite{protein_data_bank}.
 
-\todo[inline]{reproducibility crisis}
-\todo[inline]{PLOSFail}
+It has long been the case that traditional article publishers require the data underlying the figures and results in an article be furnished to interested parties on request.
+Partly in response to the perceived ``reproducibility crisis'' in science, publishers are beginning to require that this data be proactively published simultaneously with the article.  
+\emph{F1000Research} and \emph{PLOS ONE} both have such a requirement.
+
+
+%The Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
+
+
+\todo[inline]{reproducibility crisis: cite Economist, NYT, most published results are wrong}
 
 \subsection*{Paper subject data}\label{paper-subject-data}
 
 A \textbf{data paper} describes a dataset by thoroughly detailing the rationale and collection methods, but lacks any results or conclusions. 
-Data papers are flourishing in new journals dedicated to the format, such as Nature Scientific Data\cite{nature_scientific_data}; Geoscience Data Journal\cite{geoscience_data_journal}; and a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals}, and also in journals that publish other types of papers, such as F1000 Research\cite{f1000_research}; Internet Archaeology\cite{internet_archaeology}; and GigaScience\cite{gigascience}. 
+Data papers are flourishing in new journals dedicated to the format, such as \emph{Nature Scientific Data}\cite{nature_scientific_data}; Geoscience Data Journal\cite{geoscience_data_journal}; and a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals}, and also in journals that publish other types of papers, such as F1000 Research\cite{f1000_research}; Internet Archaeology\cite{internet_archaeology}; and GigaScience\cite{gigascience}. 
 The length and structure of data papers varies significantly between journals, and the format is most clearly defined by what is absent.
 With few exceptions, data journals require datasets to be published by a trusted third-party repository. 
 \todo{Consider referencing an exception or two}
@@ -189,7 +194,7 @@ Reviewer guidelines are roughly similar across journals, although roughly half o
 While review guidelines are similar, review processes are not. 
 Data paper peer review processes range from traditional to experimental (open post-publication review in F1000 Research).
 
-As an example, let's compare Nature Scientific Data and Biodiveristy journal.
+As an example, let's compare \emph{Nature Scientific Data} and Biodiveristy journal.
 The two journals divide reviewer guidelines into three similar sections– quality of the data, quality of the description, and consistency between the description and the data– and provide similar guidance.
 However, their peer review processes are quite different.
 NSD implements a traditional peer review process: the editor appoints 1 or more reviewers, who are encouraged to remain anonymous.
@@ -199,7 +204,7 @@ the editor appoints two or three ``nominated'' reviewers who are required to sup
 Additionally, the authors may opt to open the paper to public comment during the review process.
 
 
-\subsection{Independent data review}
+\subsection*{Independent data review}
 More interesting yet are review processes for standalone datasets. 
 NASA Planetary Data System (PDS)\cite{nasa_pds} conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. 
 Open Context goes beyond the simple accept/reject binary of traditional peer review. 
@@ -228,7 +233,7 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 
 \nocite{*}
 {\small\bibliographystyle{unsrt}
-\bibliography{sample}}
+\bibliography{DataPublicationLibrary}}
 
 \listoftodos
 
