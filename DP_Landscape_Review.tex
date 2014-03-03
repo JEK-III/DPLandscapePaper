@@ -173,7 +173,7 @@ This seems promising, but there are still many technical and policy issues that 
 
 %What does it mean to peer-review data?
 
-\subsection*{Technical vs. Scientific Review}
+\subsection*{Technical vs. scientific review}
 Callaghan draws a useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise. 
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value. 
@@ -185,14 +185,24 @@ As more journals require the data underlying publications to be made public, thi
 Encouragingly, a recent \emph{F1000Research} survey of peer reviewers found that 90\% reported examining the underlying data.
 \todo[inline]{contact F1000 to figure out what to cite}
 
-
-
+\subsection*{Paper subject data review}
 Publishers of data papers wrap peer review of the paper and of the datset together. 
 An exception is GigaScience\cite{gigascience}, which assignes a separate data reviewer for technical review of the dataset. 
-Reviewer guidlines are roughly similar accross journals. Nature Scientific Data as a representative example.
+Reviewer guidlines are roughly similar accross journals, although roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound.
 While review guidelines are similar, review processes are not. 
-Data paper peer review processes range from traditional (anonymous pre-publication review in NSD) to experimental (open post-publication review in F1000 Research).
+Data paper peer review processes range from traditional to experimental (open post-publication review in F1000 Research).
 
+As an example, let's compare Nature Scientific Data and Biodiveristy jounral.
+The two journals divide reviewer guidlines into three similar sections– quality of the data, quality of the description, and consistency between the description and the data– and provide similar guidance.
+However, their peer review processes are quite different.
+NSD implements a traditional peer review process: the editor appoints 1 or more reviewers, who are encouraged to remain anonymous.
+Biodiversity Journal has a more flexible and open process.
+There, anonymity is up to each reviewer, and there are multiple classes of reviewer.
+the editor appoints two or three ``nominated'' reviewers who are required to supply feedback and several ``panel'' reviewers who read the paper and only supply feedback if they feel like they have something to say.
+Additionally, the authors may opt to open the paper to public comment during the review process.
+
+
+\subsection{Independent data review}
 More interesting yet are peer reivew processes for standalone datasets. 
 NASA Planetary Data System (PDS)\cite{nasa_pds} conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. 
 Open Context goes beyond the simple accept/reject binary of traditional peer review. 
