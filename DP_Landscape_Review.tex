@@ -2,7 +2,7 @@
 
 \documentclass[10pt,a4paper,twocolumn]{article}
 \usepackage{f1000_styles}
-\usepackage[inline]{todonotes}
+\usepackage{todonotes}
 
 \begin{document}
 
@@ -39,7 +39,7 @@ Finally, some are already looking past data publication to other metaphors, such
 The idea (and ideal) that researchers should ``share'' data for the common good is not new; what is new is the movement to formally ``publish'' data.
 The shift in language reflects the desire to fold datasets into the scholarly record and afford them the same ``first class'' status as traditional research products like journal articles.
 Although this goal is widely shared and many are now using the term ``data publication'', they are using the term with an number of related, but distinct, definitions.
-\todo{consider putting a couple of concrete examples here}
+\todo[inline]{consider putting a couple of concrete examples here}
 Two properties are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable} in the manner of a journal article. 
 Less agreed on is the extent to which published data must be shown to be \textbf{valid}.
 
@@ -75,7 +75,8 @@ Dryad originated in the ecology and evolutionary biology community, but has grow
 For some specific data types, deposition in appropriate databases has been the standard for a long time. 
 For example, DNA sequences are deposited in GenBank\cite{genbank} and protein structures in the Protein Data Bank\cite{protein_data_bank}.
 
-\todo{reproducibility crisis}
+\todo[inline]{reproducibility crisis}
+\todo[inline]{#PLOSFail}
 
 \subsection*{Paper subject data}\label{paper-subject-data}
 
@@ -165,17 +166,26 @@ This seems promising, but there are still many technical and policy issues that 
 
 % \subsection*{Peer-review}\label{peer-review}
 
-For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
-In many fields formally peer-reviewed literature enjoys a much higher status than even reputable ``grey literature''.
-The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
-Like data publication, data peer-review is being defined now.
+%For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
+%In many fields formally peer-reviewed literature enjoys a much higher status than even reputable ``grey literature''.
+%The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
+%Like data publication, data peer-review is being defined now.
 
-What does it mean to peer-review data?
+%What does it mean to peer-review data?
 
+\subsection*{Technical vs. Scientific Review}
 Callaghan draws a useful distinction here: between technical and scientific review. \cite{callaghan_making_2012}
 Technical review assures us that the dataset has complete metadata, no missing values that aren't allowed to be missing, etc. and generally doesn't require domain expertise. 
 Scientific review evaluates the methods of data collection, the overall plauisbility of the data, and the likely reuse value. 
 Both kinds of review can be done together, or, in the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
+
+\subsection*{Supplement data review}
+Traditionally, peer reviewers haven't had access to the raw data underlying a paper, so that hasn't been part of the review process.
+As more journals require the data underlying publications to be made public, this has the potential to change, but it's unclear whether reviewer practices are changing.
+Encouragingly, a recent \emph{F1000Research} survey of peer reviewers found that 90\% reported examining the underlying data.
+\todo[inline]{contact F1000 to figure out what to cite}
+
+
 
 Publishers of data papers wrap peer review of the paper and of the datset together. 
 An exception is GigaScience\cite{gigascience}, which assignes a separate data reviewer for technical review of the dataset. 
