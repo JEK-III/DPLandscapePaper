@@ -215,7 +215,7 @@ Example: Open Context uses mantis bug tracker and GitHub
 [trac_2007]: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.133.4630 "Trusted Repository Audit Checklist"
 [ubiquity_press_metajournals]: http://www.metajnl.com/ "Ubiquity Press MetaJournals"
 [vines_2013]: http://dx.doi.org/10.1016/j.cub.2013.11.014 "The Availability of Research Data Declines Rapidly with Article Age"
-
+[schopf_treating_2012]: 
 
 
 

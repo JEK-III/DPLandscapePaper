@@ -17,6 +17,8 @@ The status of a dataset located on a researcher's personal website is not entire
 
 However the real value and correctness of the work emerges later, as it's read and expanded on by the relevant community. 
 
+% To break validity down further, Callaghan\cite{callaghan_making_2012} draws a useful distinction between technical and scientific validity.
+% Technical validity– that a dataset has no inappropriately missing or out of range values, that the metadata is complete, etc.– is guaranteed by most data publishers. Scientific validity– that a dataset was collected using appropriate methods and holds scientific interests– is not always part of a data publication.
 
 #Scrap thoughts
 
