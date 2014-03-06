@@ -66,14 +66,12 @@ For some specific data types, deposition in appropriate discipline-specific data
 For example, DNA sequences are deposited in GenBank\cite{genbank} and protein structures in the Protein Data Bank\cite{protein_data_bank}.
 
 It has long been the case that traditional article publishers require the data underlying the figures and results in an article be furnished to interested parties on request.
-Partly in response to the perceived ``reproducibility crisis'' in science, publishers are beginning to require that this data be proactively published simultaneously with the article.  
-\emph{F1000Research} and \emph{PLOS ONE} both have such a requirement.
+Partly in response to the perceived ``reproducibility crisis'' \cite{begley_drug_2012}\cite{collins_nih_2014}in science, publishers are beginning to require that this data be proactively published simultaneously with the article.  
+\emph{F1000Research} and \emph{The Public Library of Science (PLOS)} journals have such requirements.\cite{bloom_data_2014}
 
 
 %The Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
 
-
-\todo[inline]{reproducibility crisis: cite Economist, NYT, most published results are wrong}
 
 \subsection*{Data as the subject of a paper}\label{paper-subject-data}
 
@@ -213,25 +211,27 @@ More interesting yet are review processes for standalone datasets.
 NASA Planetary Data System (PDS)\cite{nasa_pds} conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. 
 Open Context goes beyond the simple accept/reject binary of traditional peer review. 
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. 
-Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
+Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review. 
+The Dutch Data Archiving and Networked Services (DANS) solicts structured, multifaceted feedback from users of their datasets: users are asked to assign a rating on a five star scale for each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset).\cite{grootveld_data_2011} 
+
 
 % \subsection*{Post-publication review}\label{post-publication-review}
 
 \section*{Beyond data publication}\label{beyond-data-publication}
 
-Parsons and Fox\cite{parsons_is_2013} argue that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
+Parsons and Fox (2013)\cite{parsons_is_2013} argue that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
 They identify a number of analogies other than scholarly communication that might apply to data, including industrial production, cartography, and the World Wide Web.
 They also make reference to an analogy that seems to be gaining momentum: data as software.\cite{schopf_treating_2012} 
 
-
 Under this metaphor, publishing a dataset is analogous to a software release, and subsequent changes are analogous to new versions.
 The open source software community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
+Open context came to use Mantis bug tracking software and Git out of practical concerns.
 
 \cite{ram_git_2013}
 \cite{chen_close_2014}
-Open context came to use Mantis bug tracking software and Git with their data out of practical concerns.
 
-Still issues to address: Current VCSs are designed for code (relatively small text files), not large and variegated datasets. 
+There are still issues to address.
+Current version control systems, such as Git, are designed for code (relatively small text files), not large and variegated datasets. 
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
 
 
