@@ -20,6 +20,22 @@ However the real value and correctness of the work emerges later, as it's read a
 % To break validity down further, Callaghan\cite{callaghan_making_2012} draws a useful distinction between technical and scientific validity.
 % Technical validity– that a dataset has no inappropriately missing or out of range values, that the metadata is complete, etc.– is guaranteed by most data publishers. Scientific validity– that a dataset was collected using appropriate methods and holds scientific interests– is not always part of a data publication.
 
+
+Parsons and Fox (2013)\cite{parsons_is_2013} argue that the metaphor of ``publication'' is limiting, and only suited to some datasets. 
+They identify a number of analogies other than scholarly communication that might apply to data, including industrial production, cartography, and the World Wide Web.
+They also make reference to an analogy that seems to be gaining momentum: data as software.\cite{schopf_treating_2012} 
+
+Under this metaphor, publishing a dataset is analogous to a software release, and subsequent changes are analogous to new versions.
+The open source software community has already confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
+Open context came to use Mantis bug tracking software and Git out of practical concerns.
+
+\cite{ram_git_2013}
+\cite{chen_close_2014}
+
+There are still issues to address.
+Current version control systems, such as Git, are designed for code (relatively small text files), not large and variegated datasets. 
+Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
+
 #Scrap thoughts
 
 ###what do I really want to say about availability?
@@ -40,3 +56,20 @@ What are the characteristics of repositories that matter?
 
 ###consider Open Context vs. tDAR 
 as an illustrative example
+
+###Beyond DP: what do I want to say about that?
+
+* Parsons & Fox
+	* multiplicity of metaphor
+		
+* A particularly promising metaphor is software production
+* *lots of tools for collaborative work, sharing, attribution already developed by open source movement
+* *Scientists can use Git (ram), although it's not great for big datasets
+* *Increasing integration of data, analysis, and methods in iPython notebooks and RopenSci
+* *Open context uses mantis and git to handle data problems like software bugs
+* *However, scientific software, like data is struggling for credit, so that won't help us there.
+
+* Circle back to P&F
+* *Suggest taking pieces of other metaphors
+* *take what we want from publication, be careful not to take what we don't want
+* *data isn't a paper or software.  
