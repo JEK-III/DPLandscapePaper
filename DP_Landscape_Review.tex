@@ -1,8 +1,13 @@
 % F1000Research template from writeLaTeX
 
 \documentclass[10pt,a4paper,twocolumn]{article}
+
 \usepackage{f1000_styles}
 \usepackage{todonotes}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true}
+
 
 \begin{document}
 
@@ -43,7 +48,7 @@ Making data a first class research object would improve access, preservation, an
 While these goals are widely shared, and ``Data publication'' has become something of a buzzword, different people and organizations mean different things by it.
 Within the scholarly communication community, two properties of a data publication are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable}. 
 Less agreed on is the extent to which published data must be shown to be \textbf{trustworthy}.
-In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (such as a DOI), and validity by peer-review.
+In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier, and validity by peer-review.
 
 %\subsection*{Why publish data?}\label{why-publish-data}
 
@@ -96,8 +101,8 @@ With few exceptions, data journals require datasets to be published by a trusted
 
 To be useful or reproducible, a dataset must have accompanying descriptive information (i.e.~metadata), but this needn't take the form of a journal article. 
 Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article. Repositories are able to provide access and citability, but the degree of validation varies widely. 
-Few are equipped to provide peer-review. Figshare\cite{figshare}, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
-On the other hand, Open Context\cite{open_context} publishes very high quality archeology datasets with optional peer review.
+Few are equipped to provide peer-review. \href{http://figshare.com/}{Figshare}, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
+On the other hand, \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
 
 % \section*{How does publication work?}\label{how-does-publication-work}
 
@@ -114,20 +119,20 @@ As a practical matter, publishing a dataset usually means depositing it in a tru
 What constitutes a trustworthy repository is largely subjective, but some measures can be agreed on. 
 A multiple repository certification schemes exist.
 The gold standard is Trusted Repository Audit Checklist (TRAC)\cite{trac_2007} from the Center for Research Libraries, but TRAC certification is so onerous that only four repositories have gone thorough the process. 
-The Data Seal of Approval has been awarded to 24 repositories following a consdierably more streamlined process.
+The \href{http://datasealofapproval.org/}{Data Seal of Approval} has been awarded to 24 repositories following a consdierably more streamlined process.
 Probably a more typical way to decide trustworthiness is to judge by the organization running it. 
 Repositories run by governments or large universities might be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
 
 
 \section*{Citability}\label{citability}
 
-The recently finalized Joint Declaration of Data Citation principles states that if a researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
 Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.
-A variety of sets of principles and recommendations from different groups have been synthesized into a recently-released consensus set of Data Citation Principles. \cite{force11_data_2014} 
-However, there is still disagreement about how to handle edge cases.
+The recently finalized \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation principles} states that ``[d]ata citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications.''
+Most of the time, this means that if researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
+However, there is still debate about how to handle some significant edge cases.
 
 Data publications have to facilitate citation. 
-This is generally done by assigning a unique permanent identifier, most commonly a DOI, to the dataset. 
+This is generally done by assigning a unique permanent identifier, most commonly a Digital Object Identifier (DOI), to the dataset. 
 As long as the DOI is maintained, it can be used by anyone interested to locate the dataset. 
 (A DOI is neither sufficient nor necessary for citability-- if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI). 
 The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
@@ -195,7 +200,7 @@ Encouragingly, a recent \emph{F1000Research} survey of peer reviewers found that
 
 \subsection*{Paper subject data review}
 Publishers of data papers wrap peer review of the paper and of the dataset together. 
-An exception is GigaScience\cite{gigascience}, which assigns a separate data reviewer for technical review of the dataset. 
+An exception is \href{http://www.gigasciencejournal.com/}{GigaScience}, which assigns a separate data reviewer for technical review of the dataset. 
 Reviewer guidelines are roughly similar across journals, although roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound.
 While review guidelines are similar, review processes are not. 
 Data paper peer review processes range from traditional to experimental (open post-publication review in F1000 Research).
