@@ -1,0 +1,485 @@
+%DIF < % F1000Research template from writeLaTeX
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL DP_Landscape_Review.tex   Thu Mar  6 17:30:48 2014
+%DIF ADD DP_Landscape_CS.tex       Wed Mar 19 08:51:07 2014
+%DIF -------
+\documentclass{article} %DIF > 
+%DIF < 
+\usepackage{cite} %DIF > 
+%DIF < \documentclass[10pt,a4paper,twocolumn]{article}
+%DIF < 
+%DIF < \usepackage{f1000_styles}
+%DIF < \usepackage{todonotes}
+%DIF < \usepackage{hyperref}
+%DIF < 
+%DIF < \hypersetup{colorlinks=true}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+\DIFdelbegin %DIFDELCMD < \title{The Data Publication Landscape.}
+%DIFDELCMD < \author[1]{John Ernest Kratz}
+%DIFDELCMD < \author[1]{Carly Strasser}
+%DIFDELCMD < \affil[1]{California Digital Library, University of California Office of the President, Oakland, CA 94612, USA}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \section{\DIFadd{Abstract}}\label{abstract}
+\DIFaddend 
+
+\DIFdelbegin %DIFDELCMD < \maketitle
+%DIFDELCMD < \thispagestyle{fancy}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  Please list all authors that played a significant role in the research involved in the article. Please provide full affiliation information (including full institutional address, ZIP code and e-mail address) for all authors, and identify who is/are the corresponding author(s).
+%DIFDELCMD < 
+
+%DIFDELCMD < \begin{abstract}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend The movement to incorporate datasets into the scholarly record as `first class' research products (validated, preserved, cited, and credited) has been \DIFaddbegin \DIFadd{slowly }\DIFaddend building momentum for some time\DIFaddbegin \DIFadd{, but the pace of developments picked up substantially in the last year}\DIFaddend . Data publications are \DIFdelbegin \DIFdel{proliferating}\DIFdelend \DIFaddbegin \DIFadd{springing up}\DIFaddend , but there are still significant debates over formats, processes, and terminology. \DIFdelbegin \DIFdel{Here, we }\DIFdelend \DIFaddbegin \DIFadd{This article will }\DIFaddend give an overview of the initiatives underway and the current conversation, highlighting places where consensus seems to have been reached and issues still in contention.
+
+Data \DIFdelbegin \DIFdel{publications follow a }\DIFdelend \DIFaddbegin \DIFadd{publication implementations follow }\DIFaddend variety of models that differ in, among other things, what kind of documentation is published, where the data \DIFdelbegin \DIFdel{lives }\DIFdelend \DIFaddbegin \DIFadd{resides }\DIFaddend relative to the documentation, and \DIFdelbegin \DIFdel{how the data is validated}\DIFdelend \DIFaddbegin \DIFadd{what validation is performed}\DIFaddend . Data can be published as \DIFaddbegin \DIFadd{a standalone product, as }\DIFaddend supplemental material to a \DIFaddbegin \DIFadd{traditional }\DIFaddend journal article, \DIFaddbegin \DIFadd{or }\DIFaddend with a descriptive ``data paper''\DIFdelbegin \DIFdel{, or independently. Further complicating }\DIFdelend \DIFaddbegin \DIFadd{. Confusing }\DIFaddend the situation, \DIFdelbegin \DIFdel{the same terms are }\DIFdelend \DIFaddbegin \DIFadd{terms are often }\DIFaddend used by different initiatives to refer to \DIFdelbegin \DIFdel{related by distinct }\DIFdelend \DIFaddbegin \DIFadd{partially overlapping }\DIFaddend concepts. The term `published' \DIFaddbegin \DIFadd{always }\DIFaddend means that the data is public and citable, but it may or may not mean peer reviewed. In turn, data `peer review' can refer to substantially different processes\DIFaddbegin \DIFadd{, although data paper referee guidelines are all fairly similar}\DIFaddend . There is substantial agreement on the elements of a \DIFdelbegin \DIFdel{basic dataset citation }\DIFdelend \DIFaddbegin \DIFadd{dataset citation (which closely resembles that of a journal article) }\DIFaddend but a variety of solutions for citing subsets of datasets or datasets that change over time. Finally, some are \DIFaddbegin \DIFadd{already }\DIFaddend looking past data publication to other metaphors, such as `data as software', for solutions to unsolved problems.
+
+\DIFdelbegin %DIFDELCMD < \end{abstract}
+%DIFDELCMD < \clearpage
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\section*{\DIFdel{Introduction}}%DIFAUXCMD
+%DIFDELCMD < \label{introduction}
+%DIFDELCMD < %%%
+%DIF < \subsection*{What does ``data publication'' mean?}\label{what-does-data-publication-mean}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{The idea– and }\DIFdelend \DIFaddbegin \section{\DIFadd{What does ``data publication'' mean?}}\label{what-does-data-publication-mean}
+[\DIFadd{this paragraph needs some references. especially since you state that these things are all agreed upon by the community- you need lots of refs to community stuff}]
+\DIFadd{The idea (and ideal) of researchers sharing data for }\DIFaddend the \DIFdelbegin \DIFdel{ideal– that researchers should share data to advance knowledge and promote the }\DIFdelend common good is not \DIFdelbegin \DIFdel{at all new , but there is new enthusiasm for }\DIFdelend \DIFaddbegin \DIFadd{a new one, but in recent years the conversation has shifted from sharing data to }\DIFaddend ``publishing'' data. \DIFdelbegin \DIFdel{The }\DIFdelend \DIFaddbegin \DIFadd{This }\DIFaddend shift in language \DIFdelbegin \DIFdel{from the casual ``share'' to the formal ``publish'' reflects a movement to bring }\DIFdelend \DIFaddbegin \DIFadd{reflects a desire to fold }\DIFaddend datasets into the scholarly record \DIFdelbegin \DIFdel{with the same ``first class'' status as traditional research products like journal articles .  
+Making data a first class research object would improve access, preservation, and discovery of data for reusers and enable citation to credit and reward authors. While these goals are }\DIFdelend \DIFaddbegin \DIFadd{and afford them the same status as journal articles (i.e, ``first class products'' of research). Although this goal is }\DIFaddend widely shared, \DIFdelbegin \DIFdel{and ``Data publication'' has become something of a buzzword, different people and organizations mean different things by it. Within the scholarly communication community, two properties of a data publication are almost universally agreed on: }\DIFdelend \DIFaddbegin \DIFadd{consensus about what ``publication'' means when applied to data is lacking. Generally two properties are agreed upon. First, }\DIFaddend published data is \textbf{available} now and for the indefinite future, \DIFdelbegin \DIFdel{and it }\DIFdelend \DIFaddbegin \DIFadd{without gatekeeping by the creator (although access may be limited by subscription or acceptance of a use agreement). Second, published data }\DIFaddend is formally \textbf{citable} \DIFdelbegin \DIFdel{. 
+Less agreed on is the extent to which published data must be shown to be }\DIFdelend \DIFaddbegin \DIFadd{in the same manner as a journal article. The key component of a citation is a persistent identifier, which is used to identify and locate the dataset. The most well-known of persistent identifiers is a Digital Object Identifier (DOI), commonly given to traditional journal articles. A third property of published data is less agreed upon: published data is }\DIFaddend \textbf{trustworthy} \DIFdelbegin \DIFdel{.
+In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning apersistent identifier, and validity by peer-review.}\DIFdelend \DIFaddbegin \DIFadd{based on some community standard, usually involving peer review. Callaghan (2012) }[\DIFadd{are you planning on turning this into a bib citation?}] \DIFadd{draws a distinction between data that has been shared, published (note the lower-case ``p''), or Published (note the upper-case ``P''): }\textit{\DIFadd{shared}} \DIFadd{data is available, }\textit{\DIFadd{published}} \DIFadd{data is available and citable, and }\textit{\DIFadd{Published}} \DIFadd{data is available, citable, and trustworthy.
+}\DIFaddend 
+
+%DIF < \subsection*{Why publish data?}\label{why-publish-data}
+\DIFaddbegin \section{\DIFadd{Why publish data?}}\label{why-publish-data}
+\DIFaddend 
+
+\DIFdelbegin \section*{\DIFdel{Types of data publication}}%DIFAUXCMD
+%DIFDELCMD < \label{types-of-data-publication}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{The idea is to increase data sharing by a.) tieing into exisitng mechanisms for awarding credit to reward dataset publishers, and b.) formalize citation and preservation of datasets to combat the significant problem of data loss.
+}\DIFaddend 
+
+\DIFaddbegin \section{\DIFadd{What does a data publication look like?}}\label{what-does-a-data-publication-look-like}
+
+\DIFaddend At present, \DIFdelbegin \DIFdel{a }\DIFdelend \DIFaddbegin \DIFadd{the still-solidifying term }\DIFaddend ``data publication'' \DIFdelbegin \DIFdel{may be any of a number types }\DIFdelend \DIFaddbegin \DIFadd{covers a variety }\DIFaddend of research objects published via a variety of processes.
+\DIFdelbegin \DIFdel{A data publication might be an excel spreadsheet posted to a lab website, a set of images deposited in an institutional archive, a stream of readings from a weather station, or a peer-reviewed article describing a dataset hosted elsewhere, depending on who's speaking.
+}\DIFdelend Given the huge variety of types of data \DIFaddbegin [\DIFadd{ref here}]\DIFaddend , it seems unlikely that any single structure will be ideal for every discipline and every dataset, but we can hope for a manageable number of blueprints. Models of data publication can be classified in a variety of \DIFdelbegin \DIFdel{ways, but for our purposes here , we will classify data publications }\DIFdelend \DIFaddbegin \DIFadd{ways-- for instance, Lawrence (2011) identifies five models based on which organization }[\DIFadd{need to elaborate on what you mean by "organization" here}] \DIFadd{is responsible for what-- but here data publications are classified }\DIFaddend into three categories based on \DIFdelbegin \DIFdel{the accompanying documentation; a dataset may }\textbf{\DIFdel{supplement}} %DIFAUXCMD
+\DIFdel{a traditional research paper, be the }\textbf{\DIFdel{subject}} %DIFAUXCMD
+\DIFdel{of }\DIFdelend \DIFaddbegin \DIFadd{their accompanying documentation: a traditional article, }\DIFaddend a ``data paper'', or \DIFdelbegin \DIFdel{be }\textbf{\DIFdel{independent}} %DIFAUXCMD
+\DIFdel{of any paper}\DIFdelend \DIFaddbegin \DIFadd{nothing }[\DIFadd{definitely need a different word here}]\DIFaddend .
+
+\DIFdelbegin \subsection*{\DIFdel{Data that supplements a paper}}%DIFAUXCMD
+%DIFDELCMD < \label{paper-supplement-data}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Data publication with a traditional journal article}}\label{data-publication-with-a-traditional-journal-article}
+\DIFaddend 
+
+The most familiar model to researchers is data published along with a traditional journal article \DIFdelbegin \DIFdel{. 
+The }\DIFdelend \DIFaddbegin \DIFadd{that uses it as the basis of analysis and conclusions. In the past, the }\DIFaddend article's publisher \DIFdelbegin \DIFdel{still typically hosts }\DIFdelend \DIFaddbegin \DIFadd{typically hosted }\DIFaddend the dataset as supplementary material, but that \DIFdelbegin \DIFdel{is no longer the only option. 
+Journal publishers have generally not been interested in the work of ensuring data preservation, and many prefer that someone else handle it. The most prominent third-party repository specifically for making supplemental data public is }\DIFdelend \DIFaddbegin \DIFadd{practice is being called into question }[\DIFadd{refs}]\DIFadd{. 
+}
+
+\DIFadd{Another model for supplying data alongside an article is to deposit data in a repository partnered with the publisher. One such example is the Dryad Data Repository }[\DIFadd{ref}]\DIFadd{. Many publishers have signed the Joint Data Archiving Policy, which suggests or mandates that data underlying their published articles be archived in Dryad or some other accredited repository. Note, however, that }\DIFaddend Dryad \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{dryad}
+}%DIFAUXCMD
+. Dryad originated in the ecology and evolutionary biology community, but has grown to accept data underlying any peer-reviewed or otherwise ``reputable'' publication. Dryad }\DIFdelend makes data available and citable, but any assessment of \DIFdelbegin \DIFdel{scientific validity must be managed by the publisher }\DIFdelend \DIFaddbegin \DIFadd{trustworthiness is done as part of the peer review }\DIFaddend of the article. 
+
+For some \DIFdelbegin \DIFdel{specific datatypes, deposition in appropriate discipline-specific databases }\DIFdelend \DIFaddbegin \DIFadd{kinds of data, in some fields, data archiving }\DIFaddend has been the standard for a long \DIFdelbegin \DIFdel{time. 
+For example, DNA sequences are deposited in GenBank\mbox{%DIFAUXCMD
+\cite{genbank}
+}%DIFAUXCMD
+and protein structures in the Protein Data Bank\mbox{%DIFAUXCMD
+\cite{protein_data_bank}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{time-- microarray data, protein structure, nucelotide sequence}\DIFaddend .
+
+\DIFdelbegin \DIFdel{It has long been the case that traditional article publishers require the data underlying the figures and results in an article be furnished to interested parties on request.
+Partly in response to the perceived ``reproducibility crisis'' \mbox{%DIFAUXCMD
+\cite{begley_drug_2012}
+}%DIFAUXCMD
+\mbox{%DIFAUXCMD
+\cite{collins_nih_2014}
+}%DIFAUXCMD
+in science, publishers are beginning to require that this data be proactively published simultaneously with }\DIFdelend \DIFaddbegin \DIFadd{For instance, the Journal of Neuroscience stopped publishing supplemental material in 2010. 
+Journal websites aren't well suited to ensuring data preservation, and they don't provide any means of discovery except through }\DIFaddend the article. \DIFdelbegin \emph{\DIFdel{F1000Research}} %DIFAUXCMD
+\DIFdel{and }\emph{\DIFdel{The Public Library of Science (PLOS)}} %DIFAUXCMD
+\DIFdel{journals have such requirements.\mbox{%DIFAUXCMD
+\cite{bloom_data_2014}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{Repositories, whether
+}\DIFaddend 
+
+%DIF < The Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
+\DIFaddbegin \subsection{\DIFadd{Data publication with a data paper}}\label{data-publication-with-a-data-paper}
+\DIFaddend 
+
+\DIFdelbegin \subsection*{\DIFdel{Data as the subject of a paper}}%DIFAUXCMD
+%DIFDELCMD < \label{paper-subject-data}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{A }\textbf{\DIFdel{data paper}} %DIFAUXCMD
+\DIFdel{describes a dataset by thoroughly detailing the rationale and collection methods , but lacks any results or }\DIFdelend \DIFaddbegin \DIFadd{Data papers are a relatively new type of journal article that describe datasets (collection methods and rationale).
+Data papers are becoming popular in a variety of formats.
+What unites them is exclusion of analysis or any attempt to draw }\DIFaddend conclusions.
+Data papers are \DIFdelbegin \DIFdel{flourishing as a new article type in journals such as }\emph{\DIFdel{F1000 Research}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{f1000_research}
+}%DIFAUXCMD
+, }\emph{\DIFdel{Internet Archaeology}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{internet_archaeology}
+}%DIFAUXCMD
+, and }\emph{\DIFdel{GigaScience}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{gigascience}
+}%DIFAUXCMD
+, and in new journals }\DIFdelend \DIFaddbegin \DIFadd{being published in journals }\DIFaddend dedicated to the format\DIFdelbegin \DIFdel{like }\emph{\DIFdel{Geoscience Data Journal}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{geoscience_data_journal}
+}%DIFAUXCMD
+, a trio of ``metajournals'' from Ubiquity Press\mbox{%DIFAUXCMD
+\cite{ubiquity_press_metajournals}
+}%DIFAUXCMD
+, and Nature Publishing Group's forthcoming }\emph{\DIFdel{Scientific Data}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{nature_scientific_data}
+}%DIFAUXCMD
+.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{The length and structure of data papersvaries significantly between journals, but the tendency is toward relatively short and structured papers.
+All of them feature an abstract, collection methods, and description of the dataset; a few \mbox{%DIFAUXCMD
+\cite{ubiquity_press_metajournals}
+}%DIFAUXCMD
+encourage authors to suggest potential uses for the data .
+The format is most clearly defined by what is absent: anaylsis and conclusions.
+This clear line is needed to ensure that the data paper is not considered a prior publication if the authors seek to publish a subsequent analysis paper.
+}%DIFDELCMD < \todo[inline]{discuss data paper formats}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{With few exceptions, data journals require datasets to be published by a trusted third-party repository. 
+}\emph{\DIFdel{GigaScience}} %DIFAUXCMD
+\DIFdel{has a tightly associated repository, }\emph{\DIFdel{GigaDB}}%DIFAUXCMD
+\DIFdel{, to host datasets, and }\emph{\DIFdel{The International Journal of Robotics Research}}%DIFAUXCMD
+\DIFdel{\mbox{%DIFAUXCMD
+\cite{international_journal_of_robotics_research}
+}%DIFAUXCMD
+, an early comer to data }\DIFdelend \DIFaddbegin \DIFadd{, such as Nature Scientific Data and GeoScience Data Journal, as well as in journals that publish other types of }\DIFaddend papers\DIFdelbegin \DIFdel{, allows authors to host datasets on their own websites, but more typcially, }\emph{\DIFdel{Scientific Data}} %DIFAUXCMD
+\DIFdel{lists a number of approved disciplinary and general-purpose }\DIFdelend \DIFaddbegin \DIFadd{, such as F1000 Research, Internet Archaeology, or GigaScience.
+Most of these journals require the data to be published in a }\DIFaddend third-party \DIFdelbegin \DIFdel{repositories}\DIFdelend \DIFaddbegin \DIFadd{trustworthy repository, although a few are associated with repositories and handle the data themselves.
+Data papers are peer reviewed (more later); some take the novelty or potential impact of a dataset into consideration, while others only require that the data be scientifically valid}\DIFaddend .
+
+%DIF < Data papers are peer-reviewed, as will be discussed later. 
+%DIF < At present, roughly half take the novelty or potential impact of a dataset into consideration, while the others only require that the data be scientifically valid.
+\DIFaddbegin \subsection{\DIFadd{Standalone data publication}}\label{standalone-data-publication}
+\DIFaddend 
+
+\DIFdelbegin \subsection*{\DIFdel{Data independent of any paper}}%DIFAUXCMD
+%DIFDELCMD < \label{paper-independent-data}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend To be useful \DIFdelbegin \DIFdel{or reproducible}\DIFdelend \DIFaddbegin \DIFadd{for anything}\DIFaddend , a dataset must have accompanying \DIFdelbegin \DIFdel{descriptive information (i.e.~metadata)}\DIFdelend \DIFaddbegin \DIFadd{description, or `metadata'}\DIFaddend , but this needn't \DIFdelbegin \DIFdel{take the form of }\DIFdelend \DIFaddbegin \DIFadd{resemble }\DIFaddend a journal article. \DIFdelbegin \DIFdel{Datasets can be published by a repository or with rich }\DIFdelend \DIFaddbegin \DIFadd{Standalone data publications can include rich or relatively thin metadata in }\DIFaddend structured or freeform \DIFdelbegin \DIFdel{metadata colocated with the dataset instead of an associated journal article.
+Repositories are able to provide access and citability, but the degree of validation varies widely. 
+Few are equipped to provide }\DIFdelend \DIFaddbegin \DIFadd{flavors.
+These publications may or may not include an element of }\DIFaddend peer-review.
+\DIFdelbegin %DIFDELCMD < \href{http://figshare.com/}{Figshare}%%%
+\DIFdelend \DIFaddbegin \DIFadd{figshare}\DIFaddend , for instance, publishes \DIFdelbegin \DIFdel{datasets without any }\DIFdelend \DIFaddbegin \DIFadd{datasets-- providing accessibility and the ability to be cited-- without any form of }\DIFaddend validation (although a \DIFdelbegin \DIFdel{Figshare }\DIFdelend \DIFaddbegin \DIFadd{figshare }\DIFaddend dataset associated with a data paper \DIFdelbegin \DIFdel{will }\DIFdelend \DIFaddbegin \DIFadd{may }\DIFaddend have been reviewed\DIFdelbegin \DIFdel{along with the paper}\DIFdelend ).
+On the other hand, \DIFdelbegin %DIFDELCMD < \href{http://opencontext.org/}{Open Context} %%%
+\DIFdelend \DIFaddbegin \DIFadd{Open Context }\DIFaddend publishes very high quality archeology datasets with optional peer review.
+
+%DIF <  \section*{How does publication work?}\label{how-does-publication-work}
+\DIFaddbegin \section{\DIFadd{How does publication work?}}\label{how-does-publication-work}
+\DIFaddend 
+
+\DIFdelbegin \section*{\DIFdel{Availability}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Availability}}\DIFaddend \label{availability}
+
+\DIFdelbegin \DIFdel{To publish is to make public; at its most fundamental, to publish data }\DIFdelend \DIFaddbegin \DIFadd{The clearly, the essence of publishing anything }\DIFaddend is to make \DIFdelbegin \DIFdel{data public.
+For published data to be availiable in the future, preservation is requried as well as access .
+Analagously to print publication, there is no requirement thatpublished data be free or legally unecumbered.
+However, if access is limited, there must be clear and objective criteria for access, which must then be granted to anyone who satisfies them.
+Access restrictions are frequently necessary when the dataset contains data from human subjects.
+Writing the creator for permission should never be part of the process.
+}\DIFdelend \DIFaddbegin \DIFadd{it public.
+Science publishing has long had baked into it the notion that access must persist into the future for the use of future researchers.
+Preserving access to print journals has long been the job of the library, but that's changing like everything else.
+Likewise, published dataset must be available now and into the future.
+A dataset that can only be accessed with a paid subscription or after accepting a use agreement can be said to have been published, but one that is provided by its creator over email is not.
+The status of a dataset located on a researcher's personal website is not entirely clear.
+}\DIFaddend 
+
+As a practical matter, publishing a \DIFdelbegin \DIFdel{dataset usually }\DIFdelend \DIFaddbegin \DIFadd{datset }\DIFaddend means depositing it in a trustworthy repository.
+\DIFdelbegin \DIFdel{What constitutes a trustworthy repository is largely subjective, but some measures can be agreed on. 
+A multiple repository certification schemes exist.
+The gold standard is Trusted Repository Audit Checklist (TRAC)\mbox{%DIFAUXCMD
+\cite{trac_2007}
+}%DIFAUXCMD
+from the Center for Research Libraries, but TRAC certification is so onerous that only four repositories have gone thorough the process. 
+The }%DIFDELCMD < \href{http://datasealofapproval.org/}{Data Seal of Approval} %%%
+\DIFdel{has been awarded to 24 repositories following a consdierably more streamlined process.
+Probably a more typical way to decide trustworthiness is to judge by the organization running it. 
+Repositories run by governments or large universities might be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
+}\DIFdelend \DIFaddbegin \DIFadd{It is relatively clear what a repository should do-- keep the data, unaltered,
+}\DIFaddend 
+
+\DIFdelbegin \section*{\DIFdel{Citability}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Citability}}\DIFaddend \label{citability}
+
+\DIFdelbegin \DIFdel{Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.
+The recently finalized }%DIFDELCMD < \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation principles} %%%
+\DIFdel{states that ``}%DIFDELCMD < [%%%
+\DIFdel{d}%DIFDELCMD < ]%%%
+\DIFdel{ata citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications.''
+Most of the time, this means that if }\DIFdelend \DIFaddbegin \DIFadd{When a }\DIFaddend researcher uses a published data set in a paper, \DIFdelbegin \DIFdel{she }\DIFdelend \DIFaddbegin \DIFadd{they }\DIFaddend should cite the dataset \DIFdelbegin \DIFdel{formally }\DIFdelend in the reference list.
+\DIFdelbegin \DIFdel{However, there is still debate about how to handle some significant edge cases.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend Data publications have to \DIFdelbegin \DIFdel{facilitate citation}\DIFdelend \DIFaddbegin \DIFadd{make this possible}\DIFaddend .
+This is generally \DIFdelbegin \DIFdel{done }\DIFdelend \DIFaddbegin \DIFadd{facilitated }\DIFaddend by assigning a unique permanent identifier, most commonly a \DIFdelbegin \DIFdel{Digital Object Identifier (DOI)}\DIFdelend \DIFaddbegin \DIFadd{DOI}\DIFaddend , to the dataset.
+As long as the DOI is maintained, it can be used by anyone interested to locate the dataset. (\DIFdelbegin \DIFdel{A DOI is neither sufficient nor necessary for citability-- }\DIFdelend \DIFaddbegin \DIFadd{It is worth pointing out that assinging a DOI does not, in itself, make something citeable-- }\DIFaddend if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI).
+\DIFaddbegin 
+
+\subsubsection{\DIFadd{Simple Case}}\label{simple-case}
+
+\DIFadd{In the simplest case, there is substantial agreement that a published dataset should be cited using five elments largely familiar from journal citations: creator(s), title, year, publisher and identifier.
+}\DIFaddend The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsection*{\DIFdel{Simple Case}}%DIFAUXCMD
+%DIFDELCMD < \label{simple-case}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{In the simplest case, there is substantial agreement that a published dataset should be cited using five elements largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
+}\DIFdelend This format is consistent with the recommendation made by CODATA \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{socha_out_2013}
+}%DIFAUXCMD
+}\DIFdelend and with metadata required by DataCite \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{datacite_datacite_2013}
+}%DIFAUXCMD
+}\DIFdelend and Thomson Reuters Data Citation Index.
+However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
+
+\DIFdelbegin \subsection*{\DIFdel{Deep Citation}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsubsection{\DIFadd{Deep Citation}}\DIFaddend \label{deep-citation}
+
+The first major complication that datasets face is the need for deep citation.
+When supporting an assertion in writing, it is considered sufficiently precise to cite the entirety of the referenced journal article and leave it to the suspicious reader to identify the basis of your assertion.
+If only part of a dataset is used in a quantitative analysis, you may need to specify exactly the subset in question.
+Because datasets are so variable in structure, there will probably not be a general solution.
+The most common approach is to cite the entire dataset and describe the subset in the text of the paper.
+In some cases, it may be practical to include a date or record number range or a list of variables in the formal citation.
+
+\DIFdelbegin \subsection*{\DIFdel{Dynamic Data}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsubsection{\DIFadd{Dynamic Data}}\DIFaddend \label{dynamic-data}
+
+A second complication is that datasets are prone to existing in multiple versions or changing over time.
+In the past, the printed article was a single version of record.
+Web based publishing and preprint servers such as arXv.org have already complicated the matter.
+Data publishers are likely to allow or even encourage updating and correction of \DIFdelbegin \DIFdel{datasets}\DIFdelend \DIFaddbegin \DIFadd{datasetes}\DIFaddend .
+For the results of data analysis to be reproducible, the reader must be able to obtain precisely the version of the data that the researcher used.
+In the case of dynamic data, that means that previous versions have to be preserved and citable.
+
+As a practical matter, there are two kinds of dynamic data that warrant consideration: \DIFdelbegin \DIFdel{expanding }\DIFdelend \DIFaddbegin \DIFadd{growing }\DIFaddend datasets, to which new data may be added but old data will never be changed or deleted, and \DIFdelbegin \DIFdel{revisable }\DIFdelend \DIFaddbegin \DIFadd{reviseable }\DIFaddend datasets in which data may be added, deleted, or changed over time.
+Common solutions to add-on data are to include an access date, or a date or record number range in the citation.
+Revisable datasets are more difficult, but the most common approach is to periodically publish multiple changes as a new version with a version number that can be included in citations.
+
+Controversy persists about \DIFdelbegin \DIFdel{dynamic }\DIFdelend \DIFaddbegin \DIFadd{dyanmic }\DIFaddend data and identifiers and different publishers have different policies.
+DataCite recommends but does not \DIFdelbegin \DIFdel{require }\DIFdelend \DIFaddbegin \DIFadd{requre }\DIFaddend that the DOIs that they issue point to \DIFdelbegin \DIFdel{immutable }\DIFdelend \DIFaddbegin \DIFadd{immuntable }\DIFaddend objects. Dataverse, for example, (check up) does not permit changes, but instead recommends that growing datasets be issued a new DOI periodically that refers to the ``time-slice'' of records added since the last DOI was issued; revisable datasets are to be periodically frozen as a ``snapshot'' and issued a new DOI.
+
+\DIFdelbegin \subsection*{\DIFdel{Just-in-time Identifiers}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsubsection{\DIFadd{Just-in-time Identifiers}}\DIFaddend \label{just-in-time-identifiers}
+
+One potential solution to both deep citation and dynamic data is to turn the identifier-issuing process on its head.
+Instead of a dataset publisher minting the identifier, the researcher who wants to cite a \DIFdelbegin \DIFdel{dataset }\DIFdelend \DIFaddbegin \DIFadd{datset }\DIFaddend could mint an identifier that refers to precisely the part of the dataset that they wish to cite.
+The Research Data Alliance (RDA) Data Citation Working Group has put \DIFdelbegin \DIFdel{forth }\DIFdelend \DIFaddbegin \DIFadd{fort }\DIFaddend a sophisticated proposal suitable for \DIFdelbegin \DIFdel{databases }\DIFdelend \DIFaddbegin \DIFadd{database }\DIFaddend in which an identifier would wrap together a number of components including \DIFdelbegin \DIFdel{specifying }\DIFdelend \DIFaddbegin \DIFadd{specifiying }\DIFaddend a version of the database and a query over the database that produces the cited dataset.
+This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
+
+\DIFdelbegin \section*{\DIFdel{Trustworthiness}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Trustworthiness}}\DIFaddend \label{trustworthiness}
+
+\DIFdelbegin \subsection*{\DIFdel{Peer-review}}%DIFAUXCMD
+%DIFDELCMD < \label{peer-review}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of trustworthiness.
+\DIFdelbegin \DIFdel{In many fields formally peer-reviewed literature enjoys a much higher status than even the most reputable ``grey literature''. The effort to apply }\DIFdelend \DIFaddbegin \DIFadd{Peer review serves as an initial assessment of quality; the real value and correctness of the work is determined by the relevant community after publication. The same impulse that drives the effort to capture }\DIFaddend the prestige of \DIFaddbegin \DIFadd{the term }\DIFaddend ``publication'' \DIFdelbegin \DIFdel{to datasets cascades into an }\DIFdelend \DIFaddbegin \DIFadd{and apply it to data drives the }\DIFaddend effort to apply \DIFdelbegin \DIFdel{the prestige of }\DIFdelend ``peer-review'' to data.
+\DIFdelbegin \DIFdel{Like data publication, data peer-review is being defined now.
+}\DIFdelend 
+
+\DIFdelbegin \subsection*{\DIFdel{Technical vs. scientific review}}
+%DIFAUXCMD
+\DIFdelend Callaghan (2012)\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{callaghan_making_2012}
+}%DIFAUXCMD
+draws a useful distinction }\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{sarah_callaghan_making_2012}
+}%DIFAUXCMD
+draws another useful distinction here: }\DIFaddend between technical and scientific review.
+Technical review \DIFdelbegin \DIFdel{verifies }\DIFdelend \DIFaddbegin \DIFadd{assures us }\DIFaddend that the dataset \DIFdelbegin \DIFdel{is complete , the metatdata is complete, and that the two match up. Techinal review }\DIFdelend \DIFaddbegin \DIFadd{has complete metadata, no missing values that aren't allowed to be missing, etc. and }\DIFaddend generally doesn't require domain expertise\DIFdelbegin \DIFdel{, and many repositories provide at least some level of review}\DIFdelend .
+Scientific review evaluates the methods of data collection, the overall \DIFdelbegin \DIFdel{plausibility }\DIFdelend \DIFaddbegin \DIFadd{plauisbility }\DIFaddend of the data, and the likely reuse value.
+\DIFdelbegin \DIFdel{Scienitifc review requires domain expertise and is more difficult to organize, so few repositories provide it.
+In }\DIFdelend \DIFaddbegin \DIFadd{Both kinds of review can be done together, or, in }\DIFaddend the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
+
+\DIFdelbegin \subsection*{\DIFdel{Supplement data review}}
+%DIFAUXCMD
+\DIFdel{Traditionally, peer reviewers haven't had access to the data underlying the figures in a paper, so the data hasn't been part of the review process.
+As more journals require underlying data to be made public, article peer review has the potential to change, but it's unclear whether reviewer practices are changing.
+Encouragingly, a recent }\emph{\DIFdel{F1000Research}} %DIFAUXCMD
+\DIFdel{survey of peer reviewers found that 95}%DIFDELCMD < \% %%%
+\DIFdel{reported examining the underlying data.
+}%DIFDELCMD < \todo[inline]{contact F1000 to figure out what to cite}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsection*{\DIFdel{Paper subject data review}}
+%DIFAUXCMD
+\DIFdelend Publishers of data papers wrap peer review of the paper and of the \DIFdelbegin \DIFdel{dataset }\DIFdelend \DIFaddbegin \DIFadd{datset }\DIFaddend together.
+An exception is \DIFdelbegin %DIFDELCMD < \href{http://www.gigasciencejournal.com/}{GigaScience}%%%
+\DIFdel{, which assigns }\DIFdelend \DIFaddbegin \DIFadd{GigaScience, which assignes }\DIFaddend a separate data reviewer for technical review of the dataset.
+Reviewer \DIFdelbegin \DIFdel{guidelines }\DIFdelend \DIFaddbegin \DIFadd{guidlines }\DIFaddend are roughly similar \DIFdelbegin \DIFdel{across journals, although roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound. }\DIFdelend \DIFaddbegin \DIFadd{accross journals. Nature Scientific Data as a representative example.
+}
+
+\DIFaddend While review guidelines are similar, review processes are not.
+Data paper peer review processes range from traditional \DIFaddbegin \DIFadd{(anonymous pre-publication review in NSD) }\DIFaddend to experimental (open post-publication review in F1000 Research).
+
+\DIFdelbegin \DIFdel{As an example, let's compare }\emph{\DIFdel{Nature Scientific Data}} %DIFAUXCMD
+\DIFdel{and Biodiveristy journal.
+The two journals divide reviewer guidelines into three similar sections– quality of the data, quality of the description, and consistency between the description and the data– and provide similar guidance.
+However, their peer review processes are quite different.
+NSD implements a traditional peer review process: the editor appoints 1 or more reviewers, who are encouraged to remain anonymous.
+Biodiversity Journal has a more flexible and open process.
+There, anonymity is up to each reviewer, and there are multiple classes of reviewer.
+the editor appoints two or three ``nominated'' reviewers who are required to supply feedback and several ``panel'' reviewers who read the paper and only supply feedback if they feel like they have something to say.
+Additionally, the authors may opt to open the paper to public comment during the review process.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsection*{\DIFdel{Independent data review}}
+%DIFAUXCMD
+\DIFdelend More interesting yet are \DIFdelbegin \DIFdel{review }\DIFdelend \DIFaddbegin \DIFadd{peer reivew }\DIFaddend processes for standalone datasets.
+NASA Planetary Data System (PDS) \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{nasa_pds}
+}%DIFAUXCMD
+}\DIFdelend conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.
+Open Context goes beyond the simple accept/reject binary of traditional peer review.
+Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. \DIFdelbegin \DIFdel{Essentially}\DIFdelend \DIFaddbegin \DIFadd{Essetially}\DIFaddend , a 3 indicates that the \DIFdelbegin \DIFdel{dataset }\DIFdelend \DIFaddbegin \DIFadd{datset }\DIFaddend has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review.
+\DIFdelbegin \DIFdel{The Dutch Data Archiving and Networked Services (DANS) solicts structured, multifaceted feedback from users of their datasets: users are asked to assign a rating on a five star scale for each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset).\mbox{%DIFAUXCMD
+\cite{grootveld_data_2011}
+}%DIFAUXCMD
+}\DIFdelend 
+
+%DIF <  \subsection*{Post-publication review}\label{post-publication-review}
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\section*{\DIFdel{Beyond data publication}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Beyond data publication}}\DIFaddend \label{beyond-data-publication}
+
+\DIFdelbegin \DIFdel{In a 2013 paper, Parsons and Fox\mbox{%DIFAUXCMD
+\cite{parsons_is_2013}
+}%DIFAUXCMD
+argue that thinking about data through the the metaphor of print }\DIFdelend \DIFaddbegin \DIFadd{Parsons () argues that the metaphor of }\DIFaddend ``publication'' is \DIFdelbegin \DIFdel{potentially very limiting.
+Diverse kinds of material are regarded as data by one research community or another, and while at least some aspects of publication apply well to at least some }\DIFdelend \DIFaddbegin \DIFadd{limiting, and only suited to some datasets.
+He identifies a number of other possible metaphors to apply to differnt }\DIFaddend kinds of data\DIFdelbegin \DIFdel{, there are many other possible approaches.
+One alternative metaphor that }\DIFdelend \DIFaddbegin \DIFadd{.
+One of these }\DIFaddend seems to be \DIFdelbegin \DIFdel{gaining traction is }\DIFdelend \DIFaddbegin \DIFadd{accumulating broad support: }\DIFaddend data as software. \DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{In some cases, it may be better to think of releasing a dataset as one would a piece of software , and to regard }\DIFdelend \DIFaddbegin \DIFadd{Under this metaphor, publishing a dataset is analagous to a software release. Any }\DIFaddend subsequent changes are \DIFdelbegin \DIFdel{analogous to updated versions.
+}\DIFdelend \DIFaddbegin \DIFadd{analagous to new versions.
+}
+
+\DIFaddend The open source \DIFdelbegin \DIFdel{software }\DIFdelend \DIFaddbegin \DIFadd{sofware }\DIFaddend community has already \DIFdelbegin \DIFdel{developmed many tools for working collaboratively, managing mutliple versions, and tracking attribution.
+Ram (2013)\mbox{%DIFAUXCMD
+\cite{ram_git_2013}
+}%DIFAUXCMD
+catalogs a multitude of scientific uses for the software version control system }%DIFDELCMD < \href{http://git-scm.com/}{Git}%%%
+\DIFdel{, including for managing data.
+}\DIFdelend \DIFaddbegin \DIFadd{confronted many of the problems associated with data (managing versions, sharing, collaboration) and developed tools and approaches to address them.
+}\DIFaddend Open context came \DIFdelbegin \DIFdel{as a practical matter to use Git and }%DIFDELCMD < \href{http://www.mantisbt.org/}{Mantis Bug Tracker} %%%
+\DIFdel{to track and correct dataset errors.
+Furthermore, projects such as }%DIFDELCMD < \href{http://ipython.org/notebook}{IPython Notebook} %%%
+\DIFdel{integrate data , processing, and analysis into a single package.
+However, scientific software is struggling for recognition just as data is, so software does not offer an existing reward system to tap into.
+}\DIFdelend \DIFaddbegin \DIFadd{to use Mantis bug tracking software and Git with their data out of purely practical concerns.
+}\DIFaddend 
+
+\DIFdelbegin \DIFdel{Ultimately, while ``data as software'' is promising, data is neither literature nor software, and, in many respects, data is not a single thing at all.
+The prestige and familiarity of ``publication'' and ``peer-reveiw'' are extremely useful, but it may be necessary to stretch the definitions of each as applied to data}\DIFdelend \DIFaddbegin \DIFadd{Still issues to address: Current VCSs are designed for code (realtively small text files), not large and variegated datasets.
+Attribution for derived datasets is not clear, but that's likely to be a cultural issue}\DIFaddend .
+
+\DIFdelbegin %DIFDELCMD < \nocite{*}
+%DIFDELCMD < {\small\bibliographystyle{unsrt}
+%DIFDELCMD < \bibliography{DataPublicationLibrary}}
+%DIFDELCMD < 
+
+%DIFDELCMD < \listoftodos
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  See this guide for more information on BibTeX:
+%DIF <  http://libguides.mit.edu/content.php?pid=55482&sid=406343
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  For more author guidance please see:
+%DIF <  http://f1000research.com/author-guidelines
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  When all authors are happy with the paper, use the 
+%DIF <  ‘Submit to F1000Research' button from the Share menu above
+%DIF <  to submit directly to the open life science journal F1000Research.
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  Please note that this template results in a draft pre-submission PDF document.
+%DIF <  Articles will be professionally typeset when accepted for publication.
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+%DIF <  We hope you find the F1000Research writeLaTeX template useful,
+%DIF <  please let us know if you have any feedback using the help menu above.
+\DIFdelend \DIFaddbegin \bibliography{LandscapePaper}
+\bibliographystyle{plain}
+\DIFaddend 
+
+\end{document}
