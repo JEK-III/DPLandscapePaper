@@ -1,0 +1,10 @@
+
+*.log
+
+*.aux
+
+*.gz
+
+DP_Landscape_diff.pdf
+
+DP_Landscape_CS.pdf

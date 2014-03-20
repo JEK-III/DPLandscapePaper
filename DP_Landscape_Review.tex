@@ -25,16 +25,17 @@
 \begin{abstract}
 
 
-The movement to incorporate datasets into the scholarly record as `first class' research products (validated, preserved, cited, and credited) has been building momentum for some time.
+The movement to incorporate datasets into the scholarly record as `first class' research products (validated, preserved, cited, and credited) has been slowly building momentum for some time, but the pace of developments picked up substantially in the last year.
 Data publications are proliferating, but there are still significant debates over formats, processes, and terminology.
-Here, we give an overview of the initiatives underway and the current conversation, highlighting places where consensus seems to have been reached and issues still in contention.
+This article will present an overview of the initiatives underway and the current conversation, highlighting places where consensus seems to have been reached and issues still in contention.
 
-Data publications follow a variety of models that differ in, among other things, what kind of documentation is published, where the data lives relative to the documentation, and how the data is validated. Data can be published as supplemental material to a journal article, with a descriptive ``data paper'', or independently.
+Data publications follow a variety of models that differ in, among other things, what kind of documentation is published, where the data lives relative to the documentation, and how the data is validated.
+Data can be published as supplemental material to a journal article, with a descriptive ``data paper'', or independently.
 Further complicating the situation, the same terms are used by different initiatives to refer to related by distinct concepts.
 The term `published' means that the data is public and citable, but it may or may not mean peer reviewed.
-In turn, data `peer review' can refer to substantially different processes.
-There is substantial agreement on the elements of a basic dataset citation but a variety of solutions for citing subsets of datasets or datasets that change over time.
-Finally, some are looking past data publication to other metaphors, such as `data as software', for solutions to unsolved problems.
+In turn, data `peer review' can refer to substantially different processes, although data paper referee guidelines are fairly uniform.
+There is substantial agreement on the elements of a dataset citation (which closely resembles that of a journal article) but a variety of solutions for citing subsets of datasets or datasets that change over time.
+Finally, some are already looking past data publication to other metaphors, such as `data as software', for solutions to unsolved problems.
 
 \end{abstract}
 \clearpage
@@ -42,10 +43,9 @@ Finally, some are looking past data publication to other metaphors, such as `dat
 \section*{Introduction}\label{introduction}
 %\subsection*{What does ``data publication'' mean?}\label{what-does-data-publication-mean}
 
-The idea– and the ideal– that researchers should share data to advance knowledge and promote the common good is not at all new, but there is new enthusiasm for ``publishing'' data.  
-The shift in language from the casual ``share'' to the formal ``publish'' reflects a movement to bring datasets into the scholarly record with the same ``first class'' status as traditional research products like journal articles.  
-Making data a first class research object would improve access, preservation, and discovery of data for reusers and enable citation to credit and reward authors.
-While these goals are widely shared, and ``Data publication'' has become something of a buzzword, different people and organizations mean different things by it.
+The idea– and the ideal– that researchers should share data to advance knowledge and promote the common good is not new, but in recent years the conversation has shifted from sharing data to ``publishing'' data.  
+The shift in language reflects a movement to bring datasets into the scholarly record and afford them the same ``first class'' status as traditional research products like journal articles.  
+While this goal is widely shared, and ``data publication'' has become something of a buzzword, different people and organizations mean different things by it.
 Within the scholarly communication community, two properties of a data publication are almost universally agreed on: published data is \textbf{available} now and for the indefinite future, and it is formally \textbf{citable}. 
 Less agreed on is the extent to which published data must be shown to be \textbf{trustworthy}.
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier, and validity by peer-review.
@@ -66,8 +66,7 @@ For the purposes of this paper, we will instead classify data publications into 
 The most familiar model to researchers is data published along with a traditional journal article. 
 The article's publisher still typically hosts the dataset as supplementary material, but that is no longer the only option.
 Journal publishers have generally not been interested in the work of ensuring data preservation, and many prefer that someone else handle it.
-The most prominent third-party repository specifically for making supplemental data public is Dryad\cite{dryad}.
-Dryad accepts data underlying any peer-reviewed or otherwise ``reputable'' publication. 
+The most prominent third-party repository specifically for making supplemental data public is Dryad\cite{dryad}, which accepts data underlying any peer-reviewed or otherwise ``reputable'' publication. 
 Dryad makes data available and citable, but any assessment of scientific validity must be managed by the publisher of the article. 
 
 For some specific data types, deposition in appropriate discipline-specific databases has been the standard for a long time. 
@@ -77,7 +76,7 @@ It has long been the case that traditional article publishers require the data u
 Science is suffering from a percieved ``reproduciblility crisis.''\cite{mobley_a_2013}\cite{pashler_is_2012}\cite{zimmer_rise_2012}\cite{hiltzik_science_2013}\cite{begley_drug_2012}\cite{collins_nih_2014}
 Publishers are beginning to require that this data be proactively published simultaneously with the article.
 Data publication could help to solve the reproducibility crisis by...\cite{drew_lost_2013}  
-\emph{F1000Research} and \emph{The Public Library of Science (PLOS)} journals have such requirements.\cite{bloom_data_2014}
+\href{http://f1000research.com}{F1000Research} and \emph{The Public Library of Science (PLOS)}\cite{bloom_data_2014} journals have such requirements.
 
 
 %The Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
@@ -86,7 +85,7 @@ Data publication could help to solve the reproducibility crisis by...\cite{drew_
 \subsection*{Data as the subject of a paper}\label{paper-subject-data}
 
 A \textbf{data paper} describes a dataset by thoroughly detailing the rationale and collection methods, but lacks any results or conclusions.\cite{newman_data_2009} 
-Data papers are flourishing as a new article type in journals such as \emph{F1000 Research}\cite{f1000_research}, \emph{Internet Archaeology}\cite{internet_archaeology}, and \emph{GigaScience}\cite{gigascience}, and in new journals dedicated to the format like \emph{Geoscience Data Journal}\cite{geoscience_data_journal}, a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals}, and Nature Publishing Group's forthcoming \emph{Scientific Data}\cite{nature_scientific_data}.
+Data papers are flourishing as a new article type in journals such as \emph{F1000Research}, \href{http://www.internetarchaeology.org/}{Internet Archaeology}, and \emph{GigaScience}\cite{gigascience}, and in new journals dedicated to the format like \emph{Geoscience Data Journal}\cite{geoscience_data_journal}, a trio of ``metajournals'' from Ubiquity Press\cite{ubiquity_press_metajournals}, and Nature Publishing Group's forthcoming \href{http://www.nature.com/scientificdata/}{Scientific Data}.
 
 The length and structure of data papers varies significantly between journals, but the tendency is toward relatively short and structured papers.
 All of them feature an abstract, collection methods, and description of the dataset; a few \cite{ubiquity_press_metajournals} encourage authors to suggest potential uses for the data.
@@ -95,7 +94,7 @@ This clear line is needed to ensure that the data paper is not considered a prio
 \todo[inline]{discuss data paper formats}
 
 With few exceptions, data journals require datasets to be published by a trusted third-party repository. 
-\emph{GigaScience} has a tightly associated repository, \emph{GigaDB}, to host datasets, and \emph{The International Journal of Robotics Research}\cite{international_journal_of_robotics_research}, an early comer to data papers, allows authors to host datasets on their own websites, but more typcially, \emph{Scientific Data} lists a number of approved disciplinary and general-purpose third-party repositories.
+\emph{GigaScience} has a tightly associated repository, \emph{GigaDB}, to host datasets, and \emph{The International Journal of Robotics Research}\cite{international_journal_of_robotics_research}, an early comer to data papers\cite{newman_data_2009}, allows authors to host datasets on their own websites, but more typcially, \emph{Scientific Data} lists a number of approved disciplinary and general-purpose third-party repositories.
 
 
 
@@ -200,8 +199,6 @@ In the case of a data paper, it's common for the repository to do the technical 
 \subsection*{Supplement data review}
 Traditionally, peer reviewers haven't had access to the data underlying the figures in a paper, so the data hasn't been part of the review process.
 As more journals require underlying data to be made public, article peer review has the potential to change, but it's unclear whether reviewer practices are changing.
-Encouragingly, a recent \emph{F1000Research} survey of peer reviewers found that 95\% reported examining the underlying data.
-\todo[inline]{contact F1000 to figure out what to cite}
 
 \subsection*{Paper subject data review}
 Publishers of data papers wrap peer review of the paper and of the dataset together. 
@@ -242,7 +239,7 @@ The open source software community has already developmed many tools for working
 Ram (2013)\cite{ram_git_2013} catalogs a multitude of scientific uses for the software version control system \href{http://git-scm.com/}{Git}, including for managing data.
 Open context came as a practical matter to use Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
 Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
-However, scientific software is struggling for recognition just as data is, so software does not offer an existing reward system to tap into.
+However, scientific software is struggling for recognition just as data is, so software may not offer an existing reward system to tap into.
 
 Ultimately, while ``data as software'' is promising, data is neither literature nor software, and, in many respects, data is not a single thing at all.
 The prestige and familiarity of ``publication'' and ``peer-reveiw'' are extremely useful, but it may be necessary to stretch the definitions of each as applied to data.
