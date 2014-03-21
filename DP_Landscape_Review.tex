@@ -1,10 +1,11 @@
 % F1000Research template from writeLaTeX
 
-\documentclass[10pt,a4paper,twocolumn]{article}
+%\documentclass[10pt,a4paper,twocolumn]{article}
+\documentclass[10pt,twocolumn]{article}
 
+\usepackage[superscript]{cite}
 \usepackage{f1000_styles}
 \usepackage{hyperref}
-\usepackage[superscript]{cite}
 
 \hypersetup{colorlinks=true}
 
@@ -136,7 +137,7 @@ Repositories run by governments or large universities are likely to be considere
 \section*{Citability}\label{citability}
 
 Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.  
-This year, a coalition of groups involved in scholarly communication– including Future Of Research Communication and E-Scholarship (FORCE11)\cite{bourne_improving_2012}, the Committee on Data for Science and Technology (CODATA)\cite{socha_out_2013}, the Digital Curation Center (DCC), and others– released a \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation Principles}.
+This year, a coalition of groups involved in scholarly communication– including Future Of Research Communication and E-Scholarship (FORCE11)\cite{bourne_improving_2012}, the Committee on Data for Science and Technology (CODATA)\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013}, the Digital Curation Center (DCC), and others– released a \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation Principles}.
 The first of the 8 principles states that 
 ``Data should be considered legitimate, citable products of research. Data citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications''
 Most of the time, this means that if researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
@@ -149,7 +150,7 @@ Identifiers like DOIs can be used to locate the referenced object, as such they 
 \subsection*{Simple Case}\label{simple-case}
 
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elements largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
-This format is consistent with the example accompanying the Joint Declaration of Data Ciation Principles, the recommendation made by CODATA\cite{socha_out_2013} and with the information requried to obtain a DataCite DOI\cite{datacite_datacite_2013} or be listed in the  Thomson-Reuters Data Citation Index.
+This format is consistent with the example accompanying the Joint Declaration of Data Ciation Principles, the recommendation made by CODATA\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013} and with the information requried to obtain a DataCite DOI\cite{datacite_datacite_2013} or be listed in the  Thomson-Reuters Data Citation Index.
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 \subsection*{Deep Citation}\label{deep-citation}
@@ -216,7 +217,7 @@ As more journals require underlying data to be made public, article peer review 
 
 \subsection*{Paper subject data review}
 Publishers of data papers wrap peer review of the paper and of the dataset together. 
-An exception is \href{http://www.gigasciencejournal.com/}{GigaScience}, which assigns a separate data reviewer for technical review of the dataset. 
+An exception is \emph{GigaScience}, which assigns a separate data reviewer for technical review of the dataset. 
 Reviewer guidelines are roughly similar across journals, although roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound.
 While review guidelines are similar, review processes are not. 
 Data paper peer review processes range from traditional to experimental (open post-publication review in F1000 Research).
@@ -232,14 +233,13 @@ Additionally, the authors may opt to open the paper to public comment during the
 
 
 \subsection*{Independent data review}
-More interesting yet are review processes for standalone datasets. 
+Review processes for standalone datasets are less clearly defined. 
 
 NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. 
 
-Open Context\href{http://opencontext.org/} goes beyond the simple accept/reject binary of traditional peer review.\cite{kansa_we_2013} 
+Open Context goes beyond the simple accept/reject binary of traditional peer review.\cite{kansa_we_2013} 
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. 
 Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review. 
-
 
 The Dutch Data Archiving and Networked Services (DANS) solicts structured, multifaceted feedback from users of their datasets: users are asked to assign a rating on a five star scale for each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset).\cite{grootveld_data_2011,grootveld_peer-reviewed_2012} 
 
