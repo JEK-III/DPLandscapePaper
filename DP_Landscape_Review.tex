@@ -105,48 +105,52 @@ With few exceptions, data journals require datasets to be published by a trusted
 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
-To be useful or reproducible, a dataset must have accompanying descriptive information (i.e.~metadata), but this needn't take the form of a journal article. 
-Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article. Repositories are able to provide access and citability, but the degree of validation varies widely. 
+To be useful or reproducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article. 
+Datasets can be published by a repository or with rich structured or freeform metadata colocated with the dataset.
+Repositories are able to provide access and citability, but the degree of validation varies widely. 
 Few are equipped to provide peer-review. \href{http://figshare.com/}{Figshare}, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
-On the other hand, \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
+On the other hand, \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with minimal peer review.
+
+% extra examples, fleshing out definitely needed
+
 
 % \section*{How does publication work?}\label{how-does-publication-work}
 
 \section*{Availability}\label{availability}
 
-To publish is to make public; at its most fundamental, to publish data is to make data public. 
+To publish is to make public; at its most fundamental, to publish data is to make that data available. 
 For published data to be availiable in the future, preservation is requried as well as access.
-Analagously to print publication, there is no requirement that published data be free or legally unecumbered.
-However, if access is limited, there must be clear and objective criteria for access, which must then be granted to anyone who satisfies them.
+As in print publication, there is no requirement that published data be free or legally unecumbered.
+However, if access is limited, there should be clear and objective criteria for access, which must then be granted to anyone who satisfies them.
 Access restrictions are frequently necessary when the dataset contains data from human subjects.
-Writing the creator for permission should never be part of the process.
+Writing the creator for permission must notr be part of the process.
 
 As a practical matter, publishing a dataset usually means depositing it in a trustworthy repository. 
-What constitutes a trustworthy repository is largely subjective, but some measures can be agreed on. 
-A multiple repository certification schemes exist.
+What constitutes a trustworthy repository is largely subjective, and multiple certification schemes exist, but some measures can be agreed on. 
 The gold standard is Trusted Repository Audit Checklist (TRAC)\cite{trac_2007} from the Center for Research Libraries, but TRAC certification is so onerous that only four repositories have gone thorough the process. 
 The \href{http://datasealofapproval.org/}{Data Seal of Approval} has been awarded to 24 repositories following a consdierably more streamlined process.
 Probably a more typical way to decide trustworthiness is to judge by the organization running it. 
-Repositories run by governments or large universities might be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
+Repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
 
 
 \section*{Citability}\label{citability}
 
-Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.
-The recently finalized \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation principles} states that ``[d]ata citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications.''
+Citation is perhaps the element of data publication that has come the farthest toward establishing consensus.  
+This year, a coalition of groups involved in scholarly communication– including Future Of Research Communication and E-Scholarship (FORCE11), the Committee on Data for Science and Technology (CODATA), the Digital Curation Center (DCC), and others– released a \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation Principles}.
+The first of the 8 principles states that 
+``Data should be considered legitimate, citable products of research. Data citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications''
 Most of the time, this means that if researcher uses a published data set in a paper, she should cite the dataset formally in the reference list. 
-However, there is still debate about how to handle some significant edge cases.
-
-Data publications have to facilitate citation. 
+	
+Data publications must enable citation. 
 This is generally done by assigning a unique permanent identifier, most commonly a Digital Object Identifier (DOI), to the dataset. 
-As long as the DOI is maintained, it can be used by anyone interested to locate the dataset. 
+Identifiers like DOIs can be used to locate the referenced object, as such they can be thought of as substituting for the volume and page number used to find an article in a print journal.
 (A DOI is neither sufficient nor necessary for citability-- if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI). 
-The identifier will generally be something, such as a DOI, that can be used to locate the referenced object, as such it can be thought of as replacing the volume and page number used to find an article in a print journal.
 
 \subsection*{Simple Case}\label{simple-case}
 
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elements largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
-This format is consistent with the recommendation made by CODATA\cite{socha_out_2013} and with metadata required by DataCite \cite{datacite_datacite_2013} and Thomson Reuters Data Citation Index. However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
+This format is consistent with the example accompanying the Joint Declaration of Data Ciation Principles, the recommendation made by CODATA\cite{socha_out_2013} and with the information requried to obtain a DataCite DOI\cite{datacite_datacite_2013} or be listed in the  Thomson-Reuters Data Citation Index.
+However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 \subsection*{Deep Citation}\label{deep-citation}
 
