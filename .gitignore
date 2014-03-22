@@ -8,3 +8,7 @@
 DP_Landscape_diff.pdf
 
 DP_Landscape_CS.pdf
+
+*.out
+
+*.gz(busy)
