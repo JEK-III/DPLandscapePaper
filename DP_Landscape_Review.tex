@@ -26,7 +26,7 @@
 \begin{abstract}
 
 
-The movement to incorporate datasets into the scholarly record as `first class' research products (validated, preserved, cited, and credited) has been slowly building momentum for some time, but the pace of developments picked up substantially in the last year.
+The movement to incorporate datasets into the scholarly record as first class\cite{sarah_callaghan_making_2012} research products (validated, preserved, cited, and credited) has been slowly building momentum for some time, but the pace of developments picked up substantially in the last year.
 Data publications are proliferating, but there are still significant debates over formats, processes, and terminology.
 This article will present an overview of the initiatives underway and the current conversation, highlighting places where consensus seems to have been reached and issues still in contention.
 
@@ -72,6 +72,7 @@ For the purposes of this paper, we will more simply classify data publications i
 The most familiar model of data publication to researchers is data published along with a traditional journal article. 
 This can be in the form of either spplementary material (hosted by the journal publisher) or in a third-party repository.
 Third-party repositories are generally consiered to be better suited to ensure long-term preservation and access to the data.
+The Journal of Neuroscience stopped publishing supplemental material in 2010.\cite{maunsell_announcement_2010}
 The most prominent third-party repository specifically for making supplemental data public is \href{http://www.datadryad.org/}{Dryad}, which accepts data underlying any peer-reviewed or otherwise ``reputable'' publication. 
 Dryad makes data available and citable, but any assessment of scientific validity must be managed by the publisher of the article.
 Other examples of third-party repositories include \href{http://figshare.com/}{figshare}, institutional repositories, and discipline-specific repositories, e.g. DNA sequences are deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} and protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}
@@ -85,10 +86,7 @@ Data publication could help to address the reproducibility crisis by increasing 
 Publishers, such as \href{http://f1000research.com}{\emph{F1000Research}} and \href{http://www.plos.org/}{\emph{The Public Library of Science (PLOS)}}\cite{bloom_data_2014}, are beginning to require that this data be proactively published simultaneously with the article.
 
 % include Vines and reorganize
-% 
-%The Journal of Neuroscience stopped publishing supplemental material in 2010\cite{maunsell_announcement_2010}. 
-
-
+ 
 \subsection*{Data as the subject of a paper}\label{paper-subject-data}
 
 A \textbf{data paper} describes a dataset by thoroughly detailing the rationale and collection methods, but lacks any analysis or conclusions.\cite{newman_data_2009} 
@@ -106,7 +104,7 @@ With few exceptions, data journals require datasets to be published by a trusted
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
 To be useful or reproducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article. 
-Datasets can be published by a repository, or with rich structured or freeform metadata colocated with the dataset instead of an associated journal article.
+Datasets can be published by a repository, or with rich structured or freeform description colocated with the dataset instead of an associated journal article.
 Repositories are able to provide access and citability, but the degree of validation varies widely. 
 Few are equipped to provide peer-review. Figshare, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
 On the other hand, \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
@@ -144,13 +142,12 @@ Most of the time, this means that if researcher uses a published data set in a p
 	
 Data publications must enable citation. 
 This is generally done by assigning a unique permanent identifier, most commonly a Digital Object Identifier (DOI), to the dataset. 
-Identifiers like DOIs can be used to locate the referenced object, as such they can be thought of as substituting for the volume and page number used to find an article in a print journal.
-(A DOI is neither sufficient nor necessary for citability-- if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works just as well as a DOI). 
+Note, however, that a DOI is neither sufficient nor necessary for citability-- if the DOI is not maintained, the citation breaks and, conversely a well maintained URL works as well as a DOI. 
 
 \subsection*{Simple Case}\label{simple-case}
 
 In the simplest case, there is substantial agreement that a published dataset should be cited using five elements largely familiar from journal citations: creator(s), title, year, publisher and identifier. 
-This format is consistent with the example accompanying the Joint Declaration of Data Ciation Principles, the recommendation made by CODATA\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013} and with the information requried to obtain a DataCite DOI\cite{datacite_datacite_2013} or be listed in the  Thomson-Reuters Data Citation Index.
+This format is consistent with the example accompanying the Joint Declaration of Data Ciation Principles, the recommendation made by CODATA\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013} and with the information requried to obtain a DataCite DOI\cite{datacite_datacite_2013} or be listed in the \href{http://thomsonreuters.com/data-citation-index/}{Thomson-Reuters Data Citation Index}.
 However, this article-descended formulation is not adequate to address some of the complications unique to datasets.
 
 \subsection*{Deep Citation}\label{deep-citation}
@@ -183,7 +180,7 @@ The DCC, for example, recommends that growing datasets be issued a new DOI perio
 
 One potential solution to both deep citation and dynamic data is to turn the identifier-issuing process on its head. 
 Instead of a dataset publisher minting the identifier, the researcher who wants to cite a dataset could mint an identifier that refers to precisely the part of the dataset that they wish to cite. 
-The Research Data Alliance (RDA) Data Citation Working Group has put forth a sophisticated proposal suitable for databases in which an identifier would wrap together a number of components including specifying a version of the database and a query over the database that produces the cited dataset. 
+The Research Data Alliance (RDA) \href{http://rd-alliance.org/working-groups/data-citation-wg.html}{Data Citation Working Group} has put forth a sophisticated proposal suitable for databases in which an identifier would wrap together a number of components including specifying a version of the database and a query over the database that produces the cited dataset. 
 This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
 
 \section*{Validation}\label{trustworthiness}
