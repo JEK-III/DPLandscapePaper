@@ -195,7 +195,15 @@ Instead of a dataset publisher minting the identifier, the researcher who wants 
 The Research Data Alliance (RDA) \href{http://rd-alliance.org/working-groups/data-citation-wg.html}{Data Citation Working Group} has put forth a sophisticated proposal suitable for databases in which an identifier would wrap together a number of components including specifying a version of the database and a query over the database that produces the cited dataset. 
 This seems promising, but there are still many technical and policy issues that have to be resolved before this can be widely adopted.
 
-\section*{Validation}\label{trustworthiness}
+\section*{Validation}\label{validation}
+
+How to handle data validation is the least clear aspect of data publication.
+For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of validity.
+In many fields formally peer-reviewed literature enjoys a much higher status than even the most reputable grey literature.
+The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
+However, at the same time that we're trying to develop and anaolog of journal peer-review for data, article peer-review itself is in flux.
+Internet-enabled experiments are going on, like F1000 , pubmed comments, open peer-review.
+At a minimum, data review creates new issues, which we're only beginning to get a handle on.
 
 Callaghan (2012)\cite{sarah_callaghan_making_2012} draws a useful distinction between \textbf{technical} and \textbf{scientific} review. 
 Technical review verifies that the dataset is complete, the description is complete, and that the two match up.  
@@ -204,19 +212,12 @@ Scientific review evaluates the methods of data collection, the overall plausibi
 Scientifc review requires domain expertise and is more difficult to organize, so few repositories provide it.
 In the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
 
-\subsection*{Prepublication peer-review}
+\subsection*{Data paper peer-review}
 
-For journal articles, peer-review is the gatekeeper to the scholarly record, meant to ensure some level of validity.
-In many fields formally peer-reviewed literature enjoys a much higher status than even the most reputable grey literature.
-The effort to apply the prestige of ``publication'' to datasets cascades into an effort to apply the prestige of ``peer-review'' to data.
-Like data publication, data peer-review is being defined now.
-
-\subsubsection*{Paper subject data review}
 Publishers of data papers wrap peer review of the paper and of the dataset together. 
 An exception is \emph{GigaScience}, which assigns a separate data reviewer for technical review of the dataset. 
 Reviewer guidelines are roughly similar across journals, although roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound.
 While review guidelines are similar, review processes are not. 
-Data paper peer review processes range from traditional to experimental (open post-publication review in F1000 Research).
 
 As an example, we can compare \emph{Scientific Data} and \emph{Biodiveristy Journal}.
 The two journals each divide reviewer guidelines into three similar sections– quality of the data, quality of the description, and consistency between the description and the data– and provide similar guidance.
@@ -227,25 +228,21 @@ There, anonymity is up to each reviewer, and there are multiple classes of revie
 The editor appoints two or three ``nominated'' reviewers who are required to supply feedback and several ``panel'' reviewers who read the paper and only supply feedback if they feel like they have something to say.
 Additionally, the authors may opt to open the paper to public comment during the review process.
 
-
-\subsubsection*{Independent data review}
 Review processes for standalone datasets are less clearly defined. 
 
+\subsection*{Independent data validation}\label{post-publication-review}
 %suggestion for data peer review\cite{lawrence_citation_2011}
-
-NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. 
-
-\subsection*{Postpublication review}
-
-
+Lawrence lays out a set of criteria for data peer review.\cite{lawrence_citation_2011}
+NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.
 Open Context goes beyond the simple accept/reject binary of traditional peer review.\cite{kansa_we_2013} 
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed. 
-Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial review, and a 5 means that it has passed external peer review. 
+Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial peer-review, and a 5 means that it has passed external peer review. 
+
+Parsons says context is more important, documenting use.
+A dataset might be perfectly sound for one use, and totally crap for another. 
 
 DANS solicts structured, multifaceted feedback from users of their datasets: users are asked to assign a rating on a five star scale for each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset).\cite{grootveld_data_2011,grootveld_peer-reviewed_2012} 
 
-
-% \subsection*{Post-publication review}\label{post-publication-review}
 
 \section*{Beyond data publication}\label{beyond-data-publication}
 
