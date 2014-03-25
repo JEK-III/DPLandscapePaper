@@ -112,13 +112,17 @@ With few exceptions, data journals require datasets to be published by a trusted
 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
-To be useful or reproducible, a dataset must have accompanying descriptive information (i.e. metadata), but this needn't take the form of a journal article. 
+To be useful or reproducible, a dataset must have accompanying descriptive information (i.e. metadata)\cite{gray_online_2002}, but this needn't take the form of a journal article. 
 Datasets can be published by a repository, or with rich structured or freeform description colocated with the dataset instead of an associated journal article.
 Repositories are able to provide access and citability, but the degree of validation varies widely. 
-Few are equipped to provide peer-review. Figshare, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
-\href{http://www.openaire.eu/en/home}{Open Access Infrastructure for Research in Europe (OpenAIRE)} and the \href{http://home.web.cern.ch/}{European Organization for Nuclear Research (CERN)}'s \href{https://zenodo.org/}{ZENODO}, similar to Figshare, publishes any research output, including datasets.
+Few are equipped to provide peer-review. 
+Figshare, for instance, publishes datasets without any validation (although a Figshare dataset associated with a data paper will have been reviewed along with the paper). 
+Like Figshare, \href{http://www.openaire.eu/en/home}{Open Access Infrastructure for Research in Europe (OpenAIRE)} and the \href{http://home.web.cern.ch/}{European Organization for Nuclear Research (CERN)}'s \href{https://zenodo.org/}{ZENODO} publishes any research output, including datasets.
 
-On the other hand, \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
+The full range of validation is found in the field of Archaeology.
+\href{http://www.tdar.org/}{The Digital Archaeological Record (tDAR)} focuses on acess and preservation and publishes data with no peer-review.
+However, tDAR can function as the third party repository for data papers from \emph{Internet Archaeology} or the \emph{Journal of Open Archaeology Data}.
+\href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
 
 % extra examples, fleshing out definitely needed
 
@@ -135,7 +139,8 @@ As a practical matter, publishing a dataset usually means depositing it in a tru
 What constitutes a trustworthy repository is largely subjective, but some measures can be agreed on. 
 Multiple certification schemes exist.
 The most extensive is the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007} from the Center for Research Libraries, but TRAC certification is so onerous that only four repositories have gone thorough the process. 
-The \href{http://datasealofapproval.org/}{Data Seal of Approval}, created by the Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)} and administered by an international board, has been awarded to 24 repositories following a considerably more streamlined process. %first board meeting in 2009
+The \href{http://datasealofapproval.org/}{Data Seal of Approval}, created by the Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)} but administered by an international board, has been awarded to 24 repositories following a considerably more streamlined process. 
+The guidelines were first published in 2010.
 A more typical way to decide trustworthiness is to judge by the organization running it. 
 Repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
 In contrast, independent repositories such as figshare and Dryad may be riskier in the long term. %a wise thing to say?  actual failure might be better, but don't know of any
@@ -172,9 +177,8 @@ In some cases, it may be practical to include a date or record number range or a
 
 A second complication is that datasets are prone to existing in multiple versions or changing over time. 
 In the past, the printed article was a single version of record.
-Web based publishing and preprint servers such as \href{http://arxiv.org/}{arXiv.org} have already complicated the matter. 
-Data publishers are likely to allow or even encourage updating and correction of datasets. 
-For the results of data analysis to be reproducible, the reader must be able to obtain precisely the version of the data that the researcher used. 
+Web based publishing and preprint servers such as \href{http://arxiv.org/}{arXiv.org} have already complicated the matter, but data publishers are especially likely to allow or encourage updates and corrections. 
+The ability to update datasets is usefule, but for the results of data analysis to be reproducible, the reader must be able to obtain precisely the version of the data that the researcher used. 
 In the case of \textbf{dynamic data}, that means that previous versions have to be preserved and citable.
 
 As a practical matter, there are two kinds of dynamic data that warrant consideration: \textbf{expanding} datasets, to which new data may be added but old data will never be changed or deleted, and \textbf{revisable} datasets in which data may be added, deleted, or changed over time. 
