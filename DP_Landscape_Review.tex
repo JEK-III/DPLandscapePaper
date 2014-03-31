@@ -126,6 +126,7 @@ The full range of validation is found in the field of Archaeology.
 However, tDAR can function as the third party repository for data papers from \emph{Internet Archaeology} or the \emph{Journal of Open Archaeology Data}.
 \href{http://opencontext.org/}{Open Context} publishes very high quality archeology datasets with optional peer review.
 
+% !work to do here!
 % extra examples, fleshing out definitely needed
 
 \section*{Availability}\label{availability}
@@ -145,7 +146,7 @@ The \href{http://datasealofapproval.org/}{Data Seal of Approval}, created by the
 The guidelines were first published in 2010.
 A more typical way to decide trustworthiness is to judge by the organization running it.
 Repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on PubMed might give one pause).
-In contrast, independent repositories such as figshare may be riskier in the long term. %a wise thing to say?  actual failure might be better, but don't know of any
+In contrast, independent repositories such as figshare may be riskier in the long term. %a wise thing to say?  actual failure might be better
 
 \section*{Citability}\label{citability}
 
@@ -216,12 +217,12 @@ Scientific review evaluates the methods of data collection, the overall plausibi
 Scientifc review requires domain expertise and is more difficult to organize, so few repositories provide it.
 In the case of a data paper, it's common for the repository to do the technical review and the data journal to do the scientific review.
 
-\subsection*{Data paper peer-review}
+\subsection*{Data paper peer-review}\label{data-paper-peer-review}
 
 Peer-review of a paper certifies that the methods are appropriate to address the questions and the data support the conclusions.
 In the absence of particular questions and conclusions, it is unclear what peer-review should certify.
-A dataset may be good enough for one purpose, but not for another.
-While a reviewer can be expected to read an entire article, they certain can't inspect every point in a large dataset.
+A dataset may be good enough for one purpose, but not for another.\cite{parsons_data_2010}
+While a reviewer can be expected to read an entire article, they certainly can't inspect every point in a large dataset.
 Furthermore, researchers are already overburdened by peer-review of articles, so increasing their workload may be unreasonable.
 These problems are being tackled by a number of publishers.
 
@@ -230,8 +231,8 @@ An exception is \emph{GigaScience}, which assigns a separate data reviewer for t
 Reviewer guidelines are roughly similar across journals, with the exception that roughly half of the journals we looked at consider novelty or potential impact, while the others only require that the dataset be scientifically sound.
 While review guidelines are similar, review processes are not.
 
-As an example, we can compare \emph{Scientific Data} and \emph{Biodiveristy Journal}.
-The two journals each divide reviewer guidelines into three similar sections, which \emph{Biodiviersity Journal} calls ``quality of the data'', ``quality of the description'', and ``consistency between manuscript and data.''
+As an example, consider \emph{Scientific Data} and \emph{Biodiveristy Journal}.
+The two journals each divide reviewer guidelines along similar lines into three sections, which \emph{Biodiviersity Journal} calls ``quality of the data'', ``quality of the description'', and ``consistency between manuscript and data.''
 However, the peer review processes diverge.
 \emph{Scientific Data} follows a traditional peer review process: the editor appoints one or more reviewers, who are encouraged to remain anonymous.
 \emph{Biodiversity Journal} has a more flexible and open process featuring multiple classes of reviewer and entirely optional annonymity.
@@ -239,22 +240,24 @@ The editor appoints two or three ``nominated'' reviewers who are required to sup
 Additionally, the authors may choose to open the paper to public comment during the review process.
 Review processes for standalone datasets are less clearly defined.
 
-\subsection*{Independent data validation}\label{post-publication-review}
+\subsection*{Independent datasets review}\label{independent-datasets-review}
 
+While data journals tend to stick to traditional criteria (if not processes), other things are possible.
+Lawrence (2011) lays out a set of criteria for data peer review.\cite{lawrence_citation_2011}
+NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers. %ref and maybe how long this has been going on?
 
-
-	Lawrence lays out a set of criteria for data peer review.\cite{lawrence_citation_2011}
-
-NASA Planetary Data System (PDS) conducts peer review in an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.
-
+An example of a flexible review system that optionally incorporates peer review is Open Context.
 Open Context goes beyond the simple accept/reject binary of traditional peer review.\cite{kansa_we_2013}
 Instead, each dataset has a rating from 1-5 that indicates how thoroughly it has been reviewed.
 Essentially, a 3 indicates that the dataset has passed technical review, a 4 means that it has passed editorial peer-review, and a 5 means that it has passed external peer review.
 
-Parsons says context is more important, documenting use.
-A dataset might be perfectly sound for one use, and totally crap for another.
-
+\subsection*{Post publication validation}\label{post-publication-validation}
+Post publication review might be a better way to go.
 DANS solicts structured, multifaceted feedback from users of their datasets: users are asked to assign a rating on a five star scale for each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset).\cite{grootveld_data_2011,grootveld_peer-reviewed_2012}
+PLOS Open Comment tool is similar to this.
+
+Parsons says context is more important, documenting use.\cite{parsons_data_2011}
+
 
 
 \section*{Beyond data publication}\label{beyond-data-publication}
