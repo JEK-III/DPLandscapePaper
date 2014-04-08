@@ -26,17 +26,16 @@
 \begin{abstract}
 
 
-The movement to incorporate datasets into the scholarly record as first class research products (validated, preserved, cited, and credited) has been slowly building momentum for some time, but the pace of developments picked up substantially in the last year.
-Even as data publications proliferate, there is still significant debate over formats, processes, and terminology.
-Here we present an overview of the data publication initiatives underway and the current conversation, highlighting places where consensus seems to have been reached and issues still in contention.
-
-Data publications follow a variety of models that differ in, among other things, what kind of documentation is published, where the data lives relative to the documentation, and how the data is validated.
-Data is published as supplemental material to a journal article, with a descriptive ``data paper'', or independently.
-Further complicating the situation, the same terms are used by different initiatives to refer to related but distinct concepts.
-The term `published' means that the data is public and citable, but it may or may not mean peer-reviewed.
-In turn, data `peer-review' can refer to substantially different processes, although data paper referee guidelines are fairly uniform.
-There is general agreement on the elements of a dataset citation (which closely resembles that of a journal article) but a varying solutions for citing subsets of datasets or datasets that change over time.
-Finally, some are already looking past data publication to other metaphors, such as `data as software', for solutions to unsolved problems.
+The movement to weave datasets into the scholarly record as first class research products (validated, preserved, cited, and credited) has been inching forward for some time, but now the pace is quickening.
+Even as data publication venues proliferate, there remains significant debate over formats, processes, and terminology.
+Here, we present an overview of data publication initiatives underway and the current conversation, highlighting points of consensus and issues still in contention.
+Data publication implementations differ in, among other factors, the kind of documentation, the location of the documentation relative to the data, and how the data is validated.
+Publishers may present the data as supplemental material to a journal article, with a descriptive ``data paper'', or independently.
+Further complicating the situation, different initiatives and communities use the same terms to refer distinct but overlapping concepts.
+For instance, the term ``published'' means that the data is publicly available and citable to virtually everyone, but it may or may not mean that the data has been peer-reviewed.
+In turn, data ``peer-review'' standards and processes encompass the full range employed in reviewing the literature, plus some novel variations.
+Basic data citation is a point of consensus, but the general agreement on the core elements of a dataset citation frays if the data is dynamic or part of a larger set.
+Even before the term data publication solidifies, some are looking past publication to other metaphors, notably `data as software', for answers to the still-open questions.
 
 \end{abstract}
 \clearpage
@@ -61,7 +60,7 @@ In practice, availability is usually satisfied by depositing the dataset in a re
 The underlying goals of data publication are to enable research \textbf{reproduction} and to facilitate data \textbf{reuse}.
 Hidden primary data exacerbates science's very public ``reproducibility crisis''\cite{mobley_survey_2013,pashler_is_2012,zimmer_rise_2012,hiltzik_science_2013,begley_drug_2012}.
 Widespread publication of the data underlying research papers could help expose both fraud and honest errors\cite{drew_lost_2013}.
-The leaders of the US National Institutes of Health (NIH) recently cited ``provid[ing] greater transparency of the data that are the basis of published manuscripts'' as one way to improve scientific reproducibility\cite{collins_nih_2014}. 
+The leaders of the US National Institutes of Health (NIH) recently cited ``provid[ing] greater transparency of the data that are the basis of published manuscripts'' as one way to improve scientific reproducibility\cite{collins_nih_2014}.
 %meg: give a colorful example
 
 Journals frequently require authors to supply underlying data on request already.
@@ -73,9 +72,9 @@ Now, some journals are beginning to require that underlying data be published si
 In 2010, a coalition of Ecology and Evolutionary Biology journals began to require that the data underlying articles be archived with a maximum embargo of one year.\cite{whitlock_data_2010, fairbairn_advent_2010}
 \href{http://f1000research.com}{\emph{F1000Research}} has had a similar policy (without an embargo period) since its inception, and the {\href{http://www.plos.org/}{Public Library of Science (PLOS)}} journals followed suit this year.\cite{bloom_data_2014}
 
-Although there can be no substitute for investing time and funding in new data collection, appropriate data reuse lowers costs and accelerates research. 
+Although there can be no substitute for investing time and funding in new data collection, appropriate data reuse lowers costs and accelerates research.
 Documenting, publishing, and archiving data is time consuming and costly, but far less so than repeating the data collection.
-For example, \href{http://opencontext.org/}{Open Context} published archaeological data from a site in eastern Turkey at the substantial cost of \$10,000-15,0000, but this publication expense was still minor compared to \$800,000 spent to collect the data\cite{kansa_we_2014}. 
+For example, \href{http://opencontext.org/}{Open Context} published archaeological data from a site in eastern Turkey at the substantial cost of \$10,000-15,0000, but this publication expense was still minor compared to \$800,000 spent to collect the data\cite{kansa_we_2014}.
 Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation (NSF) grants, which generates an average of three to four papers, with an estimate that the same investment in curating, archiving, and publishing data could contribute to over 1,000 publications.\cite{piwowar_data_2011}
 Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) can never be recreated for any price.\cite{gray_online_2002}
 
@@ -136,7 +135,7 @@ Datasets from social science or clinical studies that involve human participants
 As a practical matter, publishing a dataset usually includes depositing it in a trustworthy repository.
 While some aspects can be agreed on, what constitutes a ``trustworthy'' repository is somewhat subjective, and there are a handful of certification schemes to choose from.
 In 2007, The Center for Research Libraries published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
-Many repositories consult TRAC for self-assessment, but only four have completed the lengthy and rigorous process to be officially certified. 
+Many repositories consult TRAC for self-assessment, but only four have completed the lengthy and rigorous process to be officially certified.
 The process to obtain a \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} is considerably more streamlined.
 The DSA guidelines were also first released, by The Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)}, in 2007; 24 repositories have been stamped with the DSA since then.
 Few of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}) have pursued any kind of certification.
@@ -187,7 +186,7 @@ Growing datasets can be cited with an access date or a date range in the citatio
 Revisable datasets are more difficult; the most common approach is to accumulate revisions and periodically publish a new version with a citable version number. %again - an example or citation of a group that does this?
 
 Controversy around dynamic data and identifiers persists and publishers have different policies.
-DataCite recommends, but does not require, that their dataset DOIs reference immutable datasets.  
+DataCite recommends, but does not require, that their dataset DOIs reference immutable datasets.
 In contast, the DCC, for example, recommends periodically issuing growing datasets a new DOI that refers to the ``time-slice'' of new records and periodically freezing revisable datasets as a ``snapshot'' with a new DOI.
 
 \subsection*{Just-in-time Identifiers}\label{just-in-time-identifiers}
@@ -201,7 +200,7 @@ This seems promising, but there are still many technical and policy issues that 
 \section*{Validation}\label{validation}
 
 Data validation is the least resolved aspect of data publication, and fundamental questions are still unanswered:
-What minimum guarantee of quality should a published dataset have? 
+What minimum guarantee of quality should a published dataset have?
 How and by what criteria can datasets be evaluated against that guarantee?
 Is literature peer-review an appropriate model?
 
@@ -210,7 +209,7 @@ Technical review verifies that a dataset is complete, the description is complet
 Domain expertise is generally not required, and many repositories provide at least some level of technical review.
 Scientific review evaluates the methods of data collection, the overall plausibility of the data, and the likely reuse value.
 Scientific review does require domain expertise, making this level of validation more difficult to organize, and few repositories provide it.
-On approach is for review of publications with data papers to be split between the repository for technical review and the data journal for scientific review. 
+On approach is for review of publications with data papers to be split between the repository for technical review and the data journal for scientific review.
 
 \subsection*{Data paper peer-review}\label{data-paper-peer-review}
 
