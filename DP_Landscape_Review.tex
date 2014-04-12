@@ -13,7 +13,7 @@
 \begin{document}
 
 
-\title{The Data Publication Landscape.}
+\title{Data publication consensus and controversies}
 \author[1]{John Ernest Kratz}
 \author[1]{Carly Strasser}
 \affil[1]{California Digital Library, University of California Office of the President, Oakland, CA 94612, USA}
@@ -64,19 +64,19 @@ The leaders of the US National Institutes of Health (NIH) recently cited ``provi
 %meg: give a colorful example
 
 Journals frequently require authors to supply underlying data on request already.
-As of 2011, 88\% of high-impact publications required a statement regarding the availability of underlying data; half of those made willingness to provide data a condition of publication.\cite{alsheikh-ali_public_2011}
+As of 2011, 88\% of high-impact publications required a statement regarding the availability of underlying data; half of those made willingness to provide data a condition of publication\cite{alsheikh-ali_public_2011}.
 However, the authors of 59\% of papers examined failed to adhere to the availability instructions.
 Vines et al. (2014)\cite{vines_availability_2014} could only obtain underlying data from 101 of 516 papers published from 1991 to 2011.
 Availability dropped off sharply with time; data could only be obtained from only two of the 62 oldest papers.
 Now, some journals are beginning to require that underlying data be published simultaneously with the article.
-In 2010, a coalition of Ecology and Evolutionary Biology journals began to require that the data underlying articles be archived with a maximum embargo of one year.\cite{whitlock_data_2010, fairbairn_advent_2010}
-\href{http://f1000research.com}{\emph{F1000Research}} has had a similar policy (without an embargo period) since its inception, and the {\href{http://www.plos.org/}{Public Library of Science (PLOS)}} journals followed suit this year.\cite{bloom_data_2014}
+In 2010, a coalition of Ecology and Evolutionary Biology journals began to require that the data underlying articles be archived with a maximum embargo of one year\cite{whitlock_data_2010, fairbairn_advent_2010}.
+\href{http://f1000research.com}{\emph{F1000Research}} has had a similar policy (without an embargo period) since its inception, and the {\href{http://www.plos.org/}{Public Library of Science (PLOS)}} journals followed suit this year\cite{bloom_data_2014}.
 
 Although there can be no substitute for investing time and funding in new data collection, appropriate data reuse lowers costs and accelerates research.
 Documenting, publishing, and archiving data is time consuming and costly, but far less so than repeating the data collection.
 For example, \href{http://opencontext.org/}{Open Context} published archaeological data from a site in eastern Turkey at the substantial cost of \$10,000-15,0000, but this publication expense was still minor compared to \$800,000 spent to collect the data\cite{kansa_we_2014}.
-Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation (NSF) grants, which generates an average of three to four papers, with an estimate that the same investment in curating, archiving, and publishing data could contribute to over 1,000 publications.\cite{piwowar_data_2011}
-Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) can never be recreated for any price.\cite{gray_online_2002}
+Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation (NSF) grants, which generates an average of three to four papers, with an estimate that the same investment in curating, archiving, and publishing data could contribute to over 1,000 publications\cite{piwowar_data_2011}.
+Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) can never be recreated for any price\cite{gray_online_2002}.
 
 \section*{Types of data publication}\label{types-of-data-publication}
 
@@ -172,22 +172,28 @@ In straightforward cases, the \href{http://wiki.esipfed.org/index.php/Interagenc
 
 \subsection*{Dynamic Datasets}\label{dynamic-data}
 
-The second major complication arises when a dataset changes.
-In the past, the printing process cemented a single version of an article as the final version of record.
-Web-based publishing and preprint servers (e.g. \href{http://arxiv.org/}{arXiv.org}) complicate the situation for literature, but datasets are especially prone to be \textbf{dynamic}.
-Consider, for example, a dataset collected by sensors in a weather station that expands every time a measurement is recorded.
-Or, consider a dataset composed of predicted mRNAs drawn from an organism's genome that is periodically revised based on new experimental data and improved prediction methods. %might be good to cite a real dataset here... actual weather station data, or satellite data website...
-Being able to update and correct datasets is extremely valuable.
-However, to reproduce a data analysis, the reader needs not only the precise subset, but also the precise version.
-If the dataset is dynamic, that means that previous versions must be preserved and citable.
+The second major complication arises when datasets change.
+In the past, the printing process cemented one version of an article as the version of record.
+Even for traditional scholarly literature, web-based publishing and preprint servers (e.g. \href{http://arxiv.org/}{arXiv.org}) are complicating the situation, but datasets are especially prone to be \textbf{dynamic}.
+Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets that add new data without ever changing or deleting existing data, and \textbf{revisable} datasetswhere data may by added, deleted, or changed.
 
-Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets (e.g. the weather station readings) that add new data without ever changing or deleting existing data, and \textbf{revisable} datasets (e.g. the mRNAs) where data may by added, deleted, or changed.  %there's a citation for this somewhere (good! not sure which it is... you'd know better than me)
-Growing datasets can be cited with an access date or a date range in the citation.
-Revisable datasets are more difficult; the most common approach is to accumulate revisions and periodically publish a new version with a citable version number. %again - an example or citation of a group that does this?
+Consider USC00046336, a weather station at the Oakland Museum.
+Each day, the observed high temperature, low temperature and amount of precipitation at the Oakland Musuem \cite{global_historical_climate_data_network_daily_????} flows, together with data from more than 20,000 other stations, into the swelling Global Historical Climate Network (GHCN)-Daily\cite{menne_overview_2012} dataset.
+Or, consider \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014}, a geome database used by the \textit{Caenorhabidits elegans} research community.
+WormBase encompases genomic sequences of \emph{C. elegans} and 20 related species massively annotated with gene structures, protein sequences, expression patterns, and a host of other information from empirical data and computational predictions.
+Every two months, WormBase respond to new data and better computational models by issuing a revised version with new material added and inaccurate material deleted or corrected.
 
-Controversy around dynamic data and identifiers persists and publishers have different policies.
-DataCite recommends, but does not require, that their dataset DOIs reference immutable datasets.
-In contast, the DCC, for example, recommends periodically issuing growing datasets a new DOI that refers to the ``time-slice'' of new records and periodically freezing revisable datasets as a ``snapshot'' with a new DOI.
+Additions and updates to published datasets are extremely valuable, but a researchers seeking to reproduce an analysis of a dynamic dataset needs access to a particular version.
+To enable that access, previous versions must be preserved and citable.
+Growing datasets can be cited with an access date or a date range in the citation, as recommended by ESIP and NSIDC.
+Revisable datasets are more difficult; the most common approach is to accumulate revisions and periodically publish a new version with a citable version number.
+For example, WormBase identifies each release with a citable version number and makes all of the previous versions available.
+
+Controversy persists around the specific issue of idenfitiers for dynamic datasets. 
+DataCite recommends, but does not insist, that their DOIs refer to immutable objects.
+NSICD and ESIP instruct researchers to use a single identifier for growing datasets and include the access date in the citation; each \`major\` version of a revisable datasets gets a new identifier, but \'minor\' versions do not.
+In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2011,altman_proposed_2007,callaghan_making_201}.
+To handle the difficulties with dynamic data that this policy creates, the DCC recommends periodically issuing growing datasets a new identifier that refers to the ``time-slice'' of new records and freezing versions of revisable datasets as individually-identified ``snapshots''.
 
 \subsection*{Just-in-time Identifiers}\label{just-in-time-identifiers}
 
