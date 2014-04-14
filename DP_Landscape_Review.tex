@@ -41,7 +41,6 @@ Even as data publication is being defined, some are looking past publication to 
 \clearpage
 
 
-
 \section*{Introduction: what does data publication mean?}\label{introduction}
 
 The idea that researchers should share data to advance knowledge and promote the common good is an old one, but in recent years the conversation has shifted from sharing data to ``publishing'' data.\cite{costello_motivating_2009,smith_data_2009,lawrence_data_2011}
@@ -52,7 +51,7 @@ The community largely agrees on two essential properties of a data publication\c
 First, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but not the approval of the author.
 Second, like a book or journal article, a data publication can be formally \textbf{cited}.
 Open questions flock around a third property: how and to what extent a published dataset must be \textbf{validated}.
-In an effort to clarify the terminology, Callaghan (2012)\cite{sarah_callaghan_making_2012} draws a distinction between data that has been shared, published (lower-case “p”), or Published (upper-case “P”): \textbf{shared} data is available, \textbf{published} data is available and citable, and \textbf{Published} data is available, citable, and validated.
+In an effort to clarify the terminology, Callaghan et al. (2012)\cite{sarah_callaghan_making_2012} draw a distinction between data that has been shared, published (lower-case “p”), or Published (upper-case “P”): \textbf{shared} data is available, \textbf{published} data is available and citable, and \textbf{Published} data is available, citable, and validated.
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by assigning a persistent identifier (e.g. a Digital Object Identifier, or DOI), and validity by peer review.
 
 \subsection*{Why publish data?}\label{why-publish-data}
@@ -83,7 +82,7 @@ The still-congealing phrase ``data publication'' covers diverse classes of resea
 Depending on the speaker, a data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset.
 Because disciplines, sub-disciplines, and individual researchers consider different assortments of digital material to be their data, it is unlikely that any single structure will suit every discipline and dataset.
 But, we can hope for a manageable number of designs to fit most data.
-The five data publication models described by Lawrence (2011) are distinguished ``by how the roles involved in publication are distributed between the various actors'' (e.g. the author, archive or journal).\cite{lawrence_data_2011}
+The five data publication models described by Lawrence et al. (2011) are distinguished ``by how the roles involved in publication are distributed between the various actors'' (e.g. the author, archive or journal).\cite{lawrence_data_2011}
 Here, we will more simply group data publications into three categories based on the accompanying documentation; a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper.
 
 \subsection*{Data that supplements a paper}\label{paper-supplement-data}
@@ -119,7 +118,7 @@ An early implementer of data papers, \emph{The International Journal of Robotics
 
 To be useful or reproducible, a dataset must be accompanied by descriptive information (i.e. metadata)\cite{gray_online_2002}, but this need not take the form of a journal article.
 Instead, some repositories publish rich, structured and/or freeform description together with the data.
-The distinction between a data repository and a data publisher is often indisctinct.
+The distinction between a data repository and a data publisher is often indistinct.
 Repositories provide access and citability, but the degree of validation varies widely and few are equipped to provide peer review.
 For instance, to make data publication as easy as possible for authors, Figshare and Zenodo publish datasets from any field with minimal validation.
 
@@ -176,12 +175,12 @@ In straightforward cases, the \href{http://wiki.esipfed.org/index.php/Interagenc
 The second major complication arises when datasets change.
 In the past, the printing process cemented one version of an article as the version of record.
 Even for traditional scholarly literature, web-based publishing and preprint servers (e.g. \href{http://arxiv.org/}{arXiv.org}) are complicating the situation, but datasets are especially prone to be \textbf{dynamic}.
-Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets that add new data while never changing or deleting existing data, and \textbf{revisable} datasetswhere data may by added, deleted, or changed.
+Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets that add new data while never changing or deleting existing data, and \textbf{revisable} datasets where data may by added, deleted, or changed.
 
 Consider USC00046336, a weather station at the Oakland Museum.
-Each day, the observed high temperature, low temperature and amount of precipitation at the Oakland Musuem \cite{global_historical_climate_data_network_daily_????} flows, together with data from more than 20,000 other stations, into the swelling Global Historical Climate Network (GHCN)-Daily\cite{menne_overview_2012} dataset.
-Or, consider \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014}, a geome database used by the \textit{Caenorhabidits elegans} research community.
-WormBase encompases genomic sequences of \emph{C. elegans} and 20 related species massively annotated with gene structures, protein sequences, expression patterns, and a host of other information from empirical data and computational predictions.
+Each day, the observed high temperature, low temperature and amount of precipitation at the Oakland Museum \cite{global_historical_climate_data_network_daily_????} flows, together with data from more than 20,000 other stations, into the swelling Global Historical Climate Network (GHCN)-Daily\cite{menne_overview_2012} dataset.
+Or, consider \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014}, a genome database used by the \textit{Caenorhabidits elegans} research community.
+WormBase encompasses genomic sequences of \emph{C. elegans} and 20 related species massively annotated with gene structures, protein sequences, expression patterns, and a host of other information from empirical data and computational predictions.
 Every two months, WormBase respond to new data and better computational models by issuing a revised version with new material added and inaccurate material deleted or corrected.
 
 Additions and updates to published datasets are extremely valuable, but a researchers seeking to reproduce an analysis of a dynamic dataset needs access to a particular version.
@@ -190,7 +189,7 @@ Growing datasets can be cited with an access date or a date range in the citatio
 Revisable datasets are more difficult; the most common approach is to accumulate revisions and periodically publish a new version with a citable version number.
 For example, WormBase identifies each release with a citable version number and makes all of the previous versions available.
 
-Controversy persists around the specific issue of idenfitiers for dynamic datasets. 
+Controversy persists around the specific issue of identifiers for dynamic datasets. 
 DataCite recommends, but does not insist, that their DOIs refer to immutable objects.
 NSICD and ESIP instruct researchers to use a single identifier for growing datasets and include the access date in the citation; each major version of a revisable datasets gets a new identifier, but minor versions do not.
 In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2011,altman_proposed_2007,callaghan_making_201}.
@@ -211,7 +210,7 @@ What minimum level of quality should a published dataset guarantee?
 How and by what criteria can datasets be evaluated against that guarantee?
 Is literature peer-review an appropriate model?
 
-Callaghan (2012)\cite{sarah_callaghan_making_2012} draws a useful distinction between \textbf{technical} and \textbf{scientific} review.
+Callaghan et al. (2012)\cite{sarah_callaghan_making_2012} draw a useful distinction between \textbf{technical} and \textbf{scientific} review.
 Technical review verifies that a dataset is complete, its description is complete, and that the two match up.
 Domain expertise is generally not required, and many repositories provide at least some level of technical review.
 Scientific review evaluates the methods of data collection, the overall plausibility of the data, and the likely reuse value.
@@ -234,7 +233,7 @@ Finally, researchers are already overwhelmed by peer review of articles\cite{die
 Despite all these difficulties, venues for peer-reviewed data papers are opening rapidly.
 
 Data paper journals wrap scientific peer review of the paper and the dataset together into a single process. 
-\emph{GigaScience}, an exception, assigns technical review of the dataseta to a separate data reviewer.
+\emph{GigaScience}, an exception, assigns technical review of the dataset to a separate data reviewer.
 The standards that various data journals provide to reviewers are fairly uniform, with the exception that about half of consider novelty or potential impact, while the rest only require that the dataset be scientifically sound.
 While review standards are similar, processes differ widely. 
 
@@ -249,7 +248,7 @@ Additionally, the authors may choose to open the paper to public comment during 
 \subsection*{Independent data validation}
 
 Data journals all model their data validation more or less faithfully on literature peer review, but independent data validation practices and proposals are considerably more varied.
-On the conservative end of the spectrum, Lawrence (2011) proposes a set of criteria for independent data peer review.\cite{lawrence_citation_2011}
+On the conservative end of the spectrum, Lawrence et al. (2011) propose a set of criteria for independent data peer review.\cite{lawrence_citation_2011}
 The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)}\cite peer-reviews datasets through the unusual process of holding an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.  
 
 Two examples from archaeology, Open Context and \href{http://www.tdar.org/}{the Digital Archaeological Record (tDAR)}, illustrate the diversity of approaches to data validation.
@@ -258,8 +257,8 @@ Each Open Context dataset is rated from one to five based not on quality \emph{p
 Whereas open Context is a boutique publisher, focusing on data presentation and reuse, tDAR is a large repository primarily concerned with with collecting and preserving archaeology data for future use.
 tDAR is able to operate at scale by performing only technical validation and streamlining data deposition with a minimum of mandatory description.
 However, tDAR also serves as a platform for high-quality data publication.
-The repository accomodates contributors who wish to provide more information, and much of the content is deposited by digital curators who always supply rich descriptions.
-Futhermore, two third-party journals, \emph{Internet Archaeology} and \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeological Data}}, recommend tDAR as a repository for their peer-reviewed data.
+The repository accommodates contributors who wish to provide more information, and much of the content is deposited by digital curators who always supply rich descriptions.
+Furthermore, two third-party journals, \emph{Internet Archaeology} and \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeological Data}}, recommend tDAR as a repository for their peer-reviewed data.
 Thus, data validation depends not only on discipline and data type, but on a host of external factors, including the goals of the organizations and researchers involved.
 
 Pre-publication validation can be supplemented or replaced by post-publication feedback from successful or unsuccessful reusers.
@@ -278,7 +277,7 @@ Ram (2013)\cite{ram_git_2013} catalogs a multitude of scientific uses for the so
 Open context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
 Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
 However, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so using it to alter or affect the academic reward system for data is a tricky prospect.
-Ultimately, while ``data as software'' is promising, data is not sofware.
+Ultimately, while ``data as software'' is promising, data is not software.
 Nor is it literature. 
 The prestige and familiarity of terms like ``publication'' and ``peer-review'' are powerful, but we may have to stretch their definitions if we are determined to apply them to data.
 
