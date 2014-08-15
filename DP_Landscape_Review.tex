@@ -1,7 +1,7 @@
 % F1000Research template from writeLaTeX
 
-%\documentclass[10pt,a4paper,twocolumn]{article}
-\documentclass[10pt,twocolumn]{article}
+\documentclass[10pt,a4paper,twocolumn]{article}
+%\documentclass[10pt,twocolumn]{article}
 
 \usepackage[superscript]{cite}
 \usepackage{f1000_styles}
@@ -57,13 +57,13 @@ In practice, availability is usually satisfied by depositing the dataset in a re
 \subsection*{Why publish data?}\label{why-publish-data}
 
 The underlying goals of data publication are to enable research to be \textbf{reproduced} and data to be \textbf{reused}.
-Hidden primary data exacerbates science's very public ``reproducibility crisis,''\cite{mobley_survey_2013,pashler_is_2012,zimmer_rise_2012,hiltzik_science_2013,begley_drug_2012} most recently illustrated by the collapse of a pair of irreproducible Nature articles describing a simple method to transform somatic cells into pluripotent stem cells\cite{cyranoski_acid-bath_2014, tabuchi_one_2014}.
+Hidden primary data exacerbates science's very public ``reproducibility crisis,''\cite{mobley_survey_2013,pashler_is_2012,zimmer_rise_2012,hiltzik_science_2013,begley_drug_2012} most recently illustrated by the collapse of a pair of irreproducible \textit{Nature} articles describing a simple method to transform somatic cells into pluripotent stem cells\cite{cyranoski_acid-bath_2014, tabuchi_one_2014}.
 Widespread publication of the data underlying research papers could help expose both honest errors and fraud\cite{drew_lost_2013}.
 The leaders of the US National Institutes of Health (NIH) recently cited ``provid[ing] greater transparency of the data that are the basis of published manuscripts'' as one way to improve scientific reproducibility\cite{collins_nih_2014}.
 
 Journals already frequently require authors to supply underlying data on request.
-As of 2011, 88\% of high-impact journals required a statement regarding the availability of underlying data; half of those made willingness to provide data a condition of publication\cite{alsheikh-ali_public_2011}.
-However, the authors of 59\% of papers examined failed to adhere to the availability instructions.
+In 2011, Alsheikh-Ali et al.\cite{alsheikh-ali_public_2011} found that 88\% of high-impact journals required a statement regarding the availability of underlying data; half of those made willingness to provide data a condition of publication.
+However, the authors of 59\% of papers examined in the study failed to adhere to the availability instructions.
 Vines et al. (2014)\cite{vines_availability_2014} could only obtain underlying data from 101 of 516 papers published from 1991 to 2011.
 Availability dropped off sharply with time; data could be obtained from only two of the 62 oldest papers.
 Now, some journals require that underlying data be published simultaneously with the article.
@@ -108,7 +108,7 @@ All journals require an abstract, collection methods, and a description of the d
 Some journals supplement this general framework with field-specific sections. 
 (e.g. \emph{Internet Archaeology} and the \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeology Data}} each include a section for temporal and geographic scope.)
 Data papers are most sharply defined not by the presence of any particular information, but by the absence of analysis or conclusions.
-A crisp distinction from other article types is important because many journals do not consider a data paper to be prior publication if the authors seek to publish an analysis of the same dataset (e.g. Nature-titled journals, \emph{Science}, and others listed by \href{https://f1000research.com/data-policies}{F1000Research}).
+A crisp distinction from other article types is important because many journals do not consider a data paper to be prior publication if the authors seek to publish an analysis of the same dataset (e.g. \textit{Nature}-titled journals, \emph{Science}, and others listed by \href{https://f1000research.com/data-policies}{\textit{F1000Research}}).
 
 Data journals generally limit themselves to publishing the description of the dataset; a trusted repository publishes the data itself.
 For instance, \emph{Scientific Data} and \emph{Geoscience Data Journal} each direct authors to a list of approved repositories.
@@ -129,16 +129,16 @@ For instance, to make data publication as easy as possible for authors, Figshare
 
 Fundamentally, to publish is to make public, and to publish data is to make data publicly available.
 Present availability requires mechanisms for access; future availability also requires preservation (e.g. long-term storage, format migration)\cite{waters_preserving_1996, beagrie_digital_2008, gray_online_2002}.
-As in print publication, published data may not be free or legally unencumbered, and data use agreements constrain many published datasets.
-If access is limited, it should be contingent on clear and objective criteria; writing the creator for permission should not be part of the process.
+As in print publication, published data need not be free or legally unencumbered, and data use agreements constrain many published datasets.
+If access is limited, it should be contingent on clear and objective criteria; writing a request to the creator for permission should not be part of the process.
 For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} judges the applicant's proposed security measures, but not the merit of their research.
 Datasets from social science or clinical studies that involve human participants are easily the most common source of access restrictions because of the need to protect privacy.
 In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPPA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
 
 As a practical matter, publishing a dataset usually includes depositing it in a trustworthy repository.
 What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
-In 2007, The Center for Research Libraries published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
-Many repositories consult TRAC for self-assessment, but only four have completed the lengthy and rigorous process to be officially certified.
+In 2007, The Center for Research Libraries (CRL) published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
+Many repositories consult TRAC for self-assessment, but only four ({\href{http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying-0}{listed by the CRL}) have completed the lengthy and rigorous process to be officially certified.
 The process to obtain a \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} is considerably more streamlined.
 The DSA guidelines were also first released, by The Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)}, in 2007; 24 repositories have been stamped with the DSA since then.
 Few of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}) have pursued any kind of certification.
@@ -159,13 +159,13 @@ Data publishers enable formal citation by assigning unique permanent identifiers
 In addition to clarifying exactly what resource is being cited, a DOI can be resolved to locate the referenced dataset.
 Note, however, that a DOI is neither sufficient nor necessary for citability- if a dataset moves and the DOI is not updated, the citation breaks and, conversely a well-maintained web-address works as well as a DOI.
 
-\subsection*{Simple Case}\label{simple-case}
+\subsection*{Simple case}\label{simple-case}
 
 The present consensus is that a dataset should be cited using, at a minimum, five elements largely familiar from article citations: creator(s), title, year, publisher and identifier.
 This format agrees with CODATA's recommendation\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013} and conveys all the information required to obtain a \href{http://www.datacite.org/}{DataCite} DOI\cite{starr_iscitedby:_2011} or be listed in the \href{http://thomsonreuters.com/data-citation-index/}{Thomson-Reuters Data Citation Index}.
 However, this article-derived format fails to address some of the complications unique to datasets, described below.
 
-\subsection*{Deep Citation}\label{deep-citation}
+\subsection*{Deep citation}\label{deep-citation}
 
 The first major complication that data citation faces is the need for \textbf{deep citation}.
 When supporting an assertion in writing, it usually suffices to cite the entirety of a journal article and leave it to the inquisitive reader to find the relevant passage.
@@ -174,7 +174,7 @@ Datasets vary so widely in structure that there may not be a good general soluti
 The most common suggestion is to cite the entire dataset in the reference list and describe the subset in the text of the paper \cite{altman_proposed_2007}.
 In straightforward cases, the \href{http://wiki.esipfed.org/index.php/Interagency_Data_Stewardship/Citations/provider_guidelines#Subset_Used}{Federation of Earth Science Information Partners (ESIP)} and the \href{http://nsidc.org/about/use_copyright.html}{National Snow and Ice Data Center (NSIDC)} both recommend including a list of variables or range of dates in the formal citation.
 
-\subsection*{Dynamic Datasets}\label{dynamic-data}
+\subsection*{Dynamic datasets}\label{dynamic-data}
 
 The second major complication arises when datasets change.
 In the past, the printing process cemented one version of an article as the version of record.
@@ -182,8 +182,8 @@ Even for traditional scholarly literature, web-based publishing and preprint ser
 Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets that add new data while never changing or deleting existing data, and \textbf{revisable} datasets where data may by added, deleted, or changed.
 
 Consider USC00046336, a weather station at the Oakland Museum.
-Each day, the high temperature, low temperature and amount of precipitation recorded at the Museum \cite{global_historical_climate_data_network_daily_????} flows, together with data from more than 20,000 other stations, into the swelling Global Historical Climate Network (GHCN)-Daily\cite{menne_overview_2012} dataset.
-Or, consider \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014}, a genome database used by the \textit{Caenorhabidits elegans} research community.
+Each day, the high temperature, low temperature and amount of precipitation recorded at the Museum \cite{global_historical_climate_data_network_daily_????} flow, together with data from more than 20,000 other stations, into the swelling Global Historical Climate Network (GHCN)-Daily\cite{menne_overview_2012} dataset.
+Or, consider \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014}, a genome database used by the \textit{Caenorhabditis elegans} research community.
 WormBase encompasses genomic sequences of \emph{C. elegans} and 20 related species massively annotated with gene structures, protein sequences, expression patterns, and a host of other information from empirical data and computational predictions.
 Every two months, WormBase respond to new data and better computational models by issuing a revised version with new material added and inaccurate material deleted or corrected.
 
@@ -199,7 +199,7 @@ NSICD and ESIP instruct researchers to use a single identifier for growing datas
 In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2012,altman_proposed_2007,sarah_callaghan_making_2012}.
 To handle the difficulties with dynamic data that this policy creates, the DCC recommends periodically issuing growing datasets a new identifier that refers to the ``time-slice'' of new records and freezing versions of revisable datasets as individually-identified ``snapshots''.
 
-\subsection*{Just-in-time Identifiers}\label{just-in-time-identifiers}
+\subsection*{Just-in-time identifiers}\label{just-in-time-identifiers}
 
 The difficulties surrounding deep citation and dynamic data could potentially be solved by turning the identifier-issuing process on its head.
 Instead of the dataset publisher issuing identifiers for data at the level that researchers seem likely to cite, researchers could issue identifiers for precisely the part of the dataset that they want to cite.
@@ -226,7 +226,7 @@ When data is published with a data paper, review may be split between the reposi
 
 \subsection*{Data paper peer review}\label{data-paper-peer-review}
 
-Peer review guarantees that journal articles entering the scholarly record reach some level of validity (although the reproducibility crisis calls into question exactly what that level is).
+Peer review guarantees that journal articles entering the scholarly record reach some level of validity (although the aforementioned reproducibility crisis calls into question exactly what that level is).
 In many fields, peer-reviewed publications enjoy a much higher status than any other literature.
 Any effort to apply the prestige of ``publication'' to datasets cascades naturally into an effort to apply the prestige of ``peer review.''
 But as data validation seeks to model itself on literature peer review, literature peer review itself is in flux\cite{pulverer_transparent_2010, herron_is_2012, kriegeskorte_emerging_2012}.
@@ -260,7 +260,7 @@ The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)} peer-reviews d
 Two examples from archaeology, Open Context and \href{http://www.tdar.org/}{the Digital Archaeological Record (tDAR)}, illustrate the diversity of approaches to data validation.
 Open Context provides multiple validation processes that incorporate peer review in a way that goes beyond the simple accept/reject binary\cite{kansa_we_2013}.
 Each Open Context dataset is rated from one to five based not on quality \emph{per se}, but on the thoroughness of the validation; a one comes with no guarantees, a three has passed a technical review, and a five has passed external peer-review.
-Whereas open Context is a boutique publisher, focusing on data presentation and reuse, tDAR is a large repository primarily concerned with with collecting and preserving archaeology data for future use.
+Whereas Open Context is a boutique publisher, focusing on data presentation and reuse, tDAR is a large repository primarily concerned with with collecting and preserving archaeology data for future use.
 tDAR is able to operate at scale by performing only technical validation and streamlining data deposition with a minimum of mandatory description.
 However, tDAR also serves as a platform for high-quality data publication.
 The repository accommodates contributors who wish to provide more information, and much of the content is deposited by digital curators who can be relied on to supply rich descriptions.
@@ -281,7 +281,7 @@ An alternative metaphor that seems to be gaining traction is ``data as software'
 In some cases, it may be better to think of releasing a dataset as one would a piece of software and to regard subsequent changes as analogous to updated versions.
 The open-source software community has already developed many potentially relevant tools for working collaboratively, managing multiple versions, and tracking attribution.
 Ram (2013)\cite{ram_git_2013} catalogs a multitude of scientific uses for the software version control system \href{http://git-scm.com/}{Git}, including data management.
-Open context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
+Open Context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
 Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
 However, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so using it to alter or affect the academic reward system for data is a tricky prospect.
 
@@ -318,25 +318,6 @@ Margaret Smith and Christina Doyle contributed invaluable suggestions for editin
 \caption{\label{fig:LandscapeFigure}To be published, datasets are typically deposited in a repository to make them available and assigned an identifier to make them citable. Some, but not all, publishers review datasets to validate them. }
 \end{figure*}
 
-
-
-
-% See this guide for more information on BibTeX:
-% http://libguides.mit.edu/content.php?pid=55482&sid=406343
-
-% For more author guidance please see:
-% http://f1000research.com/author-guidelines
-
-
-% When all authors are happy with the paper, use the
-% ‘Submit to F1000Research' button from the Share menu above
-% to submit directly to the open life science journal F1000Research.
-
-% Please note that this template results in a draft pre-submission PDF document.
-% Articles will be professionally typeset when accepted for publication.
-
-% We hope you find the F1000Research writeLaTeX template useful,
-% please let us know if you have any feedback using the help menu above.
 
 
 \end{document}
