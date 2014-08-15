@@ -31,7 +31,7 @@ As data publication venues proliferate, significant debate continues over format
 Here, we present an overview of data publication initiatives underway and the current conversation, highlighting points of consensus and issues still in contention.
 Data publication implementations differ in a variety of factors, including the kind of documentation, the location of the documentation relative to the data, and how the data is validated.
 Publishers may present the data as supplemental material to a journal article, with a descriptive ``data paper,'' or independently.
-Complicating the situation, different initiatives and communities use the same terms to refer distinct but overlapping concepts.
+Complicating the situation, different initiatives and communities use the same terms to refer to distinct but overlapping concepts.
 For instance, the term ``published'' means that the data is publicly available and citable to virtually everyone, but it may or may not imply that the data has been peer-reviewed.
 In turn, what is meant by data peer review is far from defined; standards and processes encompass the full range employed in reviewing the literature, plus some novel variations.
 Basic data citation is a point of consensus, but the general agreement on the core elements of a dataset citation frays if the data is dynamic or part of a larger set.
@@ -72,7 +72,7 @@ In 2010, a coalition of Ecology and Evolutionary Biology journals began to requi
 
 Although there can be no substitute for funding new experiments and data collection, appropriate data reuse lowers costs and accelerates research.
 Documenting, publishing, and archiving data is time consuming and costly, but usually far less so than repeating the data collection.
-For example, \href{http://opencontext.org/}{Open Context} published archaeological data from a site in eastern Turkey at the substantial cost of \$10,000-15,0000, but this publication expense was minor compared to \$800,000 spent to collect the data\cite{kansa_we_2013}.
+For example, \href{http://opencontext.org/}{Open Context} published archaeological data from a site in eastern Turkey at the substantial cost of \$10,000-15,000, but this publication expense was minor compared to \$800,000 spent to collect the data\cite{kansa_we_2013}.
 Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation (NSF) grants, which generates an average of three to four papers, with an estimate that the same investment in curating, archiving, and publishing data could contribute to over 1,000 publications\cite{piwowar_data_2011}.
 Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) should be published because it can never be recreated for any price\cite{gray_online_2002}.
 
@@ -112,7 +112,7 @@ A crisp distinction from other article types is important because many journals 
 Data journals generally limit themselves to publishing the description of the dataset; a trusted repository publishes the data itself.
 For instance, \emph{Scientific Data} and \emph{Geoscience Data Journal} each direct authors to a list of approved repositories.
 As an exception, \emph{GigaScience} hosts data in an integrated repository named \emph{GigaDB}.
-An early implementer of data papers, \href{http://www.ijrr.org/}{The International Journal of Robotics Research}\cite{newman_data_2009} is unusual in that they permit authors to host datasets on their own websites.
+An early implementer of data papers, \href{http://www.ijrr.org/}{The International Journal of Robotics Research}\cite{newman_data_2009} is unusual in that it permits authors to host datasets on their own websites.
 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
@@ -129,9 +129,9 @@ Fundamentally, to publish is to make public, and to publish data is to make data
 Present availability requires mechanisms for access; future availability also requires preservation (e.g. long-term storage, format migration)\cite{waters_preserving_1996, beagrie_digital_2008, gray_online_2002}.
 As in print publication, published data need not be free or legally unencumbered, and data use agreements constrain many published datasets.
 If access is limited, it should be contingent on clear and objective criteria; writing a request to the creator for permission should not be part of the process.
-For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} judges the applicant's proposed security measures, but not the merit of their research.
+For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} judges the applicant's proposed security measures, but not the merit of the research.
 Datasets from social science or clinical studies that involve human participants are easily the most common source of access restrictions because of the need to protect privacy.
-In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPPA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
+In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPAA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
 
 As a practical matter, publishing a dataset usually includes depositing it in a trustworthy repository.
 What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
@@ -149,7 +149,7 @@ Repositories run by governments or large universities are likely to be considere
 \section*{Citability}\label{citability}
 
 Data citation is the element of publication that has come the farthest toward consensus.
-This year, a coalition– including Future Of Research Communication and E-Scholarship (FORCE11)\cite{bourne_improving_2012}, the Committee on Data for Science and Technology (CODATA)\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013}, and the Digital Curation Centre (DCC)– released a \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation Principles}.
+This year, a coalition of organizations brought together by Future Of Research Communication and E-Scholarship (FORCE11)\cite{bourne_improving_2012} released a \href{http://www.force11.org/datacitation}{Joint Declaration of Data Citation Principles}.
 The first of the eight principles states, in part, that ``[d]ata citations should be accorded the same importance in the scholarly record as citations of other research objects, such as publications''.
 Most of the time, this means that when a published dataset contributes to a paper, it should be cited formally in the reference list.
 	
@@ -193,7 +193,7 @@ For example, WormBase identifies each release with a citable version number and 
 
 Controversy persists around the specific issue of identifiers for dynamic datasets. 
 DataCite recommends, but does not insist, that their DOIs refer to immutable objects.
-NSICD and ESIP instruct researchers to use a single identifier for growing datasets and include the access date in the citation; each major version of a revisable datasets gets a new identifier, but minor versions do not.
+NSIDC and ESIP instruct researchers to use a single identifier for growing datasets and include the access date in the citation; each major version of a revisable datasets gets a new identifier, but minor versions do not.
 In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2012,altman_proposed_2007,sarah_callaghan_making_2012}.
 To handle the difficulties with dynamic data that this policy creates, the DCC recommends periodically issuing growing datasets a new identifier that refers to the ``time-slice'' of new records and freezing versions of revisable datasets as individually-identified ``snapshots''.
 
@@ -237,7 +237,7 @@ Despite all these difficulties, venues for peer-reviewed data papers are opening
 
 Data paper journals wrap scientific peer review of the paper and the dataset together into a single process. 
 \emph{GigaScience}, an exception, assigns technical review of the dataset to a separate data reviewer.
-The standards that various data journals provide to reviewers are fairly uniform, with the exception that about half of consider novelty or potential impact, while the rest only require that the dataset be scientifically sound.
+The standards that various data journals provide to reviewers are fairly uniform, with the exception that about half consider novelty or potential impact, while the rest only require that the dataset be scientifically sound.
 While review standards are similar, processes differ widely. 
 
 As an example, compare \emph{Biodiversity Journal} and \emph{Scientific Data}.
