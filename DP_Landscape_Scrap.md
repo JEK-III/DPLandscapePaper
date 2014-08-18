@@ -1,7 +1,19 @@
-#To Dos
+# Revisions
 
-* convert references to URLS to links
-* 
+###Independent publication
+* to some degree any open repository counts; pretty much any could in principle serve to host data for type 1 or 2 publication
+* lots of different approaches, lots of different ways to break these down:
+	*Operator: government, academic instiutuion, private publisher
+	*Focus: anything, data type, community around topic, community around place
+		*ICPSR - discipline (social science)
+		*Flybase, SGD, WormBase - research community (model organism)
+		*Find a neuro thing - research community (subject)
+		*
+		
+	*Combinations:
+	
+
+
 
 
 
