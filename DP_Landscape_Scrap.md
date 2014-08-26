@@ -56,6 +56,13 @@
 
 
 #Scrap sentences
+With respect to Lawrence's scheme: data that supplements a paper covers \emph{journal driven data archival} and \emph{Appendix Data}.
+Data that is the subject of a paper describes \emph{Data Publication by Proxy} and \emph{Overlay Publication}, and independend data corresponds to \emph{Standalone Data Publication}.\cite{lawrence_data_2011}
+ODE includes a model that we don't: \emph{Data contained within peer reviewed articles} describes the usually highly reduced data presented in the figures and tables of a traditional article.
+Data that supplements a paper describes both \emph{Data resides in supplementary files added to the journal article} and \emph{Data resides in Community-endorsed Public Repository with bi-directional linking to and from articles}, depending on the location of the data.
+\emph{Journals dedicated to so-called Data Publications only} is contained within our data as subject category, although that also contains data papers from non-dedicated journals.
+
+
 The key aspect of a citation here is that it can be used to identify and locate the dataset from now into the indefinite future; assignment of a persistent identifier like a Digital Object Identifier (DOI) is the usual way to accomplish this.
 
 Science publishing had baked into it the notion that access must persist into the future for the use of future researchers.
