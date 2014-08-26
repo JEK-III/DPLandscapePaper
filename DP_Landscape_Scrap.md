@@ -1,5 +1,42 @@
 # Revisions
 
+###DP models
+
+####Data publication pyramid
+\cite{reilly_report_2011}
+
+* 4 tiers, 5 models
+* we're dealling with the middle two tiers here
+* Processed Data & Data Representations
+	2. Data resides in supplementary files added to the journal article
+* Data Collections and Structured Databases
+	3. Data resides in Community-endorsed Public Repository with bi-directional linking to and from articles
+	4. Journals dedicated to so-called Data Publications only
+* 2 & 3 fit into our category I
+* 4 is our category II
+
+####Lawrence sceme
+1. Standalone Data Publication 
+2. Data Publication by Proxy 
+3. Appendix Data 
+4. Journal Driven Data Archival 
+5. Overlay Publication
+
+* Category I covers
+* *appendix data
+* *journal driven data archival
+* *data publication by proxy
+* Category II covers
+* *overlay publication
+* Category III covers
+* *standalone publication
+
+* publication by proxy is complicated: refers to thing like the NAR database issue. could reasonably go with category II also
+
+####Callaghan
+* logically separate: we're only worrying about published and Published here, and the difference is validation, which we don't talk about.
+
+
 ###Independent publication
 * to some degree any open repository counts; pretty much any could in principle serve to host data for type 1 or 2 publication
 * lots of different approaches, lots of different ways to break these down:
