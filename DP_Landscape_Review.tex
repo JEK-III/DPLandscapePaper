@@ -137,6 +137,7 @@ Citation of proxy publications or data papers is an effective mechanism for awar
 To be useful or reproducible, a dataset must be accompanied by descriptive information (i.e. metadata)\cite{gray_online_2002}, but this need not take the form of a journal article.
 Instead, some repositories publish rich, structured and/or freeform description together with the data.
 The distinction between a data repository and a data publisher is often indistinct.
+Furthermore, the relationship between data in repositories and the literature can be complex; a dataset may be associated with 0, 1, or more articles, and an article may use 0, 1, or multiple published datasets.
 Repositories provide access and citability, but the degree of validation varies widely and few are equipped to provide peer review.
 
 Institutional repositories preserve and publish any kind of data generated in the reserach communities they serve; University of California researchers deposit data in \href{https://merritt.cdlib.org/}{Merritt}, while Purdue University researchers use the \href{https://purr.purdue.edu/}{Purdue Research Repository}).
@@ -147,10 +148,13 @@ Because repoistories typically cannot assemble domain expertise accross such a b
 
 Unlike place-based communities, interest-based research communities are served by a diverse ecosystem of specialized data publishers.
 The broadest of these publishers serve entire disciplines, for example, \href{http://www.tdar.org/}{the Digital Archaeological Record (tDAR)}.
-A narrower example from the life sciences is the group of databases centered aroud model organisms, such as \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014} or \href{http://flybase.org/}{FlyBase}\cite{pierre_flybase_2014}.
-Alternately, a data publisher may deal with a particular data-type, such as DNA sequences deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} or protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}; .
-As a final example, they might be devoted to a particular scientific instrument, such as the \href{http://portal.odi.iu.edu}{One Degree Imager Portal, Pipeline, and Archive (ODI-PPA)} or the massive infrastructure built to handle the output of the Large Hadron Collider (LHC), the \href{http://wlcg.web.cern.ch/}{Worldwide LHC Computing Grid}).
-These publishers can 
+A narrower example from the life sciences is the group of databases centered aroud model organism genomes, such as \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014} or \href{http://flybase.org/}{FlyBase}\cite{pierre_flybase_2014}; these databases aggregate diverse, but fininte, data types and have the advantage of a surefeit of domain expertise to aid the curators.
+Alternately, a data publisher may deal with a particular data-type, such as DNA sequences deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} or protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}; focus on a particular type of data can enable rigorous technical validation and specific metadata requirements to ensure that the data is useable.
+As a final example, they might be devoted to a particular scientific instrument, such as the \href{http://portal.odi.iu.edu}{One Degree Imager Portal, Pipeline, and Archive (ODI-PPA)} or the massive infrastructure built to handle the output of the Large Hadron Collider (LHC), the \href{http://wlcg.web.cern.ch/}{Worldwide LHC Computing Grid}); both of these have an emphasis on real time access to data coming off the instruments that is lacking from many other kinds of publisher.
+Data in disciplinary repositories is typically easier to discover (because researchers are familiar with the databases that serve 
+their field) and reuse (because the data is more standardized) than data in broad-scope repositories.
+The disadvantage is that the data from a single research program or paper can be distributed accross many repositories (mRNA expression data in one, sequence data in another,...), whereas an institutional or broad-scope repository can handle the whole research story.
+
 
 \section*{Availability}\label{availability}
 
@@ -158,7 +162,7 @@ Fundamentally, to publish is to make public, and to publish data is to make data
 Present availability requires mechanisms for access; future availability also requires preservation (e.g. long-term storage, format migration)\cite{waters_preserving_1996, beagrie_digital_2008, gray_online_2002}.
 As in print publication, published data need not be free or legally unencumbered, and data use agreements constrain many published datasets.
 If access is limited, it should be contingent on clear and objective criteria; writing a request to the creator for permission should not be part of the process.
-For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} judges the applicant's proposed security measures, but not the merit of the research.
+For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} evaluates the applicant's ability to handle the data securely, but not the merit of the research.
 Datasets from social science or clinical studies that involve human participants are easily the most common source of access restrictions because of the need to protect privacy.
 In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPAA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
 
@@ -166,9 +170,10 @@ As a practical matter, publishing a dataset usually includes depositing it in a 
 What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
 In 2007, The Center for Research Libraries (CRL) published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
 Many repositories consult TRAC for self-assessment, but only four ({\href{http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying-0}{listed by the CRL}) have completed the lengthy and rigorous process to be officially certified.
-The process to obtain a \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} is considerably more streamlined.
+The process to obtain a \href{http://datasealofapproval.org/}{Data Seal of Approval (DSconsiderably more streamlined.
 The DSA guidelines were also first released, by The Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)}, in 2007; 24 repositories have been stamped with the DSA since then.
 Few of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}) have pursued any kind of certification.
+Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data System (WDS)} must first be certified based on a self-assement and an optional site-visit. 
 Given the low adoption of repository certification, a more typical way to decide trustworthiness is to judge by the organization responsible.
 Repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
 
