@@ -149,11 +149,11 @@ Because repoistories typically cannot assemble domain expertise accross such a b
 Unlike place-based communities, interest-based research communities are served by a diverse ecosystem of specialized data publishers.
 The broadest of these publishers serve entire disciplines, for example, \href{http://www.tdar.org/}{the Digital Archaeological Record (tDAR)}.
 A narrower example from the life sciences is the group of databases centered aroud model organism genomes, such as \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014} or \href{http://flybase.org/}{FlyBase}\cite{pierre_flybase_2014}; these databases aggregate diverse, but fininte, data types and have the advantage of a surefeit of domain expertise to aid the curators.
-Alternately, a data publisher may deal with a particular data-type, such as DNA sequences deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} or protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}; focus on a particular type of data can enable rigorous technical validation and specific metadata requirements to ensure that the data is useable.
+Alternately, a data publisher may deal with a particular data-type, such as DNA sequences deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} or protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}; focus on a particular type of data facilitates rigorous technical validation and development of specialized metadata requirements to ensure the data is useable.
 As a final example, they might be devoted to a particular scientific instrument, such as the \href{http://portal.odi.iu.edu}{One Degree Imager Portal, Pipeline, and Archive (ODI-PPA)} or the massive infrastructure built to handle the output of the Large Hadron Collider (LHC), the \href{http://wlcg.web.cern.ch/}{Worldwide LHC Computing Grid}); both of these have an emphasis on real time access to data coming off the instruments that is lacking from many other kinds of publisher.
 Data in disciplinary repositories is typically easier to discover (because researchers are familiar with the databases that serve 
 their field) and reuse (because the data is more standardized) than data in broad-scope repositories.
-The disadvantage is that the data from a single research program or paper can be distributed accross many repositories (mRNA expression data in one, sequence data in another,...), whereas an institutional or broad-scope repository can handle the whole research story.
+The disadvantage is that the data from a single research program or paper can be distributed accross many repositories (mRNA expression data in one, sequence data in another), whereas an institutional or broad-scope repository can handle the whole research story.
 
 
 \section*{Availability}\label{availability}
@@ -203,12 +203,12 @@ Conversely, a well-maintained web-address works as well as a DOI, at least in th
 
 The present consensus is that a dataset should be cited using, at a minimum, five elements largely familiar from article citations: creator(s), title, year, publisher and identifier.
 This format agrees with CODATA's recommendation\cite{codata-icsti_task_group_on_data_citation_standards_and_practices_out_2013} and conveys all the information required to obtain a \href{http://www.datacite.org/}{DataCite} DOI\cite{starr_iscitedby:_2011} or be listed in the \href{http://thomsonreuters.com/data-citation-index/}{Thomson-Reuters Data Citation Index}.
-However, this article-derived format fails to address some of the complications unique to datasets, described below.
+The basic format is sufficient (and perhaps ideal) when a dataset can be cited like an article, but that is not always the case.
 
 \subsection*{Deep citation}\label{deep-citation}
 
-The first major complication that data citation faces is the need for \textbf{deep citation}.
-When supporting an assertion in writing, it usually suffices to cite the entirety of a journal article and leave it to the inquisitive reader to find the relevant passage.
+One major complication that data citation faces is the need for \textbf{deep citation}.
+When supporting an assertion in writing, it usually suffices to cite the entirety of a journal article or the page of a book and leave it to the inquisitive reader to find the relevant passage.
 But, to reproduce an analysis performed on a subset of a larger dataset, the reader needs to know exactly what subset was used (e.g. a limited range of dates, only the adult subjects, wind speed but not direction).
 Datasets vary so widely in structure that there may not be a good general solution for describing subsets.
 The most common suggestion is to cite the entire dataset in the reference list and describe the subset in the text of the paper \cite{altman_proposed_2007}.
@@ -216,7 +216,7 @@ The \href{http://wiki.esipfed.org/index.php/Interagency_Data_Stewardship/Citatio
 
 \subsection*{Dynamic datasets}\label{dynamic-data}
 
-The second major complication arises when datasets change.
+A second major complication arises when datasets change.
 In the past, the printing process cemented one version of an article as the version of record.
 Even for traditional scholarly literature, web-based publishing and preprint servers (e.g. \href{http://arxiv.org/}{arXiv.org}) are complicating the situation, but datasets are especially prone to be \textbf{dynamic}.
 Two kinds of dynamic datasets warrant consideration: \textbf{growing} datasets that add new data while never changing or deleting existing data, and \textbf{revisable} datasets where data may by added, deleted, or changed.
@@ -242,10 +242,14 @@ To handle the difficulties with dynamic data that this policy creates, the DCC r
 \subsection*{Just-in-time identifiers}\label{just-in-time-identifiers}
 
 The difficulties surrounding deep citation and dynamic data could potentially be solved by turning the identifier-issuing process on its head.
-Instead of the dataset publisher issuing identifiers for data at the level that researchers seem likely to cite, researchers could issue identifiers for precisely the part of the dataset that they want to cite.
+Instead of the dataset publisher issuing identifiers for data at the level that researchers seem likely to cite, researchers could issue identifiers for only the part of the dataset that they want to cite.
+
 The Research Data Alliance (RDA) \href{http://rd-alliance.org/working-groups/data-citation-wg.html}{Data Citation Working Group} recently put forth a sophisticated proposal applicable to data in (or convertible to) databases.
 Identifiers created under this scheme would wrap together identification of a database, a query to return the cited dataset, the version of the database queried for this analysis, and a number of other useful components.
-Although promising, many technical and policy issues must be resolved before this approach can be widely adopted.
+Although promising, technical and policy issues must be resolved before this approach can be widely adopted.
+The ultimate promise is to provide a simple yet precise citation for any selection of data, at the cost of technical complexity ``under the hood''.
+
+
 
 
 \section*{Validation}\label{validation}
@@ -272,9 +276,9 @@ Open peer review at \emph{F1000Research} and post-publication commenting at \hre
 
 Journal article reviewers traditionally consider whether the methods used are appropriate for the questions asked and the data collected support the conclusions drawn.
 In the absence of particular questions and conclusions, it is not obvious what peer review of data should certify.
-A dataset may be suitable for some purposes, but not for others.\cite{parsons_data_2010}
-In addition, while a reviewer can be expected to read an entire article, they cannot inspect every point in a large dataset.
-Finally, researchers are already overwhelmed by peer review of articles\cite{diederich_are_2013} and may find any increased workload unreasonable.
+A dataset may serve for some purposes, but not for others\cite{parsons_data_2010}.
+A reviewer may anticipate some uses for the data, but not all.
+Researchers are already overwhelmed by peer review of articles\cite{diederich_are_2013} and may find any increased workload unreasonable.
 Despite all these difficulties, venues for peer-reviewed data papers are opening rapidly.
 
 Data paper journals wrap scientific peer review of the paper and the dataset together into a single process. 
@@ -292,8 +296,8 @@ Additionally, the authors may choose to open the paper to public comment during 
 \subsection*{Independent data validation}
 
 Data journals all model their data validation more or less faithfully on literature peer review, but independent data validation practices and proposals are considerably more varied.
-On the conservative end of the spectrum, Lawrence et al. (2011) propose a set of criteria for independent data peer review.\cite{lawrence_citation_2011}
-The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)} peer-reviews datasets through the unusual process of holding an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.  
+Lawrence et al. (2011) propose a set of criteria for independent data peer review.\cite{lawrence_citation_2011}
+The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)} peer-reviews datasets via an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.  
 
 Two examples from archaeology, Open Context and the Digital Archaeological Record (tDAR), illustrate the diversity of approaches to data validation.
 Open Context provides multiple validation processes that incorporate peer review in a way that goes beyond the simple accept/reject binary\cite{kansa_we_2013}.
@@ -302,7 +306,7 @@ Whereas Open Context is a boutique publisher, focusing on data presentation and 
 tDAR is able to operate at scale by performing only technical validation and streamlining data deposition with a minimum of mandatory description.
 However, tDAR also serves as a platform for high-quality data publication.
 The repository accommodates contributors who wish to provide more information, and much of the content is deposited by digital curators who can be relied on to supply rich descriptions.
-Furthermore, two data paper journals, \emph{Internet Archaeology} and \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeological Data}}, recommend tDAR as a repository for their peer-reviewed data.
+Furthermore, two data paper journals, \emph{Internet Archaeology} and \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeological Data}}, recommend both tDAR and Open Context as repositories for their peer-reviewed data.
 Thus, data validation depends not only on discipline and data type, but on a host of external factors, including the goals of the organizations and researchers involved.
 
 Pre-publication validation can be supplemented or replaced by post-publication feedback from successful or unsuccessful reusers.
