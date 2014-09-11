@@ -1,5 +1,10 @@
 # Revisions
 
+* describe the undisputed center and maybe a few edge cases
+
+
+
+
 ###DP models
 
 ####Data publication pyramid
@@ -57,14 +62,8 @@
 * suggested directions or immediate challenges to overcome
 * call to action
 * indications of things we should stop trying
-* lternative perspectives
+* alternative perspectives
 * What do the authors want us to take away from this paper?
-
-Are these really the only three models in consideration or does the publication model overstate a consensus around a certain type of data publication? 
-
-* although we think the models here are a useful way to classify/talk about data publications that reflects the current coversation, the reality is more complicated
-* a dataset can have multiple relationships to multiple kinds of documentation– what is the publication?
-* *not easy to fence in.
 
 
 Why are there different models and which approach is better for different situations?
@@ -77,19 +76,19 @@ Why are there different models and which approach is better for different situat
 * *although dryad and crap _were_ designed as publications
 * *supplemental data also sort of just happened
 
-####Availability
-* gotta be in a 'trustworthy' repository
-* no totally agreed on standard for what that is
+* data papers kind of dominate the convesation
+* therefore, this definition of data publication is a bit DP-centric
+
+* critical thing is to ask what makes _publication_ different from sharing, release, all that other crap.
+* otherwise, we're having a nice conversation about data in a totally different paper
 
 
-####Citability
-* basic+ can handle _a lot_ of data
-* but not everything
-* probably the format of the citation should suit the situation: keep it as simple as possible to precisely 
 
-####Validation
-* lots of possible approaches
-* let's not get boxed in
+Are these really the only three models in consideration or does the publication model overstate a consensus around a certain type of data publication? 
+
+* although we think the models here are a useful way to classify/talk about data publications that reflects the current coversation, the reality is more complicated
+* a dataset can have multiple relationships to multiple kinds of documentation– what is the publication?
+* *not easy to fence in.
 
 
 
@@ -127,6 +126,25 @@ Nor is it literature.
 The prestige and familiarity of terms like ``publication'' and ``peer-review'' are powerful, but we may have to stretch their definitions if we are determined to apply them to data.
 
 * current models probably won't last, we should be prepared for new stuff
+
+
+
+####Availability
+* gotta be in a 'trustworthy' repository
+* no totally agreed on standard for what that is
+
+
+####Citability
+* basic+ can handle _a lot_ of data
+* but not everything
+* probably the format of the citation should suit the situation: keep it as simple as possible to precisely 
+
+####Validation
+* lots of possible approaches
+* let's not get boxed in
+
+
+
 
 #Scrap sentences
 With respect to Lawrence's scheme: data that supplements a paper covers \emph{journal driven data archival} and \emph{Appendix Data}.
