@@ -84,6 +84,8 @@ Why are there different models and which approach is better for different situat
 
 
 
+
+
 Are these really the only three models in consideration or does the publication model overstate a consensus around a certain type of data publication? 
 
 * although we think the models here are a useful way to classify/talk about data publications that reflects the current coversation, the reality is more complicated
@@ -185,6 +187,9 @@ Open context came to use Mantis bug tracking software and Git out of practical c
 There are still issues to address.
 Current version control systems, such as Git, are designed for code (relatively small text files), not large and variegated datasets. 
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
+
+
+Diverse kinds of material are regarded as data by one research community or another and, while at least some aspects of publication apply well to at least some kinds of data, other approaches are possible
 
 #Scrap thoughts
 
