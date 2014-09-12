@@ -56,7 +56,9 @@
 	
 
 * metadata:
-	* structured
+	* structured, structured-ish
+	* GEO supports MIAME
+	* 
 
 ###Conclusions
 * summary
@@ -191,6 +193,9 @@ Attribution for derived datasets is not clear, but that's likely to be a cultura
 
 
 Diverse kinds of material are regarded as data by one research community or another and, while at least some aspects of publication apply well to at least some kinds of data, other approaches are possible
+
+In practice, availability is usually satisfied by depositing the dataset in a repository, citability by that and assigning a persistent identifier (e.g. a Digital Object Identifier, or DOI), and validity by peer review.
+
 
 #Scrap thoughts
 
