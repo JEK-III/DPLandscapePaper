@@ -56,8 +56,21 @@ Open questions flock around a fourth property: how and to what extent a publishe
 In practice, availability is usually satisfied by depositing the dataset in a repository, citability by that and assigning a persistent identifier (e.g. a Digital Object Identifier, or DOI), and validity by peer review.
 
 Complicating matters, ``data publication'' overlaps with terms like data sharing, data release, and open data; a data publisher might also be a journal publisher, archive, database, or repository.
+Depending on the speaker, a data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset.
 Callaghan et al. (2012) draw a distinction between data that has been published (lower-case “p”) or formally Published (upper-case “P”): \textbf{published} data is currently available, while \textbf{Published} data has all four properties, including a guarantee of persistence\cite{sarah_callaghan_making_2012}.
 For the purposes of this paper we employ an intermediate definition of data publication: data that is documented, available, and citable.
+
+Because disciplines, sub-disciplines, and individual researchers consider different assortments of digital material to be data, it is unlikely that any single structure will suit every discipline and dataset.
+Lawrence et al. (2011) sort data publications into five models distinguished ``by how the roles involved in publication are distributed between the various actors'' (i.e. the author, archive, or journal)\cite{lawrence_data_2011}.
+The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
+Here, we present three researcher-oriented models that are agnostic to division of labor and underlying infrastructure, but instead defined by the documentation prepared by dataset creators and read by users.
+
+Thus, a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper (Figure 1).
+Along with infrastructure, this approach leaves aside distinctions based on the characteristics of the dataset or the degree of validation.
+Data resists both precise definition and tidy categorization; we will not attempt either here.
+While some data may be better suited to one model or another, each model can handle a wide range of material.
+These models cover roughly the same territory as the models described by Lawrence et al.\cite{lawrence_data_2011}, and all five are accommodated in one or the other of our categories.
+Only one of the four ODE models is outside our scheme: reduced data presented in the figures and tables of a traditional article\cite{reilly_report_2011}.
 
 
 \subsection*{Why publish data?}\label{why-publish-data}
@@ -84,25 +97,10 @@ Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation
 Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) should be published because it can never be recreated for any price\cite{gray_online_2002}.
 
 
-\section*{Types of data publication}\label{types-of-data-publication}
-
-The still-congealing phrase ``data publication'' covers diverse classes of research objects published via diverse processes.
-Depending on the speaker, a data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset.
-Because disciplines, sub-disciplines, and individual researchers consider different assortments of digital material to be data, it is unlikely that any single structure will suit every discipline and dataset.
-
-But, we can hope that a manageable number of designs will fit most data.
-Lawrence et al. (2011) sort data publications into five models distinguished ``by how the roles involved in publication are distributed between the various actors'' (i.e. the author, archive, or journal)\cite{lawrence_data_2011}.
-The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature, four of which are data publications\cite{reilly_report_2011}.
-Here, we present three researcher-oriented models that are agnostic to division of labor and underlying infrastructure, but instead defined by the documentation prepared by dataset creators and read by users.
-
-Thus, a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper (Figure 1).
-Along with infrastructure, this approach leaves aside distinctions based on the characteristics of the dataset or the degree of validation.
-Data resists both precise definition and tidy categorization; we will not attempt either here.
-While some data may be better suited to one model or another, each model can handle a wide range of material.
-These models cover roughly the same territory as the models described by Lawrence et al.\cite{lawrence_data_2011}, and all five are accommodated in one or the other of our categories.
-Only one of the four ODE models is outside our scheme: reduced data presented in the figures and tables of a traditional article\cite{reilly_report_2011}.
-
 \section*{Documentation}\label{documentation}
+
+
+
 \subsection*{Data that supplements a paper}\label{paper-supplement-data}
 
 The most familiar kind of data publication is a traditional journal article accompanied by underlying data.
@@ -141,7 +139,7 @@ Proxy publications are distinguished from data papers in that they may contain a
 In one example, the \href{http://www.cru.uea.ac.uk/}{Climatic Research Unit of the University of East Anglia} prefers that dataset users cite papers associated with a dataset instead of the data itself.
 Or in the biosciences, \emph{Nucleic Acids Research (NAR)} annually publishes a massive issue devoted to such articles; the 2014 database issue featured 58 papers describing new databases and 123 updates on existing resources\cite{fernandez-suarez_2014_2014}.
 Participating databases then typically ask users to cite their most recent \emph{NAR} paper.
-Citation of proxy publications or data papers is an effective mechanism for awarding scholarly credit, but it fails to satisfy many of the requirements of data citation that will be discussed shortly, so it should be supplemented with direct citation of the data.
+Citation of proxy publications or data papers can be an effective mechanism for awarding scholarly credit, but it fails to perform the other functions of data citation, so it should be supplemented with direct citation of the data.
 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
@@ -155,16 +153,21 @@ Institutional repositories preserve and publish any kind of data generated in th
 At the national level, the Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)} accepts a broad range of data from researchers in the Netherlands.
 \href{http://figshare.com/}{Figshare} and \href{http://zenodo.org/}{Zenodo} publish datasets from any reasearcher in any field.
 These broad-topic publishers are well suited to handle heterogeneous and non-standard `small' or `long-tail' research data that does not fit comfortably in a specialized repository.
-Because repoistories typically cannot assemble domain expertise accross such a broad range of disciplines, this inclusiveness imposes limits on documentation requirements and validation that can make the data less useful that it otherwise would be.
+Because repostories typically cannot assemble domain expertise accross such a broad range of disciplines, this inclusiveness imposes limits on documentation requirements and validation.
+While figshare and Zenodo accomodate rich documentation as free text, they demand very little.
 
 Unlike place-based communities, interest-based research communities are served by a diverse ecosystem of specialized data publishers.
 The broadest of these publishers serve entire disciplines, for example, \href{http://www.tdar.org/}{the Digital Archaeological Record (tDAR)}.
 A narrower example from the life sciences is the group of databases centered aroud model organism genomes, such as \href{http://www.wormbase.org/}{WormBase}\cite{harris_wormbase_2014} or \href{http://flybase.org/}{FlyBase}\cite{pierre_flybase_2014}; these databases aggregate diverse, but fininte, data types and have the advantage of a surefeit of domain expertise to aid the curators.
-Alternately, a data publisher may deal with a particular data-type, such as DNA sequences deposited in \href{http://www.ncbi.nlm.nih.gov/genbank/}{GenBank}\cite{benson_genbank_2013} or protein structures in the \href{http://www.rcsb.org/}{Protein Data Bank}\cite{berman_protein_2000}; focus on a particular type of data facilitates rigorous technical validation and development of specialized metadata requirements to ensure the data is useable.
-As a final example, they might be devoted to a particular scientific instrument, such as the \href{http://portal.odi.iu.edu}{One Degree Imager Portal, Pipeline, and Archive (ODI-PPA)} or the massive infrastructure built to handle the output of the Large Hadron Collider (LHC), the \href{http://wlcg.web.cern.ch/}{Worldwide LHC Computing Grid}); both of these have an emphasis on real time access to data coming off the instruments that is lacking from many other kinds of publisher.
-Data in disciplinary repositories is typically easier to discover (because researchers are familiar with the databases that serve 
-their field) and reuse (because the data is more standardized) than data in broad-scope repositories.
-The disadvantage is that the data from a single research program or paper can be distributed accross many repositories (mRNA expression data in one, sequence data in another), whereas an institutional or broad-scope repository can handle the whole research story.
+
+Along similar lines, a data publisher may deal with a particular data-type, such as gene expression data in the \href{http://www.ncbi.nlm.nih.gov/geo/}{Gene Expression Ominbus (GEO)} or functional Magnetic Resonance Imaging data in \href{https://openfmri.org/}{OpenfMRI}.
+Focus on a particular type of data facilitates rigorous technical validation and development of specialized metadata requirements to ensure the data is useable.
+For instance, GEO injest fits with Minimum Information About a Microarray Experiment (MIAME)\cite{brazma_minimum_2001} guidelines\cite{edgar_ncbi_2006}.
+As a final example, a publisher might be devoted to a particular scientific instrument, such as the \href{http://portal.odi.iu.edu}{One Degree Imager Portal, Pipeline, and Archive (ODI-PPA)} or the massive infrastructure built to handle the output of the Large Hadron Collider (LHC), the \href{http://wlcg.web.cern.ch/}{Worldwide LHC Computing Grid}).
+Unlike most other kinds of publisher, both of these emphasize real time access to data coming off the instruments.
+
+Because researchers know the databases that serve their community, data in disciplinary repositories is easy to discover and because it is relatively standardized, it is easy to reuse. 
+A disadvantage is that the data from a single research program can be distributed accross many repositories (gene expression data in one, gene sequence data in another), whereas an institutional or broad-scope repository can handle the whole research story.
 
 
 \section*{Availability}\label{availability}
