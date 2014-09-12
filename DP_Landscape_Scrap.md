@@ -121,6 +121,9 @@ Open Context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to
 Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
 However, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so using it to alter or affect the academic reward system for data is a tricky prospect.
 
+* Ecosystem metaphor
+* lots of approaches are good
+* don't know where we are yet.
 Ultimately, while ``data as software'' is promising, data is not software.
 Nor is it literature. 
 The prestige and familiarity of terms like ``publication'' and ``peer-review'' are powerful, but we may have to stretch their definitions if we are determined to apply them to data.
