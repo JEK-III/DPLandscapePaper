@@ -1,5 +1,10 @@
 # Revisions
 
+* describe the undisputed center and maybe a few edge cases
+
+
+
+
 ###DP models
 
 ####Data publication pyramid
@@ -50,7 +55,101 @@
 	*Combinations:
 	
 
+* metadata:
+	* structured, structured-ish
+	* GEO supports MIAME
+	* 
 
+###Conclusions
+* summary
+* suggested directions or immediate challenges to overcome
+* call to action
+* indications of things we should stop trying
+* alternative perspectives
+* What do the authors want us to take away from this paper?
+
+
+Why are there different models and which approach is better for different situations?
+
+* data papers were deliberately designed– ESSD started in 200X
+* the others predate the idea of "publication" 
+* *while new repositories often think about it, others have sort of wandered into it
+* the others not so much
+* hence the diversity of independent data publishers– different communities more or less ad hoc solutions to sharing data, some of which aspire to publication, some of which don't
+* *although dryad and crap _were_ designed as publications
+* *supplemental data also sort of just happened
+
+* data papers kind of dominate the convesation
+* therefore, this definition of data publication is a bit DP-centric
+
+* critical thing is to ask what makes _publication_ different from sharing, release, all that other crap.
+* otherwise, we're having a nice conversation about data in a totally different paper
+
+
+
+
+
+Are these really the only three models in consideration or does the publication model overstate a consensus around a certain type of data publication? 
+
+* although we think the models here are a useful way to classify/talk about data publications that reflects the current coversation, the reality is more complicated
+* a dataset can have multiple relationships to multiple kinds of documentation– what is the publication?
+* *not easy to fence in.
+
+
+
+Why is there controversy in some areas?
+
+* The aspects of data publication that are agreed on are the ones that are most similar to traditional papers. Wherever that paradigm doesn't suit data well, controversy erupts.
+* *static, small datasets are handled relatively easily
+* *dynamic data raises questions for both citation and validation
+* *validation is generally more heterogenious; peer review is less directly adaptable to data than citation, say
+
+* Diverse kinds of material are regarded as data by one research community or another and, while at least some aspects of publication apply well to at least some kinds of data, other approaches are possible.
+
+* consequently, we have to be flexible in how we apply the idea
+
+OR...
+
+* In a 2013 paper\cite{parsons_is_2013}, Parsons and Fox argue that thinking about data through the the metaphor of print ``publication'' is in many cases misleading.
+* The prsent a bunch of alternate metaphors. 
+* *``big iron'', taken from industrial production might better describe projects like LHC or many things in astronomy
+
+An alternative metaphor that seems to be gaining traction is ``data as software''\cite{schopf_treating_2012}.
+
+In some cases, it may be better to think of releasing a dataset as one would a piece of software and to regard subsequent changes as analogous to updated versions.
+The open-source software community has already developed many potentially relevant tools for working collaboratively, managing multiple versions, and tracking attribution.
+Ram (2013)\cite{ram_git_2013} catalogs a multitude of scientific uses for the software version control system \href{http://git-scm.com/}{Git}, including data management.
+Open Context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
+
+* Dat
+
+Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
+However, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so using it to alter or affect the academic reward system for data is a tricky prospect.
+
+* Ecosystem metaphor
+* lots of approaches are good
+* don't know where we are yet.
+Ultimately, while ``data as software'' is promising, data is not software.
+Nor is it literature. 
+The prestige and familiarity of terms like ``publication'' and ``peer-review'' are powerful, but we may have to stretch their definitions if we are determined to apply them to data.
+
+* current models probably won't last, we should be prepared for new stuff
+
+
+
+####Availability
+* gotta be in a 'trustworthy' repository
+* no totally agreed on standard for what that is
+
+
+####Citability
+* basic+ can handle _a lot_ of data
+* but not everything
+* probably the format of the citation should suit the situation: keep it as simple as possible to precisely 
+
+####Validation
+* lots of possible approaches
+* let's not get boxed in
 
 
 
@@ -91,6 +190,12 @@ Open context came to use Mantis bug tracking software and Git out of practical c
 There are still issues to address.
 Current version control systems, such as Git, are designed for code (relatively small text files), not large and variegated datasets. 
 Attribution for derived datasets is not clear, but that's likely to be a cultural issue.
+
+
+Diverse kinds of material are regarded as data by one research community or another and, while at least some aspects of publication apply well to at least some kinds of data, other approaches are possible
+
+In practice, availability is usually satisfied by depositing the dataset in a repository, citability by that and assigning a persistent identifier (e.g. a Digital Object Identifier, or DOI), and validity by peer review.
+
 
 #Scrap thoughts
 
