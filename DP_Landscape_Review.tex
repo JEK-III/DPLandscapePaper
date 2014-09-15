@@ -177,14 +177,6 @@ As a practical matter, publishing a dataset usually includes depositing it in a 
 What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
 In 2007, The Center for Research Libraries (CRL) published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
 Many repositories consult TRAC for self-assessment, but only four ({\href{http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying-0}{listed by the CRL}) have completed the lengthy and rigorous process to be officially certified.
-<<<<<<< HEAD
-The process to obtain a \href{http://datasealofapproval.org/}{Data Seal of Approval (DSconsiderably more streamlined.
-The DSA guidelines were also first released, by The Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)}, in 2007; 24 repositories have been stamped with the DSA since then.
-Few of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}) have pursued any kind of certification.
-Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data System (WDS)} must first be certified to perform one or more specific roles (e.g., data publisher) on a self assement and an optional site visit. 
-Given the low adoption of repository certification, a more typical way to decide trustworthiness is to judge by the organization responsible.
-Repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
-=======
 That same year, DANS released the \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} guidelines; 31 repositories have been stamped with the DSA since then.
 The \href{http://www.trusteddigitalrepository.eu/}{Trusted Digital Repository} framework incorporates three standards-- the DSA, a TRAC-derived standard, and a  standard from the German Institute for Standardization (DIN)-- to give repositories choice in the processes and standard(s) by which they are to be certified.
 Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data System (WDS)} are certified to perform particular role (i.e., data publisher) based on a self-description and possibly a site visit.
@@ -193,7 +185,6 @@ The WDS currently boasts \href{http://www.icsu-wds.org/community/membership/regu
 Even taken together, these standards certify only a fraction of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}).
 In practice, the perceived trustworthiness of a repository often derives from the reputation of its managing organization.
 For instance, repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
->>>>>>> FETCH_HEAD
 
 
 \section*{Citability}\label{citability}
@@ -268,6 +259,7 @@ The ultimate promise is to provide a simple yet precise citation for any selecti
 Data validation is the least resolved aspect of data publication, and fundamental questions are still unanswered:
 What minimum level of quality should a published dataset guarantee?
 How and by what criteria can datasets be evaluated against that guarantee?
+How should dyamic datasets be handled?
 Is literature peer-review an appropriate model?
 
 Callaghan et al. (2012)\cite{sarah_callaghan_making_2012} draw a useful distinction between \textbf{technical} and \textbf{scientific} review.
@@ -306,8 +298,14 @@ Additionally, the authors may choose to open the paper to public comment during 
 \subsection*{Independent data validation}
 
 Data journals all model their data validation more or less faithfully on literature peer review, but independent data validation practices and proposals are considerably more varied.
-Lawrence et al. (2011) propose a set of criteria for independent data peer review.\cite{lawrence_citation_2011}
+Lawrence et al. (2011) propose a set of independent data peer review guidelines similar to the ones used by data journals\cite{lawrence_citation_2011}.
+Each of the The National Aeronautics and Space Administration (NASA) Distributed Active Archive Centers (DAACs) draws on an affiliated User Working Group for domain expertise.
+The NSIDC combines an internal assessment of the effort that will be required to publish a dataset at a desired level of service (roughly corresponding to technical review) with an an external assement of scientific quality.
 The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)} peer-reviews datasets via an in-person meeting with representatives of the repository, the dataset creators, and the reviewers.  
+
+Pre-publication validation can be supplemented or replaced by post-publication feedback from successful or unsuccessful reusers.
+Parsons et al. (2010) suggest that ``data use in its own right provides a form of review,'' and go on to point out that the context of reuse demonstrates that the data is not generically ``good,'' but fit for some particular purpose \cite{parsons_data_2010}.
+The DANS repository solicits feedback from researchers who use its datasets: users are asked to rate the dataset on a one to five scale in each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset) \cite{grootveld_data_2011,grootveld_peer-reviewed_2012}.
 
 Two examples from archaeology, Open Context and the Digital Archaeological Record (tDAR), illustrate the diversity of approaches to data validation.
 Open Context provides multiple validation processes that incorporate peer review in a way that goes beyond the simple accept/reject binary\cite{kansa_we_2013}.
@@ -319,36 +317,35 @@ The repository accommodates contributors who provide more information, and much 
 Furthermore, two data paper journals, \emph{Internet Archaeology} and \href{http://openarchaeologydata.metajnl.com/}{\emph{Journal of Open Archaeological Data}}, recommend both tDAR and Open Context as repositories for their peer-reviewed data.
 Thus, data validation depends not only on discipline and data type, but on a host of external factors, including the goals of the organizations and researchers involved.
 
-Pre-publication validation can be supplemented or replaced by post-publication feedback from successful or unsuccessful reusers.
-Parsons et al. (2010) suggest that ``data use in its own right provides a form of review,'' and go on to point out that the context of reuse demonstrates that the data is not generically ``good,'' but fit for some particular purpose \cite{parsons_data_2010}.
-The DANS repository solicits feedback from researchers who use its datasets: users are asked to rate the dataset on a one to five scale in each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset) \cite{grootveld_data_2011,grootveld_peer-reviewed_2012}.
-
 
 \section*{Beyond data publication}\label{beyond-data-publication}
 
-As a generalization, to a significant extent, consensus exists in areas where the literature provides good guidance for data and controversy where data differs.
-Along another dimension, validation of data is more fundamentally different from articles than availability or citation.
-For instance, static datasets of a reasonable size are relatively similar to articles and, as such, are relatively tractable for citation and validation.
-On the other hand, the literature provides very little guidance for how to cite and validate dynamic.
-Where the publication metaphor begins to give out, it is necessary to apply it flexibly.
-Or, to abandon it for another approach entirely
+The conversation around data publication has come to consensus wherever data can be treated like the literature.
+Static datasets of simple structure can be made available, identified, and cited like a paper.
+Controversy persists wherever the literature offers less guidance.
+Dynamic and complex datasets raise more questions, drawing a wider range of answers.
+Peer review in the literature offers a less direct model than availability or citation, so there is more debate over data validation.
+Where the print publication metaphor begins to give out, it is necessary to apply it creatively.
+Or, to abandon it for another approach entirely.
 
-In a 2013 paper\cite{parsons_is_2013}, Parsons and Fox argue that thinking about data through the the metaphor of print publication is often misleading.
-They advocate that data publication be only one metaphor in an ecosystem containing many metaphors.
-For example, they suggest industrial production (``Big Iron'') as a metaphor useful for standardized large-scale datasets, such as the output of the Large Hadron Collider.
+Parsons and Fox (2013)\cite{parsons_is_2013} argue that thinking about data through the the metaphor of print publication is often misleading.
+They advocate treating publication as only one metaphor in a larger ecosystem of approaches to sharing data.
+For example, they compare the uniform, high-volume output from instruments like the Large Hadron Collider to industrial production and suggest ``Big Iron'' as an alternative metaphor.
 
 One alternative metaphor in particular seems to be gaining traction: ``data as software''\cite{schopf_treating_2012}.
-In some cases, it may be better to think of releasing a dataset as one would a piece of software and to regard subsequent changes as analogous to updated versions.
+Here, one thinks of releasing a dataset like a piece of software and regards subsequent changes as analogous to updated versions.
 The open-source software community has already developed many potentially relevant tools for working collaboratively, managing multiple versions, and tracking attribution.
 Ram (2013)\cite{ram_git_2013} catalogs a multitude of scientific uses for the software version control system \href{http://git-scm.com/}{Git}, including data management.
 Open Context uses Git and \href{http://www.mantisbt.org/}{Mantis Bug Tracker} to track and correct dataset errors.
 A new project, \href{http://dat-data.com/}{Dat}, ``aim[s] to bring to data a style of collaboration similar to what git brings to source code.''
 Furthermore, projects such as \href{http://ipython.org/notebook}{IPython Notebook} integrate data, processing, and analysis into a single package.
+This metaphor is clearly promising in relation to versioning; how broadly useful it is remains to be seen.
 
-Unfortunately, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so that metaphor offers little help in changing the academic reward system.
-The prestige and familiarity of terms like ``publication'' and ``peer-review'' are powerful, but it is clear that there are limits to what the literature can help us with, too.
-Undoubtedly the three models presented here, expansive as they are, will be joined or superseded by others.
-Whether data publication opens as an umbrella term to cover novel approaches or narrows to jostle next to them, the important thing is to stay open to new stuff.
+Unfortunately, scientific software struggles for recognition\cite{pradal_publishing_2013} just as data does, so that metaphor offers little guidance for navigating the academic reward system.
+On the other hand, data publication targets this system explicitly, but leaves gaps of its own.
+We find it unlikely that any exisitng system can be perfectly translated into the realm of data, or that any single approach can ever handle every dataset. 
+Despite the degree of consesus around certain issues, we do not see data publication as a mature field, and we expect that novel approaches-- perhaps drawns from multiple metaphors-- will arise.
+Whether data publication opens as an umbrella term to cover variegated approaches, or narrows to jostle next to them is less important than making sure that the next thing is easier to bring into the scholarly record than data is turning out to be.
 
 
 \subsection*{Author contributions}
