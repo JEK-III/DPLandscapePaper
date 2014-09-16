@@ -7,6 +7,20 @@
 
 ###DP models
 
+####Documentation
+* Data has to be documented to be useful
+* Difficult for people in your field, doubly difficult for someone from another field
+
+* Frequently this is the most visible aspect of the publication
+* Lawrence and ODE DP models both take this into account
+
+
+* Can tie into the traditional scholarly literature
+* e.g. documentation with a peer-reviewed paper.
+* Relationship can be 1 paper, 1 dataset, but it can also be complex
+* we're going to talk about three kinds of documentation
+
+
 ####Data publication pyramid
 \cite{reilly_report_2011}
 
@@ -21,6 +35,11 @@
 * 4 is our category II
 
 ####Lawrence sceme
+\cite{lawrence_data_2011}
+
+**In general then, for our purposes, we define to Publish (with a capital P) data, as to make (as permanently as possible) data available on the Internet that has been through a process which means it can appear along with easily digestible information as to its trustworthiness, reliability, format and content.**
+
+
 1. Standalone Data Publication 
 2. Data Publication by Proxy 
 3. Appendix Data 
