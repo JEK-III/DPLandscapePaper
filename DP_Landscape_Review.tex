@@ -41,30 +41,29 @@ Even as data publication is being defined, some are looking past publication to 
 \clearpage
 
 
-\section*{Introduction: what does data publication mean?}\label{introduction}
+\section*{What does data publication mean?}\label{introduction}
 
-The idea that researchers should share data to advance knowledge and promote the common good is an old one, but in recent years the conversation has shifted from sharing data to \emph{publishing} data.\cite{costello_motivating_2009,smith_data_2009,lawrence_data_2011}
-This shift in language stems from the conviction that datasets should join the scholarly record and be afforded the same first-class status as traditional research products like journal articles.\cite{reilly_report_2011, sarah_callaghan_making_2012}
+The idea that researchers should share data to advance knowledge and promote the common good is an old one, but in recent years the conversation has shifted from sharing data to \emph{publishing} data\cite{costello_motivating_2009,smith_data_2009,lawrence_data_2011}.
+This shift in language stems from the conviction that datasets should join the scholarly record and be afforded the same first-class status as traditional research products like journal articles\cite{reilly_report_2011, sarah_callaghan_making_2012}.
 While many in the scholarly communication community share this goal, different people and organizations often imply different things by the phrase \emph{data publication}.
 
-The community largely agrees on three essential properties of a data publication\cite{smith_data_2009,sarah_callaghan_making_2012}.
-First, published data must be adequately \textbf{documented} such that, at a minimum, a researcher in the same field could reuse it without additional help from the author. 
-Second, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but is not subject to the whims of the author.
+A data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset; a data publisher might be a data journal publisher, archive, database, or repository.
+Data publication overlaps in complicated ways with associated terms like data sharing, data release, and open data.
+Despite uncertainty over what data publication should look like and where to draw its borders, there is good consensus around the properties publication should confer.
+
+The scholarly communication community largely agrees on three essential properties of a data publication\cite{smith_data_2009,sarah_callaghan_making_2012}.
+First, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but is not subject to the whims of the author.
+Second, published data must be adequately \textbf{documented} such that, at a minimum, a researcher in the same field could reproduce or reuse it.
 Third, like a book or journal article, a data publication can be formally \textbf{cited}.
 Data citation maintains the integrity of the expanded scholarly record and offers a reward-- in the currency of academic prestige-- to encourage researchers to publish data. 
 Open questions flock around a fourth property: how and to what extent a published dataset must be \textbf{validated}.
 
-Despite substantial consensus on some of these essential features, the terminology remains confused.
-Data publication overlaps with terms like data sharing, data release, and open data.
-A data publisher might also be a journal publisher, archive, database, or repository.
-A data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset.
-
 Callaghan et al. (2012) draw a distinction between data that has been published (lower-case “p”) or formally Published (upper-case “P”): \textbf{published} data is currently available, while \textbf{Published} data has all four properties, including a guarantee of persistence\cite{sarah_callaghan_making_2012}.
 Lawrence et al. (2011) sort data publications into five models distinguished ``by how the roles involved in publication are distributed between the various actors'' (i.e. the author, archive, or journal)\cite{lawrence_data_2011}.
 The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
-Rather than focus on models, here we will focus on what data publications accomplish.
 
-\subsection*{Why publish data?}\label{why-publish-data}
+
+\section*{Why publish data?}\label{why-publish-data}
 
 The underlying goals of data publication are to enable research to be \textbf{reproduced} and data to be \textbf{reused}.
 Hidden primary data exacerbates science's very public ``reproducibility crisis,''\cite{mobley_survey_2013,pashler_is_2012,zimmer_rise_2012,hiltzik_science_2013,begley_drug_2012} recently illustrated by the collapse of a pair of irreproducible \textit{Nature} articles describing a simple method to transform somatic cells into pluripotent stem cells\cite{cyranoski_acid-bath_2014, tabuchi_one_2014}.
@@ -87,7 +86,28 @@ For example, \href{http://opencontext.org/}{Open Context} published archaeologic
 Piwowar (2011) contrasted the impact of \$100,000 in National Science Foundation (NSF) grants, which generates an average of three to four papers, with an estimate that the same investment in curating, archiving, and publishing data could contribute to over 1,000 publications\cite{piwowar_data_2011}.
 Furthermore, while some data is merely expensive to recreate, time-dependent or ephemeral data, (e.g. climate records or observations of unique astronomical events) can never be recreated for any price\cite{gray_online_2002}.
 
+\section*{Availability}\label{availability}
 
+Fundamentally, to publish is to make public, and to publish data is to make data publicly available.
+Present availability requires mechanisms for access; future availability also requires preservation (e.g. long-term storage, format migration)\cite{waters_preserving_1996, beagrie_digital_2008, gray_online_2002}.
+As in print publication, published data need not be free or legally unencumbered, and data use agreements constrain many published datasets.
+If access is limited, it should be contingent on clear and objective criteria; writing a request to the creator for permission should not be part of the process.
+For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} evaluates the applicant's ability to handle the data securely, but not the merit of the research.
+Datasets from social science or clinical studies that involve human participants are easily the most common source of access restrictions because of the need to protect privacy.
+In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPAA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
+
+As a practical matter, publishing a dataset usually includes depositing it in a trustworthy repository.
+What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
+In 2007, The Center for Research Libraries (CRL) published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
+Many repositories consult TRAC for self-assessment, but only four ({\href{http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying-0}{listed by the CRL}) have completed the lengthy and rigorous process to be officially certified.
+That same year, DANS released the \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} guidelines; 31 repositories have been stamped with the DSA since then.
+The \href{http://www.trusteddigitalrepository.eu/}{Trusted Digital Repository} framework incorporates three standards-- the DSA, a TRAC-derived standard, and a  standard from the German Institute for Standardization (DIN)-- to give repositories choice in the processes and standard(s) by which they are to be certified.
+Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data System (WDS)} are certified to perform particular role (i.e., data publisher) based on a self-description and possibly a site visit.
+The WDS currently boasts \href{http://www.icsu-wds.org/community/membership/regular-members}{56 regular members}.
+
+Even taken together, these standards certify only a fraction of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}).
+In practice, the perceived trustworthiness of a repository often derives from the reputation of its managing organization.
+For instance, repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
 \section*{Documentation}\label{documentation}
 
 Thus, a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper (Figure 1).
@@ -162,29 +182,6 @@ Unlike most other kinds of publisher, both of these emphasize real time access t
 Because researchers know the databases that serve their community, data in disciplinary repositories is easy to discover and because it is relatively standardized, it is easy to reuse. 
 A disadvantage is that the data from a single research program can be distributed across many repositories (gene expression data in one, gene sequence data in another), whereas an institutional or broad-scope repository can handle the whole research story.
 
-
-\section*{Availability}\label{availability}
-
-Fundamentally, to publish is to make public, and to publish data is to make data publicly available.
-Present availability requires mechanisms for access; future availability also requires preservation (e.g. long-term storage, format migration)\cite{waters_preserving_1996, beagrie_digital_2008, gray_online_2002}.
-As in print publication, published data need not be free or legally unencumbered, and data use agreements constrain many published datasets.
-If access is limited, it should be contingent on clear and objective criteria; writing a request to the creator for permission should not be part of the process.
-For example, before granting access to restricted data, \href{http://www.icpsr.umich.edu/icpsrweb/content/deposit/confidentiality.html}{The Interuniversity Consortium for Political and Social Research (ICPSR)} evaluates the applicant's ability to handle the data securely, but not the merit of the research.
-Datasets from social science or clinical studies that involve human participants are easily the most common source of access restrictions because of the need to protect privacy.
-In the United States, the Health Insurance Portability and Accountability Act of 1996 (HIPAA) Privacy Rule severely limits the disclosure of medical information\cite{office_for_civil_rights_renal_2003}.
-
-As a practical matter, publishing a dataset usually includes depositing it in a trustworthy repository.
-What constitutes a ``trustworthy'' repository is somewhat subjective and there are a handful of certification schemes to choose from.
-In 2007, The Center for Research Libraries (CRL) published the most extensive scheme: the Trusted Repository Audit Checklist (TRAC)\cite{dale_trustworthy_2007}.
-Many repositories consult TRAC for self-assessment, but only four ({\href{http://www.crl.edu/archiving-preservation/digital-archives/metrics-assessing-and-certifying-0}{listed by the CRL}) have completed the lengthy and rigorous process to be officially certified.
-That same year, DANS released the \href{http://datasealofapproval.org/}{Data Seal of Approval (DSA)} guidelines; 31 repositories have been stamped with the DSA since then.
-The \href{http://www.trusteddigitalrepository.eu/}{Trusted Digital Repository} framework incorporates three standards-- the DSA, a TRAC-derived standard, and a  standard from the German Institute for Standardization (DIN)-- to give repositories choice in the processes and standard(s) by which they are to be certified.
-Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data System (WDS)} are certified to perform particular role (i.e., data publisher) based on a self-description and possibly a site visit.
-The WDS currently boasts \href{http://www.icsu-wds.org/community/membership/regular-members}{56 regular members}.
-
-Even taken together, these standards certify only a fraction of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}).
-In practice, the perceived trustworthiness of a repository often derives from the reputation of its managing organization.
-For instance, repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
 
 
 \section*{Citability}\label{citability}
