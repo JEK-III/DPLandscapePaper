@@ -51,7 +51,7 @@ A data publication might be a spreadsheet on a website, a set of images in an in
 Data publication overlaps in complicated ways with associated terms like data sharing, data release, and open data.
 Despite uncertainty over what data publication should look like and where to draw its borders, there is good consensus around the properties publication should confer.
 
-The scholarly communication community largely agrees on three essential properties of a data publication\cite{smith_data_2009,sarah_callaghan_making_2012}.
+The scholarly communication community largely agrees on three essential properties of a data publication (Figure 1)\cite{smith_data_2009,sarah_callaghan_making_2012}.
 First, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but is not subject to the whims of the author.
 Second, published data must be adequately \textbf{documented} such that, at a minimum, a researcher in the same field could reproduce or reuse it.
 Third, like a book or journal article, a data publication can be formally \textbf{cited}.
@@ -59,8 +59,9 @@ Data citation maintains the integrity of the expanded scholarly record and offer
 Open questions flock around a fourth property: how and to what extent a published dataset must be \textbf{validated}.
 
 Callaghan et al. (2012) draw a distinction between data that has been published (lower-case “p”) or formally Published (upper-case “P”): \textbf{published} data is currently available, while \textbf{Published} data has all four properties, including a guarantee of persistence\cite{sarah_callaghan_making_2012}.
-Lawrence et al. (2011) adopt a process-oriented perspective, laying out the functions the publication process should perform, and sorting data publications into five models distinguished ``by how the roles involved in publication are distributed between the various actors'' (i.e. the author, archive, or journal)\cite{lawrence_data_2011}.
-Here, we will consider data consider data that is available, documented, and citable to be published.
+Lawrence et al. (2011) definine Publication as making data available following ``a procedure which results in the ability to make assertions about trustworthiness and fitness for purpose'' \cite{lawrence_data_2011}.
+Because of the lack of consensus on data validation, for this article we will consider data that is available, documented, and citable to be published,
+whatever the level of validation.
 
 
 \section*{Why publish data?}\label{why-publish-data}
@@ -112,9 +113,12 @@ For instance, repositories run by governments or large universities are likely t
 \section*{Documentation}\label{documentation}
 
 To be useful or reproducible, a dataset must be accompanied by descriptive information (i.e. metadata)\cite{gray_online_2002}
-Preparing documentation is frequently the most laborious step for researchers in taking data from useable within their lab to published.
-
-Thus, a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper (Figure 1).
+Preparing documentation is frequently the most laborious step for researchers in taking data from useable within their lab to published, and incentivizing this effort is a major goal of data publication.
+Given that the goal is to bring data into the scholarly record, documenatation, which can be or at least look like a paper, is a natural hook.
+The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
+Although the five classes of data publication described by Lawrence et. al. are not based on documentation, they nevertheless produces models of data publication with recognizably different kinds of documentation.
+Implicit in the way these models are presented is an assumption of a 1:1 relationship between data and article, which often does not hold true; an article may make use of many datasets, and a dataset may be used by more than one article.
+Here, we will discuss three kinds of non-mutually-exclusive relationships with the literature: a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper.
 
 \subsection*{Data that supplements a paper}\label{paper-supplement-data}
 
@@ -129,7 +133,7 @@ Although there are a few repositories like these specifically for paper-related 
 
 This kind of publication is typically intended less to support use of the data than to support reproduction of the analysis.
 For example, the \emph{PLOS} data policy requires publication of only the data needed to reproduce the article's finding.
-Consequently, the dataset may be in some sense partial, and the documentation may be insufficient to reuse the it for an unrelated purpose.
+Consequently, the publication might not include all of the data collected, and the documentation may be insufficient to reuse the it for an unrelated purpose.
  
 \subsection*{Data as the subject of a paper}\label{paper-subject-data}
 
@@ -159,10 +163,9 @@ Citation of proxy publications or data papers can be an effective mechanism for 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
 Dataset documentation need not take the form of a journal article.
-Instead, some repositories publish rich, structured and/or freeform description together with the data.
-
+In addition to providing availability and citability, repositories publish documentation together with the data; this might be extremely minimal or it might be thorough enough to stand on its own.
+rich, structured and/or freeform description together with the data.
 The relationship between data in repositories and the literature can be complex; a dataset may be associated with zero, one, or multiple articles, and an article may use data from zero, one, or multiple published datasets.
-Repositories provide access and citability, but the degree of validation varies widely.
 
 Institutional repositories preserve and publish any kind of data generated by the research communities they serve, e.g., University of California researchers deposit data in \href{https://merritt.cdlib.org/}{Merritt}, while Purdue University researchers use the \href{https://purr.purdue.edu/}{Purdue Research Repository}).
 At the national level, the Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)} accepts a broad range of data from researchers in the Netherlands.
@@ -183,7 +186,6 @@ Unlike most other kinds of publisher, these emphasize real time access to data c
 
 Because researchers know the databases that serve their community, data in disciplinary repositories is easy to discover and because it is relatively standardized, it is easy to reuse. 
 A disadvantage is that the data from a single research program can be distributed across many repositories (gene expression data in one, gene sequence data in another), whereas an institutional or broad-scope repository can handle the whole research story.
-
 
 
 \section*{Citability}\label{citability}

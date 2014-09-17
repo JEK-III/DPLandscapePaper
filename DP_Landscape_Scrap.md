@@ -34,6 +34,10 @@
 * 2 & 3 fit into our category I
 * 4 is our category II
 
+
+The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
+
+ and sorting data publications into five models distinguished ``by how the roles involved in publication are distributed between the various actors'' (i.e. the author, archive, or journal)
 ####Lawrence sceme
 \cite{lawrence_data_2011}
 
