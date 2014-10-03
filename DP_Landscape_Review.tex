@@ -49,19 +49,17 @@ While many in the scholarly communication community share this goal, different p
 
 A data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset; a data publisher might be a data journal publisher, archive, database, or repository.
 Data publication overlaps in complicated ways with associated terms like data sharing, data release, and open data.
-Despite uncertainty over what data publication should look like and where to draw its borders, there is good consensus around the properties publication should confer.
 
-The scholarly communication community largely agrees on three essential properties of a data publication (Figure 1)\cite{smith_data_2009,sarah_callaghan_making_2012}.
+Despite this uncertainty, the scholarly communication community largely agrees on three essential properties of a data publication (Figure 1)\cite{smith_data_2009,sarah_callaghan_making_2012}.
 First, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but is not subject to the whims of the author.
 Second, published data must be adequately \textbf{documented} such that, at a minimum, a researcher in the same field could reproduce or reuse it.
 Third, like a book or journal article, a data publication can be formally \textbf{cited}.
 Data citation maintains the integrity of the expanded scholarly record and offers a reward-- in the currency of academic prestige-- to encourage researchers to publish data. 
 Open questions flock around a fourth property: how and to what extent a published dataset must be \textbf{validated}.
 
-Callaghan et al. (2012) draw a distinction between data that has been published (lower-case “p”) or formally Published (upper-case “P”): \textbf{published} data is currently available, while \textbf{Published} data has all four properties, including a guarantee of persistence\cite{sarah_callaghan_making_2012}.
+Callaghan et al. (2012) draw a distinction between data that has been published (lower-case “p”) or formally Published (upper-case “P”): \textbf{published} data is simply available, while \textbf{Published} data has all four properties, including a guarantee of persistence\cite{sarah_callaghan_making_2012}.
 Lawrence et al. (2011) definine Publication as making data available following ``a procedure which results in the ability to make assertions about trustworthiness and fitness for purpose'' \cite{lawrence_data_2011}.
-Because of the lack of consensus on data validation, for this article we will consider data that is available, documented, and citable to be published,
-whatever the level of validation.
+Here, we will consider data that is available, documented, and citable to be published, whatever the level of validation. 
 
 
 \section*{Why publish data?}\label{why-publish-data}
@@ -73,13 +71,13 @@ Widespread publication of the data underlying research papers could help expose 
 The leaders of the US National Institutes of Health (NIH) recently suugested ``greater transparency of the data that are the basis of published manuscripts'' as one way to improve scientific reproducibility\cite{collins_nih_2014}.
 
 Journals already frequently require authors to supply underlying data on request.
-In 2011, Alsheikh-Ali et al.\cite{alsheikh-ali_public_2011} found that 88\% of high-impact journals required a statement regarding the availability of underlying data, and half of those made willingness to provide data a condition of publication.
+In 2011, Alsheikh-Ali et al. found that 88\% of high-impact journals required a statement regarding the availability of underlying data, and half of those made willingness to provide data a condition of publication\cite{alsheikh-ali_public_2011}.
 However, authors of 59\% of the papers examined in the study failed to adhere to the availability instructions.
-Vines et al. (2014)\cite{vines_availability_2014} could only obtain underlying data from 101 of 516 papers published from 1991 to 2011.
+Vines et al. (2014) could only obtain underlying data from 101 of 516 papers published from 1991 to 2011\cite{vines_availability_2014}.
 Availability dropped off sharply with time; of the 62 oldest papers, data was available from only two.
 Now, some journals require that underlying data be published simultaneously with the article.
 In 2010, a coalition of Ecology and Evolutionary Biology journals began to require that the data underlying articles be archived with a maximum embargo of one year\cite{whitlock_data_2010, fairbairn_advent_2011}.
-\href{http://f1000research.com}{\emph{F1000Research}} has had a similar policy (without an embargo period) since its inception, and the {\href{http://www.plos.org/}{Public Library of Science (PLOS)}} journals followed suit earlier this year\cite{bloom_data_2014}.
+\href{http://f1000research.com}{\emph{F1000Research}} has had a similar policy (without an embargo period) since its inception, and the {\href{http://www.plos.org/}{\emph{Public Library of Science (PLOS)}} journals followed suit earlier this year\cite{bloom_data_2014}.
 
 Although there can be no substitute for funding new experiments and data collection, appropriate data reuse lowers costs and accelerates research.
 Documenting, publishing, and archiving data is time consuming and costly, but usually far less so than repeating the data collection.
@@ -107,18 +105,19 @@ Repositories seeking to join the \href{https://www.icsu-wds.org/}{World Data Sys
 
 Even taken together, these standards certify only a fraction of the hundreds of repositories in operation (e.g, the 973 now listed \href{http://databib.org/}{Databib} or the 609 at \href{http://www.re3data.org/}{re3data.org}).
 In practice, the perceived trustworthiness of a repository often derives from the reputation of its managing organization.
-For instance, repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the PubMed biomedical article database\cite{check_hayden_nih_2013} might give one pause).
+For instance, repositories run by governments or large universities are likely to be considered trustworthy (although the effects of the 2013 US government shutdown on the \href{http://www.ncbi.nlm.nih.gov/pubmed/}{PubMed} biomedical article database\cite{check_hayden_nih_2013} might give one pause).
 
 
 \section*{Documentation}\label{documentation}
 
 To be useful or reproducible, a dataset must be accompanied by descriptive information (i.e. metadata)\cite{gray_online_2002}
-Preparing documentation is frequently the most laborious step for researchers in taking data from useable within their lab to published, and incentivizing this effort is a major goal of data publication.
+Preparing documentation is frequently the most laborious step for researchers in taking data from useable within their lab to published
+Incentivizing this effort is a major goal of data publication.
 Given that the goal is to bring data into the scholarly record, documenatation, which can be or at least look like a paper, is a natural hook.
 The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
-Although the five classes of data publication described by Lawrence et. al. are not based on documentation, they nevertheless produces models of data publication with recognizably different kinds of documentation.
-Implicit in the way these models are presented is an assumption of a 1:1 relationship between data and article, which often does not hold true; an article may make use of many datasets, and a dataset may be used by more than one article.
-Here, we will discuss three kinds of non-mutually-exclusive relationships with the literature: a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper.
+Similarly, the five classes of data publication described by Lawrence et al.(2011) have recognizably different kinds of documentation\cite{lawrence_data_2011}.
+Note, however, that a single dataset may have relationships with multiple articles or other documentation, and an article may use or describe multiple datasets.
+Here, we will discuss three non-mutually-exclusive relationships with the literature: a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent} of any paper.
 
 \subsection*{Data that supplements a paper}\label{paper-supplement-data}
 
@@ -131,15 +130,15 @@ Dryad makes data available and citable, but the publisher of the article must ma
 \href{http://researchcompendia.org/}{Research Compendia} compiles published articles together with all the underlying code and data.
 Although there are a few repositories like these specifically for paper-related data, many more publishers that do not require a relationship to the literature are pleased to publish data underlying or described by a paper.
 
-This kind of publication is typically intended less to support use of the data than to support reproduction of the analysis.
+This kind of data publication supports reproduction of an analysis, but not necessarily reuse.
 For example, the \emph{PLOS} data policy requires publication of only the data needed to reproduce the article's finding.
-Consequently, the publication might not include all of the data collected, and the documentation may be insufficient to reuse the it for an unrelated purpose.
+Consequently, not all of the data collected must be published, and the documentation need not be sufficient for reuse for an unrelated purpose.
  
 \subsection*{Data as the subject of a paper}\label{paper-subject-data}
 
 A \textbf{data paper} describes a dataset with thoroughly detailed rationale and collection methods, but lacks any analysis or conclusions \cite{newman_data_2009}.
 Data papers are flourishing as a new article type in journals such as \emph{F1000Research}, \href{http://www.internetarchaeology.org/}{\emph{Internet Archaeology}}, and \href{http://www.gigasciencejournal.com/}{\emph{GigaScience}}, as well as in dedicated journals like \href{http://www.earth-system-science-data.net/}{\emph{Earth System Science Data}}\cite{pfeiffenberger_earth_2011}, \href{http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%292049-6060}{\emph{Geoscience Data Journal}}, Nature Publishing Group's \href{http://www.nature.com/scientificdata/}{\emph{Scientific Data}}, and a trio of ``metajournals'' from Ubiquity Press.
-The strength of a data paper is in providing rich documentation, which is especially useful for non-standard `small' or `long-tail' research data.
+The strength of a data paper is in providing rich documentation, which is especially useful for non-standard `long-tail' research data.
 
 Data paper length and structure varies between journals, but the tendency is toward a short, tightly structured format.
 All journals require an abstract, collection methods, and a description of the dataset; a few encourage authors to suggest potential uses for the data (e.g. \emph{Internet Archaeology}, and \href{http://openhealthdata.metajnl.com/about/submissions#authorGuidelines}{\emph{Open Health Data}}).
@@ -150,22 +149,23 @@ A crisp distinction from other article types is important because many journals 
 
 Data journals generally limit themselves to publishing the description of the dataset; a trusted repository publishes the data itself.
 For instance, \emph{Scientific Data} and \emph{Geoscience Data Journal} each direct authors to a list of approved repositories.
-As an exception, \emph{GigaScience} hosts data in an integrated repository named \emph{GigaDB}.
-An early implementer of data papers, \href{http://www.ijrr.org/}{The International Journal of Robotics Research}\cite{newman_data_2009} is unusual in that it permits authors to host datasets on their own websites.
+One exception, \emph{GigaScience} hosts data in an integrated repository named \emph{GigaDB}.
+An early implementer of data papers, \href{http://www.ijrr.org/}{The International Journal of Robotics Research}\cite{newman_data_2009} permits authors to host datasets on their own websites.
 
-Data papers are predated by an approach that Lawrence et al. calls \emph{data publication by proxy}, in which a paper providing a general description of a database or dataset serves as a citable proxy\cite{lawrence_data_2013}.
+Data papers are predated by an approach that Lawrence et al. call \emph{data publication by proxy}, in which a paper providing a general description of a database or dataset serves as a citable proxy\cite{lawrence_data_2011}.
 Proxy publications are distinguished from data papers in that they may contain analysis or conclusions drawn from the dataset and they need not contain all of the information needed to use the data.
-In one example, the \href{http://www.cru.uea.ac.uk/}{Climatic Research Unit of the University of East Anglia} prefers that dataset users cite papers associated with a dataset instead of the data itself.
-Or in the biosciences, \emph{Nucleic Acids Research (NAR)} annually publishes a massive issue devoted to such articles; the 2014 database issue featured 58 papers describing new databases and 123 updates on existing resources\cite{fernandez-suarez_2014_2014}.
-Participating databases then typically ask users to cite their most recent \emph{NAR} paper.
-Citation of proxy publications or data papers can be an effective mechanism for awarding scholarly credit, but it fails to perform the other functions of data citation, so it should be supplemented with direct citation of the data.
+The \href{http://www.cru.uea.ac.uk/}{Climatic Research Unit of the University of East Anglia} asks dataset users cite to papers associated with a dataset instead of the data itself.
+In the biosciences, \emph{Nucleic Acids Research (NAR)} annually publishes a massive issue devoted to such articles; the 2014 database issue featured 58 papers describing new databases and 123 updates on existing resources\cite{fernandez-suarez_2014_2014}.
+Participating databases typically ask users to cite the most recent \emph{NAR} paper.
+Citation of proxy publications or data papers serves to award scholarly credit, but fails at other functions and should be supplemented with direct citation of the data.
 
 \subsection*{Data independent of any paper}\label{paper-independent-data}
 
 Dataset documentation need not take the form of a journal article.
-In addition to providing availability and citability, repositories publish documentation together with the data; this might be extremely minimal or it might be thorough enough to stand on its own.
-rich, structured and/or freeform description together with the data.
-The relationship between data in repositories and the literature can be complex; a dataset may be associated with zero, one, or multiple articles, and an article may use data from zero, one, or multiple published datasets.
+Along with data, repositories and databases publish documentation-- minimal or rich, structured or freeform-- that may fulfill the needs of reproducibility and reuse without reference to the literature.
+An independently documented dataset might nevertheless be linked to the literature through a data paper or traditional articles.  
+Independent data publishers do, of course, publishd data that supports papers and is the subject of papers too, so the situation is complex.
+Diverse place- and interest-based research communities publish data with or without linkages to the literature in diverse places through diverse processes.
 
 Institutional repositories preserve and publish any kind of data generated by the research communities they serve, e.g., University of California researchers deposit data in \href{https://merritt.cdlib.org/}{Merritt}, while Purdue University researchers use the \href{https://purr.purdue.edu/}{Purdue Research Repository}).
 At the national level, the Dutch \href{http://www.dans.knaw.nl/en}{Data Archiving and Networked Services (DANS)} accepts a broad range of data from researchers in the Netherlands.
