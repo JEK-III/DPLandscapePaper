@@ -44,17 +44,17 @@ Even as data publication is being defined, some are looking past publication to 
 \section*{What does data publication mean?}\label{introduction}
 
 The idea that researchers should share data to advance knowledge and promote the common good is an old one, but in recent years the conversation has shifted from sharing data to \emph{publishing} data\cite{costello_motivating_2009,smith_data_2009,lawrence_data_2011}.
-This shift in language stems from the conviction that datasets should join the scholarly record and be afforded the same first-class status as traditional research products like journal articles\cite{reilly_report_2011, sarah_callaghan_making_2012}.
+This shift in language stems from the conviction that datasets should join the scholarly record and be afforded the same first-class status as traditional research products like journal articles\cite{reilly_report_2011, callaghan_making_2012}.
 While many in the scholarly communication community share this goal, different people and organizations often refer to different things with the phrase \emph{data publication}.
 
 Lawrence et al. (2011) define formal data Publication (upper-case ``P'') as making data available following ``a procedure which results in the ability to make assertions about trustworthiness and fitness for purpose'' \cite{lawrence_data_2011}.
-Callaghan et al. (2012) draw an explicit distinction between Published and published data: \underline{p}ublished data is at least available, while \underline{P}ublished data is persistent, documented, and peer-reviewed\cite{sarah_callaghan_making_2012}.
+Callaghan et al. (2012) draw an explicit distinction between Published and published data: \underline{p}ublished data is at least available, while \underline{P}ublished data is persistent, documented, and peer-reviewed\cite{callaghan_making_2012}.
 \underline{P}ublication refers to the scholarly literature, while \underline{p}ublication is in the sense of any kind of printed and distributed material.
 Actual usage is considerably more complicated.
 \emph{Data publication} overlaps with terms like \emph{data sharing}, \emph{data release}, and \emph{open data}.
 A data publication might be a spreadsheet on a website, a set of images in an institutional archive, a stream of readings from a weather station transmitted over the internet, or a peer-reviewed article describing a dataset; a data publisher might be a data journal publisher, archive, database, or repository.
 
-Despite uncertainty over precisely what qualifies, the scholarly communication community largely agrees on three essential properties of a data publication (Figure 1)\cite{smith_data_2009,sarah_callaghan_making_2012}.
+Despite uncertainty over precisely what qualifies, the scholarly communication community largely agrees on three essential properties of a data publication (Figure 1)\cite{smith_data_2009,callaghan_making_2012}.
 First, published data is publicly \textbf{available} now and for the indefinite future; access might demand payment of fees or acceptance of a legal agreement, but is not subject to the whims of the author.
 Second, published data must be adequately \textbf{documented} such that, at a minimum, a researcher in the same field could reproduce or reuse it.
 Third, like a book or journal article, a data publication can be formally \textbf{cited}.
@@ -114,7 +114,7 @@ For instance, repositories run by governments or large universities are likely t
 To be useful or reproducible, a dataset must be accompanied by descriptive information (i.e. metadata)\cite{gray_online_2002}
 Preparing documentation is frequently the most laborious step for researchers in taking data from useable within the lab to useable by others, and rewarding this effort is a major impetus for data publication.
 Dataset documentation-- which might resemble a paper-- is a natural hook for bringing data into the scholarly record.
-The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{gray_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
+The Opportunities for Data Exchange (ODE) project elaborated Jim Gray's pyramidal model of online scientific data\cite{hey_jim_2009} into five classes of relationship between data and the literature: `desk-drawer' data and four forms of publication\cite{reilly_report_2011}.
 Similarly, five classes of data publication described by Lawrence et al.(2011) have recognizably different kinds of documentation\cite{lawrence_data_2011}.
 Note, however, that a single dataset may have relationships with multiple articles or other documentation, and an article may use or describe multiple datasets.
 Here, we will discuss three non-mutually-exclusive relationships with the literature: a dataset may \textbf{supplement} a traditional research paper, be the \textbf{subject} of a ``data paper,'' or be \textbf{independent documented} by its publisher.
@@ -195,7 +195,7 @@ The first of the eight principles states, in part, that ``[d]ata citations shoul
 Most of the time, this means that when a published dataset contributes to a paper, it should be cited formally in the reference list.
 	
 Unfortunately, actual practice lags far behind this consensus.
-Not all article publishers allow data citations in the references and, even when permitted, most authors refer to data in the text without a formal citation\cite{mooney_anatomy_2011}.
+Not all article publishers allow data citations in the references and, even when permitted, most authors refer to data in the text without a formal citation\cite{mooney_anatomy_2012}.
 Many data publishers provide no guidance on citation; others ask users to cite a proxy publication (e.g., from the \emph{NAR} database issue).
 However, a growing number of data publishers do supply users with explicit citation instructions; Dryad, Figshare, and Zenodo dataset landing pages all display a formatted citation and links for import into reference managers.
 
@@ -242,7 +242,7 @@ For example, WormBase identifies each release with a citable version number and 
 Controversy persists around the specific issue of identifiers for dynamic datasets. 
 DataCite recommends, but does not insist, that their DOIs refer to immutable digital objects.
 NSIDC and ESIP instruct researchers to use a single identifier for growing datasets and include the access date in the citation; each major version of a revisable datasets gets a new identifier, but minor versions do not.
-In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2012,altman_proposed_2007,sarah_callaghan_making_2012}.
+In contrast, the DCC, \href{http://thedata.org/}{Dataverse}, and the UK \href{http://www.nerc.ac.uk/}{Natural Environment Research Council (NERC)} insist that any change to a dataset should trigger a new identifier\cite{ball_how_2012,altman_proposed_2007,callaghan_making_2012}.
 To handle the difficulties with dynamic data that this policy creates, the DCC recommends periodically issuing growing datasets a new identifier that refers to the ``time-slice'' of new records and freezing versions of revisable datasets as individually-identified ``snapshots''.
 
 \subsection*{Just-in-time identifiers}\label{just-in-time-identifiers}
@@ -254,6 +254,7 @@ The Research Data Alliance (RDA) \href{http://rd-alliance.org/working-groups/dat
 Identifiers created under this scheme would wrap together identification of a database, a query to return the cited dataset, the version of the database queried for this analysis, and a number of other useful components.
 The ultimate promise is to provide a simple yet precise citation for any selection of data, at the cost of technical complexity ``under the hood''.
 
+
 \section*{Validation}\label{validation}
 
 Data validation is the least resolved aspect of data publication, and fundamental questions are still unanswered:
@@ -262,7 +263,7 @@ How and by what criteria can datasets be evaluated against that guarantee?
 How should dynamic datasets be handled?
 Is literature peer-review an appropriate model?
 
-Callaghan et al. (2012)\cite{sarah_callaghan_making_2012} draw a useful distinction between \textbf{technical} and \textbf{scientific} review.
+Callaghan et al. (2012)\cite{callaghan_making_2012} draw a useful distinction between \textbf{technical} and \textbf{scientific} review.
 Technical review verifies that a dataset is complete, its description is complete, and that the two match up.
 Domain expertise is generally not required, and many repositories provide at least some level of technical review.
 Scientific review evaluates the methods of data collection, the overall plausibility of the data, and the likely reuse value.
@@ -306,6 +307,7 @@ The \href{https://pds.jpl.nasa.gov/}{Planetary Data System (PDS)} peer-reviews d
 Pre-publication validation can be supplemented or replaced by post-publication feedback from successful or unsuccessful reusers.
 Parsons et al. (2010) suggest that ``data use in its own right provides a form of review,'' and go on to point out that the context of reuse demonstrates that the data is not generically ``good,'' but fit for some particular purpose \cite{parsons_data_2010}.
 The DANS repository solicits feedback from researchers who use its datasets: users are asked to rate the dataset on a one to five scale in each of six criteria (e.g., data quality, quality of the documentation, structure of the dataset) \cite{grootveld_data_2011,grootveld_peer-reviewed_2012}.
+Researchers trust peer review in part because they understand the process and its limitations; if researchers come to understand them, alternate pre- or post-publication validation processes could potentially provide the same level of assurance.
 
 Two examples from archaeology, Open Context and the Digital Archaeological Record (tDAR), illustrate the diversity of approaches to data validation.
 Open Context provides multiple validation processes that incorporate peer review beyond a simple accept/reject binary\cite{kansa_we_2013}.
@@ -344,6 +346,7 @@ Although some aspects of data publication have matured to a firm and useful cons
 Controversial issues, such as validation, may be best addressed by presenting an array of options rather than converging on a single solution.
 In the ongoing conversation, \emph{data publication} may come to to refer to only those means of dissemination most directly drawn from the scholarly literature, or it may open as a canopy over a range of approaches.
 Whichever the case, it is our hope and expectation that for the foreseeable future, mixing of metaphors and contemplation of the unique properties of research data will continue to yield novel forms of data-centered scholarly production.
+
 
 \subsection*{Author contributions}
 JK collected information and prepared the first draft of the manuscript.
